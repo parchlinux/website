@@ -1,5 +1,6 @@
 <template>
-    <footer class="siteFooter siteFooter--has-floatNotice">
+    <!-- class="siteFooter--has-floatNotice" -->
+    <footer class="siteFooter ">
         <section class="siteFooter-wrapper container">
             <article class="siteFooter-header">
                 <div class="siteFooter-logo">
@@ -61,9 +62,9 @@
         </section>
     </footer>
 
-    <float-notice v-if="showFloatNotice" />
+    <!-- <float-notice v-if="showFloatNotice" /> -->
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from "vue";
 
