@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 35px;
 }
 
 .topBar-navigation {
@@ -90,6 +90,7 @@
     height: 24px;
     display: inline-block;
     position: relative;
+    top: 2px;
 }
 
 .topBar-hamburger-inner {
@@ -157,6 +158,10 @@
 }
 
 @media screen and (max-width: 745px) {
+    .topBar-wrapper {
+        gap: 10px;
+    }
+
     .topBar-navigation {
         position: absolute;
         top: 50px;

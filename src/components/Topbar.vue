@@ -13,15 +13,14 @@
                     <div class="searchBar-wrapper">
                         <transition name="fade">
                             <div class="searchBar-field">
-                                <div class="searchBar-icon" @click="toggleSearch">
+                                <div class="searchBar-icon" @click="isSearchActive ? toggleSearch() : undefined">
                                     <span class="mdi material-icons">
                                         {{ isSearchActive ? 'close' : 'search' }}
                                     </span>
                                 </div>
-                                <div class="searchBar-shortcut" @click="toggleSearch" v-if="!isSearchActive">
-                                    <span>/</span>
-                                </div>
-                                <input type="text" class="searchBar-input" placeholder="Search" v-model="searchQuery" />
+
+                                <input @click="!isSearchActive ? toggleSearch() : undefined" type="text"
+                                    class="searchBar-input" placeholder="Search" v-model="searchQuery" />
                             </div>
                         </transition>
                         <transition name="fade">
@@ -44,7 +43,9 @@
                     </div>
                 </div>
             </div>
+
             <div class="overlay" v-if="isMenuToggled" @click="toggleMenu"></div>
+
             <nav>
                 <ul class="topBar-navigation" :class="{ active: isMenuToggled }">
                     <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
