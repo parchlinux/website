@@ -9,20 +9,19 @@
       <div class="contributors-card">
         <img :src="contributor.avatar_url" :alt="contributor.login" class="contributors-card-image"/>
         <div class="contributors-card-info">
-          <h1 ref="nameElement" class="contributors-card-name">{{ contributor.name }}</h1>
-          <p class="contributors-card-login">@{{ contributor.login }}</p>
+          <h1 ref="nameElement" class="contributors-card-name">{{ contributor.login }}</h1>
         </div>
       </div>
     </a>
   </div>
   </template>
-  
+
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
+import config from '@/config';
 
 interface Contributor {
   id: number;
-  name: string;
   login: string;
   avatar_url: string;
   profile_url: string;
@@ -33,34 +32,23 @@ export default defineComponent({
   setup() {
     const contributors = ref<Contributor[]>([]);
 
-    const filterIds = [1607653, 49699333];
+    const filterIds: string[] = [];
 
     const fetchContributorsData = async () => {
       try {
-        const cachedData = localStorage.getItem('contributorsData');
-        if (cachedData) {
-          contributors.value = JSON.parse(cachedData);
-          return;
-        }
-
-        const contributorsResponse = await fetch('https://raw.githubusercontent.com/Vanilla-OS/.github/main/contributors.json');
+        const contributorsResponse = await fetch(config.contributorsListJsonUrl);
         const contributorsData = await contributorsResponse.json();
-
-        contributorsData.sort((a: Contributor, b: Contributor) => a.name.localeCompare(b.name));
 
         for (const contributor of contributorsData) {
           if (!filterIds.includes(contributor.id) && !contributors.value.some((c: Contributor) => c.login === contributor.login)) {
             contributors.value.push({
               id: contributor.id,
-              name: contributor.name,
-              login: contributor.login,
+              login: contributor.username,
               avatar_url: contributor.avatar_url,
-              profile_url: contributor.profile_url,
+              profile_url: "https://github.com/" + contributor.username,
             });
           }
         }
-
-        localStorage.setItem('contributorsData', JSON.stringify(contributors.value));
       } catch (error) {
         console.error('Error fetching contributors:', error);
       }
