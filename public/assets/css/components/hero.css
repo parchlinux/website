@@ -1,5 +1,5 @@
 .hero {
-    --hero-heading-color: var(--accent-yellow-bg-color-vivid);
+    --hero-heading-color: var(--parch-color);
     --hero-heading-sub-color: var(--text-color);
     --hero-gn-purple-color: var(--text-color-alt);
     --hero-gn-purple-start: #201026;
@@ -7,7 +7,11 @@
 }
 
 .hero-heading {
-    color: var(--hero-heading-color);
+    padding-top: 15px;
+
+    background: var(--hero-heading-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-wrapper {

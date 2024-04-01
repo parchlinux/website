@@ -7,7 +7,7 @@
         src="/assets/images/backgrounds/vos-orchid-laptop-frame-dark.svg" alt="Vanilla OS 2 Orchid" />
       <article class="hero-content">
         <header class="hero-heading">
-          <h2>Vanilla OS <span>is your next Operating System.</span></h2>
+          <h2>Parch Linux <span>is your next Operating System.</span></h2>
         </header>
         <div class="hero-footer">
           <div class="flexList">
@@ -16,7 +16,7 @@
               <span>Download Now</span>
             </router-link>
             <div class="text text--dimmed">
-              <small>Vanilla OS works out of the box on a large set of devices,
+              <small>Parch Linux works out of the box on a large set of devices,
                 <a href="https://docs.vanillaos.org/handbook/en/installation" target="_blank">
                   learn how to install it.
                 </a>
@@ -29,7 +29,6 @@
   </section>
 
   <nav class="navigationBar" aria-label="go to sections">
-    <h2 class="text text--dimmed" aria-labelledby=""> Vanilla OS is</h2>
     <ul>
       <li :class="{ 'active': activeSection === 'work' }">
         <button @click="scrollTo('#work')">Work</button>

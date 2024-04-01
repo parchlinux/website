@@ -2,15 +2,18 @@
     --card-bg-color: var(--body-bg-color);
     --card-bg-dark: var(--dark-bg-color);
     --card-color-dark: var(--dark-color);
+
     --card-bg-light: var(--light-bg-color);
     --card-color-light: var(--light-color);
     --card-color: var(--text-color);
+
     --card-type-adv-bg-color: var(--accent-yellow-bg-color);
     --card-type-adv-color: var(--accent-blue-text-color);
     --card-type-funnyletter-bg-color: var(--accent-blue-bg-color);
     --card-type-funnyletter-color: var(--accent-blue-text-color);
     --card-type-dev-bg-color: var(--accent-brown-bg-color);
     --card-type-dev-color: var(--accent-brown-text-color);
+
     --card-green-bg-color: var(--accent-green-bg-color);
     --card-green-color: var(--accent-green-text-color);
     --card-blue-bg-color: var(--accent-blue-bg-color);
@@ -23,6 +26,7 @@
     --card-purple-color: var(--accent-purple-text-color);
     --card-red-bg-color: var(--accent-red-bg-color);
     --card-red-color: var(--accent-red-text-color);
+
     --card-clickable-hover-bg-color: var(--secondary-bg-color-alt);
     --card-clickable-green-hover-bg-color: var(--accent-green-bg-color-deep);
     --card-clickable-blue-hover-bg-color: var(--accent-blue-bg-color-deep);
@@ -184,6 +188,7 @@
 .card.card--clickable {
     text-decoration: none;
     cursor: pointer;
+    background-color: var;
 }
 
 .card.card--clickable:hover {
@@ -200,8 +205,8 @@
 }
 
 .card.card--blue {
-    background-color: var(--card-blue-bg-color);
-    color: var(--card-blue-color);
+    background: var(--parch-color);
+    color: var(--parch-text-color);
 }
 
 .card.card--clickable.card--blue:hover {

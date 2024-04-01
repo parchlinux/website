@@ -53,7 +53,7 @@
                     <li><router-link :to="{ name: 'components-lifecycle' }">Components Lifecycle</router-link></li>
                     <li><router-link :to="{ name: 'nerd-info' }">Information for Nerds</router-link></li>
                     <li class="spacer"></li>
-                    <li><b>Get Vanilla OS</b></li>
+                    <li><b>Get Parch OS</b></li>
                     <li><router-link :to="{ name: 'download' }">Download</router-link></li>
                     <li><router-link :to="{ name: 'download' }">System Requirements</router-link></li>
                     <!--<li><router-link :to="{ name: 'download' }">Release Notes</router-link></li>-->
