@@ -337,7 +337,7 @@ export default function createRouterInstance(clientType: string) {
     }
 
     useHead({// @ts-ignore
-      title: to.meta.title ? to.meta.title + " - Vanilla OS" : "Vanilla OS",
+      title: to.meta.title ? to.meta.title + " - Parch Linux" : "Parch Linux",
       meta: [
         {
           name: "description",// @ts-ignore
@@ -353,7 +353,7 @@ export default function createRouterInstance(clientType: string) {
         },
         {
           name: "og:image",
-          content: "https://vanillaos.org/assets/images/brand/vanillaos-logo.svg",
+          content: "https://parchlinux.com/img/favicon-32x32.png",
         },
         {
           name: "og:url",
@@ -365,7 +365,7 @@ export default function createRouterInstance(clientType: string) {
         },
         {
           name: 'twitter:title',
-          content: 'Vanilla OS - Your next Operating System',
+          content: 'Parch Linux- Your next Operating System',
         },
         {
           name: 'twitter:description',// @ts-ignore
@@ -373,7 +373,7 @@ export default function createRouterInstance(clientType: string) {
         },
         {
           name: 'twitter:image',
-          content: 'https://vanillaos.org/assets/images/brand/vanillaos-logo.svg',
+          content: 'https://parchlinux.com/img/favicon-32x32.png',
         },
         {
           name: 'twitter:url',
