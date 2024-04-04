@@ -7,16 +7,23 @@
         src="/assets/images/backgrounds/vos-orchid-laptop-frame-dark.svg" alt="Vanilla OS 2 Orchid" />
       <article class="hero-content">
         <header class="hero-heading">
-          <h2>Vanilla OS <span>is your next Operating System.</span></h2>
+          <h2>Parch Linux <span>is your next Operating System.</span></h2>
         </header>
         <div class="hero-footer">
           <div class="flexList">
-            <router-link :to="{ name: 'download' }" class="btn btn--primary btn--big">
-              <span class="mdi material-icons-outlined">file_download</span>
-              <span>Download Now</span>
-            </router-link>
+            <div class="flex flex-row">
+              <router-link :to="{ name: 'download' }" class="btn btn--primary" style="margin-right: 12px;">
+                <span class="mdi material-icons-outlined">file_download</span>
+                <span>Download Now</span>
+              </router-link>
+
+              <a href="https://daramet.com/parchlinux" class="btn">
+                <span class="mdi material-icons-outlined">coffee</span>
+                <span>Donate</span>
+              </a>
+            </div>
             <div class="text text--dimmed">
-              <small>Vanilla OS works out of the box on a large set of devices,
+              <small>Parch Linux works out of the box on a large set of devices,
                 <a href="https://docs.vanillaos.org/handbook/en/installation" target="_blank">
                   learn how to install it.
                 </a>
@@ -29,7 +36,6 @@
   </section>
 
   <nav class="navigationBar" aria-label="go to sections">
-    <h2 class="text text--dimmed" aria-labelledby=""> Vanilla OS is</h2>
     <ul>
       <li :class="{ 'active': activeSection === 'work' }">
         <button @click="scrollTo('#work')">Work</button>
@@ -66,7 +72,8 @@
             <p>Vanilla OS is designed to be a reliable and productive operating system for your daily work. </p>
             <p>The desktop environment is perfect for your daily tasks, thanks to its clean and intuitive interface.
               Everything is setup so that you can start working, and focus on what matters.</p>
-            <p>Vanilla OS is ready to meet your needs whether you are a developer, designer, or student, thanks to a wide
+            <p>Vanilla OS is ready to meet your needs whether you are a developer, designer, or student, thanks to a
+              wide
               range of applications.</p>
           </div>
         </div>
@@ -101,7 +108,7 @@
     </div>
   </section>
 
-  <section class="hero hero--inverted hero--big" id="develop">
+  <section style="padding-bottom: 0px;" class="hero hero--inverted hero--big" id="develop">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/apx-console.svg"
         alt="Develop with maximum flexibility." />
@@ -114,7 +121,8 @@
           <div class="text text--spaced">
             <p>No matter what your development needs are, Vanilla OS is the optimal choice because it provides access to
               the widest range of tooling options.</p>
-            <p>Apx is a tool that allows you to generate work environments based on any Linux distribution and seamlessly
+            <p>Apx is a tool that allows you to generate work environments based on any Linux distribution and
+              seamlessly
               integrates them with the system in a convenient way, enabling you to leverage the full potential of all
               distributions directly on Vanilla OS.</p>
             <p>Depending on your needs, you can create your own work environments and share them with colleagues and
@@ -125,20 +133,7 @@
     </div>
   </section>
 
-  <section class="hero hero--big hero--bg-center hero--extra-margin" id="access">
-    <article class="hero-wrapper container">
-      <img class="hero-image onFocus" data-focus-class="fadeInZoom" src="/assets/images/backgrounds/apps-overview.png"
-        alt="Access the largest set of applications." />
-      <div class="hero-content">
-        <header class="hero-heading">
-          <h2 class="color--access-1">Access</h2>
-          <b class="color--access-2">the largest set of applications.</b>
-        </header>
-      </div>
-    </article>
-  </section>
-
-  <section class="hero hero--big" id="solid">
+  <section class="hero hero--big" stlye="padding: 0px;" id="solid">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/backgrounds/solid-circuit.svg"
         alt="Solid as a rock." />
@@ -176,7 +171,8 @@
               configure your system to your specific needs, while still having a stable environment.</p>
             <p>Vib is a tool to create OCI images for Vanilla OS. It allows you to build upon our core image, giving you
               the option to add a variety of customization options, packages, and modules.</p>
-            <p>It is not only limited to our image however, you can utilize an image based on any other Linux distribution
+            <p>It is not only limited to our image however, you can utilize an image based on any other Linux
+              distribution
               instead, providing more versatility.</p>
             <router-link :to="{ name: 'roadmap' }" class="btn btn--link btn--link-2 btn--inline">
               <span>Starting from Orchid</span>

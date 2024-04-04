@@ -4,7 +4,7 @@
         <div class="modal-wrapper card">
             <div class="card-header">
                 <h3>Subscribe to the Newsletter</h3>
-                <p>Get the latest news and updates from Vanilla OS.</p>
+                <p>Get the latest news and updates from Parch Linux.</p>
             </div>
             <form
                 action="https://vanillaos.us9.list-manage.com/subscribe/post?u=a988825202ae676e78fd240c5&amp;id=ef015d988e&amp;f_id=00c618e1f0"
@@ -47,7 +47,7 @@
         </div>
     </div>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from "vue";
 

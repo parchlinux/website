@@ -1,5 +1,10 @@
 @media (prefers-color-scheme:dark) {
     :root {
+        /* ParchLinux Colors */
+        --parch-color: linear-gradient(90deg, #3b82f6 0%, #382dbd 100%);
+        --parch-hover-color: linear-gradient(90deg, #4075c9 0%, #291db4 100%);
+        --parch-text-color: #f0f3f7;
+
         /* Generic Colors */
         --generic-green-1: #26D959;
         --generic-gree-2: #20A746;
@@ -50,16 +55,16 @@
         --text-color: #c8c8c8;
         --text-color-deep: #ffffff;
         --text-color-dimmed: #8f8f8f;
-        --text-color-alt: #1e1e1e;
+        --text-color-alt: #0d0d0d;
         --body-bg-color: var(--text-color-alt);
-        --secondary-bg-color: #2c2c2c;
-        --secondary-bg-color-alt: #262626;
+        --secondary-bg-color: #1f1f1f;
+        --secondary-bg-color-alt: #141414;
         --primary-bg-color: #ffffff;
         --dark-bg-color: var(--body-bg-color);
         --dark-color: var(--text-color);
         --light-bg-color: #ffffff;
         --light-color: #232220;
-        --backdrop-bg-color: #1e1e1ed6;
+        --backdrop-bg-color: #0d0d0d;
         --link-color: #ebebeb;
         --link-hover-color: #0f6db5;
         --link-focus-color: #99a1e2;

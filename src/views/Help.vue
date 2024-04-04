@@ -3,7 +3,7 @@
         <card v-for="(item, index) in helpItems" :key="index" :item="item" />
     </div>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from 'vue';
 
@@ -69,11 +69,10 @@ export default defineComponent({
                     icon: 'support',
                     title: 'Enterprise Support',
                     description: 'Get enterprise support for Vanilla OS from fabricatorsltd.',
-                    extraClasses: ['card--green']
+                    extraClasses: ['card--blue']
                 },
             ],
         };
     },
 });
 </script>
-  

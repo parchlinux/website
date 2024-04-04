@@ -1,5 +1,6 @@
 <template>
-    <footer class="siteFooter siteFooter--has-floatNotice">
+    <!-- class="siteFooter--has-floatNotice" -->
+    <footer class="siteFooter ">
         <section class="siteFooter-wrapper container">
             <article class="siteFooter-header">
                 <div class="siteFooter-logo">
@@ -52,7 +53,7 @@
                     <li><router-link :to="{ name: 'components-lifecycle' }">Components Lifecycle</router-link></li>
                     <li><router-link :to="{ name: 'nerd-info' }">Information for Nerds</router-link></li>
                     <li class="spacer"></li>
-                    <li><b>Get Vanilla OS</b></li>
+                    <li><b>Get Parch OS</b></li>
                     <li><router-link :to="{ name: 'download' }">Download</router-link></li>
                     <li><router-link :to="{ name: 'download' }">System Requirements</router-link></li>
                     <!--<li><router-link :to="{ name: 'download' }">Release Notes</router-link></li>-->
@@ -61,9 +62,9 @@
         </section>
     </footer>
 
-    <float-notice v-if="showFloatNotice" />
+    <!-- <float-notice v-if="showFloatNotice" /> -->
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from "vue";
 
