@@ -11,10 +11,17 @@
         </header>
         <div class="hero-footer">
           <div class="flexList">
-            <router-link :to="{ name: 'download' }" class="btn btn--primary btn--big">
-              <span class="mdi material-icons-outlined">file_download</span>
-              <span>Download Now</span>
-            </router-link>
+            <div class="flex flex-row">
+              <router-link :to="{ name: 'download' }" class="btn btn--primary" style="margin-right: 12px;">
+                <span class="mdi material-icons-outlined">file_download</span>
+                <span>Download Now</span>
+              </router-link>
+
+              <a href="https://daramet.com/parchlinux" class="btn">
+                <span class="mdi material-icons-outlined">coffee</span>
+                <span>Donate</span>
+              </a>
+            </div>
             <div class="text text--dimmed">
               <small>Parch Linux works out of the box on a large set of devices,
                 <a href="https://docs.vanillaos.org/handbook/en/installation" target="_blank">
@@ -65,7 +72,8 @@
             <p>Vanilla OS is designed to be a reliable and productive operating system for your daily work. </p>
             <p>The desktop environment is perfect for your daily tasks, thanks to its clean and intuitive interface.
               Everything is setup so that you can start working, and focus on what matters.</p>
-            <p>Vanilla OS is ready to meet your needs whether you are a developer, designer, or student, thanks to a wide
+            <p>Vanilla OS is ready to meet your needs whether you are a developer, designer, or student, thanks to a
+              wide
               range of applications.</p>
           </div>
         </div>
@@ -113,7 +121,8 @@
           <div class="text text--spaced">
             <p>No matter what your development needs are, Vanilla OS is the optimal choice because it provides access to
               the widest range of tooling options.</p>
-            <p>Apx is a tool that allows you to generate work environments based on any Linux distribution and seamlessly
+            <p>Apx is a tool that allows you to generate work environments based on any Linux distribution and
+              seamlessly
               integrates them with the system in a convenient way, enabling you to leverage the full potential of all
               distributions directly on Vanilla OS.</p>
             <p>Depending on your needs, you can create your own work environments and share them with colleagues and
@@ -162,7 +171,8 @@
               configure your system to your specific needs, while still having a stable environment.</p>
             <p>Vib is a tool to create OCI images for Vanilla OS. It allows you to build upon our core image, giving you
               the option to add a variety of customization options, packages, and modules.</p>
-            <p>It is not only limited to our image however, you can utilize an image based on any other Linux distribution
+            <p>It is not only limited to our image however, you can utilize an image based on any other Linux
+              distribution
               instead, providing more versatility.</p>
             <router-link :to="{ name: 'roadmap' }" class="btn btn--link btn--link-2 btn--inline">
               <span>Starting from Orchid</span>

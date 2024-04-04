@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="card card--type-adv card--type-dev">
+        <div class="card card--blue">
             <div class="card-header">
                 <h4>Vanilla OS</h4>
                 <h2>Developer Builds</h2>
