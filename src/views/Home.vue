@@ -100,7 +100,7 @@
     </div>
   </section>
 
-  <section class="hero hero--inverted hero--big" id="develop">
+  <section style="padding-bottom: 0px;" class="hero hero--inverted hero--big" id="develop">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/apx-console.svg"
         alt="Develop with maximum flexibility." />
@@ -124,20 +124,7 @@
     </div>
   </section>
 
-  <section class="hero hero--big hero--bg-center hero--extra-margin" id="access">
-    <article class="hero-wrapper container">
-      <img class="hero-image onFocus" data-focus-class="fadeInZoom" src="/assets/images/backgrounds/apps-overview.png"
-        alt="Access the largest set of applications." />
-      <div class="hero-content">
-        <header class="hero-heading">
-          <h2 class="color--access-1">Access</h2>
-          <b class="color--access-2">the largest set of applications.</b>
-        </header>
-      </div>
-    </article>
-  </section>
-
-  <section class="hero hero--big" id="solid">
+  <section class="hero hero--big" stlye="padding: 0px;" id="solid">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/backgrounds/solid-circuit.svg"
         alt="Solid as a rock." />
