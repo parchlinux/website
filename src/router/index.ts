@@ -205,7 +205,7 @@ export default function createRouterInstance(clientType: string) {
             component: () =>// @ts-ignore
               import(/* webpackChunkName: "Download" */ "@/views/Download.vue"),
             meta: {
-              title: "Get Vanilla OS",
+              title: "Get Parch Linux",
               description: "Get the latest version.",
             },
           },
