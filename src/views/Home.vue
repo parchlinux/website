@@ -292,15 +292,6 @@ export default defineComponent({
           We believe that everyone should be able to use a computer, no matter your abilities, you\
           will find yourself at home on Vanilla OS.',
         },
-        {
-          icon: 'school',
-          title: 'Understandable',
-          description: 'Vanilla OS is designed to be easy to understand, you don\'t need to be a\
-          computer expert to use it, but of course, if you are, you\'ll find yourself at home.\
-          We write all our documentation in a way that is easy to understand, and our community\
-          is always ready to help you. We also provide enterprise support for\
-          special needs.',
-        }
       ],
       medias: [
         {
@@ -374,17 +365,6 @@ export default defineComponent({
           extLink: true,
           type: "clickable",
           description: 'For those who want a simple, immutable, and customizable experience, Vanilla OS steps into the spotlight.',
-        },
-        {
-          to: { name: 'get-involved-spread' },
-          type: 'adv',
-          icon: 'how_to_reg',
-          title2: 'Spread the word',
-          description: 'Help us spread the word about Vanilla OS and its features.',
-          btn: 'Read more',
-          extraClasses: [
-            'card--yellow'
-          ]
         },
       ],
     };

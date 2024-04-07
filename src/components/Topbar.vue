@@ -48,10 +48,7 @@
 
             <nav>
                 <ul class="topBar-navigation" :class="{ active: isMenuToggled }">
-                    <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
-                    <li><router-link :to="{ name: 'help' }">Help</router-link></li>
-                    <li><router-link :to="{ name: 'get-involved' }">Get Involved</router-link></li>
-                    <li><router-link :to="{ name: 'download' }">Download</router-link></li>
+                    <TopbarNavigationLinks/>
                 </ul>
             </nav>
             <button class="topBar-hamburger topBar-hamburger--collapse topBar-hamburger--squeeze"
@@ -69,9 +66,11 @@ import { defineComponent } from "vue";
 import { useRoute } from "vue-router";
 import { searchArticle } from '@/articlesLoader';
 import type { Article } from '@/articlesLoader';
+import TopbarNavigationLinks from "./TopbarNavigationLinks.vue";
 
 export default defineComponent({
     name: "Topbar",
+    components: {TopbarNavigationLinks},
     data() {
         return {
             isSearchActive: false,

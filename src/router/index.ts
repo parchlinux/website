@@ -119,16 +119,6 @@ export default function createRouterInstance(clientType: string) {
             },
           },
           {
-            path: "/help",
-            name: "help",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Help" */ "@/views/Help.vue"),
-            meta: {
-              title: "Help",
-              description: "Have a problem or need information about Vanilla OS?",
-            },
-          },
-          {
             path: "/team",
             name: "team",
             component: () =>// @ts-ignore
@@ -150,23 +140,13 @@ export default function createRouterInstance(clientType: string) {
             },
           },
           {
-            path: "/brand",
-            name: "brand",
+            path: "/contribution",
+            name: "contribution",
             component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Brand" */ "@/views/Brand.vue"),
+              import(/* webpackChunkName: "Contributors" */ "@/views/Contribution.vue"),
             meta: {
-              title: "Brand",
-              description: "Official Vanilla OS brand assets and values.",
-            },
-          },
-          {
-            path: "/developers-program",
-            name: "developers-program",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "DevelopersProgram" */ "@/views/DevelopersProgram.vue"),
-            meta: {
-              title: "Developers Program",
-              description: "Join our Developers Program and get access to exclusive content.",
+              title: "Contribution",
+              description: "How to contribute in ParchLinux.",
             },
           },
           {
@@ -180,16 +160,6 @@ export default function createRouterInstance(clientType: string) {
             },
           },
           {
-            path: "/enterprise-support",
-            name: "enterprise-support",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "EnterpriseSupport" */ "@/views/EnterpriseSupport.vue"),
-            meta: {
-              title: "Enterprise Support",
-              description: "Get enterprise support for Vanilla OS.",
-            },
-          },
-          {
             path: "/roadmap",
             name: "roadmap",
             component: () =>// @ts-ignore
@@ -197,16 +167,6 @@ export default function createRouterInstance(clientType: string) {
             meta: {
               title: "Roadmap",
               description: "Follow our roadmap to see what's coming next.",
-            },
-          },
-          {
-            path: "/components-lifecycle",
-            name: "components-lifecycle",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Roadmap" */ "@/views/ComponentsLifeCycle.vue"),
-            meta: {
-              title: "Components Lifecycle",
-              description: "Learn how our components are developed and maintained.",
             },
           },
           {
@@ -230,57 +190,13 @@ export default function createRouterInstance(clientType: string) {
             },
           },
           {
-            path: "/help/faq",
-            name: "help-faq",
+            path: "/developers-program",
+            name: "developers-program",
             component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Faq" */ "@/views/help/Faq.vue"),
+              import(/* webpackChunkName: "DevelopersProgram" */ "@/views/DevelopersProgram.vue"),
             meta: {
-              title: "Frequently Asked Questions",
-              description: "The most common questions about Vanilla OS.",
-              parent: "help",
-            },
-          },
-          {
-            path: "/get-involved",
-            name: "get-involved",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "GetInvolved" */ "@/views/GetInvolved.vue"),
-            meta: {
-              title: "Get Involved",
-              description: "Everything we do is Open Source. You can contribute in many way.",
-            },
-          },
-          {
-            path: "/get-involved/translate",
-            name: "get-involved-translate",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Translate" */ "@/views/get-involved/Translate.vue"),
-            meta: {
-              title: "Translate",
-              description: "Translate Vanilla OS into your language.",
-              parent: "get-involved",
-            },
-          },
-          {
-            path: "/get-involved/funding",
-            name: "get-involved-funding",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Funding" */ "@/views/get-involved/Funding.vue"),
-            meta: {
-              title: "Funding",
-              description: "We need your help to keep Vanilla OS alive.",
-              parent: "get-involved",
-            },
-          },
-          {
-            path: "/get-involved/spread",
-            name: "get-involved-spread",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Spread" */ "@/views/get-involved/Spread.vue"),
-            meta: {
-              title: "Spread the Word",
-              description: "Help us spread the word about Vanilla OS.",
-              parent: "get-involved",
+              title: "Developers Program",
+              description: "Join our Developers Program and get access to exclusive content.",
             },
           },
           {
