@@ -2,7 +2,7 @@
     <div class="text--rich">
         <h1>Contribute to Parch Linux!</h1>
         <p>We at Parch Linux are passionate about creating a user-friendly and powerful Arch Linux experience for the
-            Farsi-speaking community. Your contributions are invaluable in helping us achieve this goal.</p>
+            Persian speaking community. Your contributions are invaluable in helping us achieve this goal.</p>
 
         <h2>Our Principles</h2>
         <ul>
@@ -18,7 +18,7 @@
             <li>Donate: Every contribution, big or small, helps us maintain and improve Parch Linux. You can donate
                 through <a href="https://daramet.com/parchlinux">daramet.com</a>.</li>
             <li>Translate: Help us reach a wider audience by translating documentation, applications, and the Parch
-                website into Farsi. Your expertise in translation will be highly appreciated.</li>
+                website into Persian. Your expertise in translation will be highly appreciated.</li>
             <li>Develop: If you're a developer, you can contribute to the Parch Linux codebase on GitHub <a
                     href="https://github.com/parchlinux">here</a>. We welcome improvements, bug fixes, and new features that benefit
                 the distribution.</li>
