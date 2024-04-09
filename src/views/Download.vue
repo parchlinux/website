@@ -39,15 +39,15 @@
                         </a>
                     </div>
                     <div class="splitter-item card-image">
-                        <img src="/assets/images/backgrounds/parchlinux-plasma.png" alt="Parch Linux Plasma" class="no-dark" />
-                        <img src="/assets/images/backgrounds/parchlinux-plasma.png" alt="Parch Linux Plasma" class="on-dark" />
+                        <img src="/assets/images/backgrounds/parch-plasma-desktop.png" alt="Parch Linux Plasma" class="no-dark" />
+                        <img src="/assets/images/backgrounds/parch-plasma-desktop.png" alt="Parch Linux Plasma" class="on-dark" />
                     </div>
                 </div>
             </div>
         </div>
         <div class="card download flexGrid-item article--big flexGrid-item--2">
             <div class="card-header">
-                <h2>Parch Linux XFCE</h2>
+                <h2>Parch Linux Gnome</h2>
             </div>
             <div class="card-content">
                 <div class="splitter">
@@ -82,9 +82,9 @@
                         </a>
                     </div>
                     <div class="card-image card-image--right">
-                        <img src="/assets/images/backgrounds/parchlinux-plasma.png"
+                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png"
                             alt="Vanilla OS 22.10 Kinetic" class="no-dark" />
-                        <img src="/assets/images/backgrounds/parchlinux-plasma.png"
+                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png"
                             alt="Vanilla OS 22.10 Kinetic" class="on-dark" />
                     </div>
                 </div>

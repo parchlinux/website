@@ -2,9 +2,9 @@
   <section class="hero hero--big hero--no-margin">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus no-dark" data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/vos-orchid-laptop-frame.svg" alt="Vanilla OS 2 Orchid" />
+        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
       <img class="hero-image onFocus on-dark" data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/vos-orchid-laptop-frame-dark.svg" alt="Vanilla OS 2 Orchid" />
+        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
       <article class="hero-content">
         <header class="hero-heading">
           <h2>Parch Linux <span>is your next Operating System.</span></h2>
@@ -69,12 +69,12 @@
         </header>
         <div class="flexList">
           <div class="text text--spaced">
-            <p>Vanilla OS is designed to be a reliable and productive operating system for your daily work. </p>
-            <p>The desktop environment is perfect for your daily tasks, thanks to its clean and intuitive interface.
-              Everything is setup so that you can start working, and focus on what matters.</p>
-            <p>Vanilla OS is ready to meet your needs whether you are a developer, designer, or student, thanks to a
-              wide
-              range of applications.</p>
+            <p>Parch Linux is meticulously crafted to empower your daily workflow. Our streamlined desktop environment
+            prioritizes clarity and intuition, letting you dive into your work with minimal friction.</p>
+
+            <p>Parch Linux caters to a diverse range of users, from developers and designers to students and professionals.
+            We provide a curated selection of pre-installed applications to jumpstart your productivity, ensuring you
+            have the tools you need right at your fingertips.</p>
           </div>
         </div>
       </article>
