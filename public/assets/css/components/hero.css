@@ -69,12 +69,12 @@
     font-size: 86px;
     font-weight: 900;
     line-height: 40px;
-    margin: 0 0 32px 0;
+    margin: 0 0 25px 0;
 }
 
 .hero-heading h2 span {
     font-weight: 400;
-    font-size: 47px;
+    font-size: 43px;
     color: var(--hero-heading-sub-color);
 }
 
