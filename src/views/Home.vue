@@ -56,6 +56,9 @@
       <li :class="{ active: activeSection === 'about' }">
         <button @click="scrollTo('#about')">About</button>
       </li>
+      <li :class="{ active: activeSection === 'security' }">
+        <button @click="scrollTo('#security')">Security</button>
+      </li>
       <li :class="{ active: activeSection === 'play' }">
         <button @click="scrollTo('#play')">Play</button>
       </li>
@@ -96,6 +99,39 @@
               the world of Linux with a smooth installation process, stunning
               visuals, and a lightweight design that keeps your system running
               like a dream.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="hero hero--inverted hero--big" id="security">
+    <div class="hero-wrapper hero-wrapper-rtl container">
+      <img
+        class="hero-image onFocus"
+        data-focus-class="fadeInRight"
+        src="/assets/images/icons/security.png"
+        alt="Why Parch..."
+      />
+      <article class="hero-content">
+        <header class="hero-heading">
+          <h2 class="color--work-1">Security</h2>
+          <b class="color--work-2">Build on trust.</b>
+        </header>
+        <div class="flexList">
+          <div class="text text--spaced">
+            <p>
+              ParchLinux inherits the renowned stability and security of Arch
+              Linux. This foundation ensures your system remains protected from
+              potential threats. Regular updates keep your software patched and
+              secure, while the inherent nature of Arch Linux promotes a
+              minimalist approach, reducing the attack surface for
+              vulnerabilities. Additionally, the supportive ParchLinux community
+              is always vigilant, offering assistance and keeping you informed
+              about security best practices. With ParchLinux, you can enjoy the
+              freedom and power of Linux with the peace of mind that comes with
+              a secure and trustworthy operating system.
             </p>
           </div>
         </div>

@@ -1,9 +1,16 @@
+/* Custom styles for a special hero */
+#security.hero .hero-image {
+    max-height: 80vh;
+}
+
+/* Public styles for hero component */
+
 .hero {
     --hero-heading-color: var(--parch-color);
     --hero-heading-sub-color: var(--text-color);
     --hero-gn-purple-color: var(--text-color-alt);
     --hero-gn-purple-start: #201026;
-    --hero-gn-purple-end: #2F0E3A;
+    --hero-gn-purple-end: #2f0e3a;
 }
 
 .hero-heading {
@@ -22,6 +29,16 @@
     z-index: 1;
     position: relative;
     width: 100%;
+}
+
+.hero-wrapper-rtl {
+    gap: 35px;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.hero-wrapper-rtl .hero-image {
+    margin: 0 !important;
 }
 
 .hero--inverted .hero-wrapper {
@@ -146,7 +163,7 @@
     bottom: 0;
     right: 0;
     height: 150vh;
-    opacity: .2;
+    opacity: 0.2;
 }
 
 .hero--clipped {
