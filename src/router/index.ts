@@ -37,30 +37,6 @@ export default function createRouterInstance(clientType: string) {
               parent: "blog",
             },
           },
-          {
-            path: "/download/orchid/alpha",
-            name: "download-orchid-alpha",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Download" */ "@/views/download/DownloadOrchidAlpha.vue"),
-            meta: {
-              title: "Vanilla OS 2 Orchid Alpha",
-              description: "Try the latest development version of Vanilla OS.",
-              parent: "download",
-              freePageLayout: true,
-            },
-          },
-          {
-            path: "/download/orchid/beta",
-            name: "download-orchid-beta",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Download" */ "@/views/download/DownloadOrchidBeta.vue"),
-            meta: {
-              title: "Vanilla OS 2 Orchid Beta",
-              description: "Try the latest development version of Vanilla OS.",
-              parent: "download",
-              freePageLayout: true,
-            },
-          },
         ]
       },
       {
@@ -125,17 +101,17 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "Team" */ "@/views/Team.vue"),
             meta: {
               title: "Team",
-              description: "Meet the people behind Vanilla OS.",
+              description: "Meet the people behind Parch Linux.💙🪼",
             },
           },
           {
             path: "/team/contributors",
             name: "team-contributors",
             component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Contributors" */ "@/views/get-involved/Contributors.vue"),
+              import(/* webpackChunkName: "Contributors" */ "@/views/Contributors.vue"),
             meta: {
               title: "Contributors",
-              description: "Meet the people who contributed to Vanilla OS.",
+              description: "Meet the people who contributed to Parch Linux.✨",
               parent: "team",
             },
           },
@@ -157,16 +133,6 @@ export default function createRouterInstance(clientType: string) {
             meta: {
               title: "Code of Conduct",
               description: "Everyone must follow our Code of Conduct to be part of Vanilla OS.",
-            },
-          },
-          {
-            path: "/roadmap",
-            name: "roadmap",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Roadmap" */ "@/views/Roadmap.vue"),
-            meta: {
-              title: "Roadmap",
-              description: "Follow our roadmap to see what's coming next.",
             },
           },
           {
