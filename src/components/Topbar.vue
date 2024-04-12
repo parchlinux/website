@@ -3,8 +3,8 @@
         <div class="topBar-wrapper container">
             <div class="topBar-logo">
                 <router-link :to="{ name: 'home' }">
-                    <img src="/assets/images/brand/vanillaos-logo.svg" alt="Vanilla OS" class="no-dark" />
-                    <img src="/assets/images/brand/vanillaos-logo-dark.svg" alt="Vanilla OS" class="on-dark" />
+                    <img src="/assets/images/brand/parch-full-text.png" alt="Vanilla OS" class="no-dark" />
+                    <img src="/assets/images/brand/parch-full-text.png" alt="Vanilla OS" class="on-dark" />
                 </router-link>
             </div>
             <div v-if="currentRoute.name === 'blog' || currentRoute.name === 'article'" class="topBar-search">
