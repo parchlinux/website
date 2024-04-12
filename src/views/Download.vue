@@ -14,16 +14,6 @@
                                 installing applications, and new solutions for developers.
                             </p>
                         </div>
-                        <router-link :to="{
-                            name: 'article',
-                            params: {
-                                date: '2024-01-30',
-                                slug: 'vanilla-os-2-orchid-beta-is-here',
-                            },
-                        }" class="btn btn--link btn--link-2 btn--inline">
-                            <span>Release Post</span>
-                            <span class="mdi material-icons-outlined">open_in_new</span>
-                        </router-link>
                         <a href="#" class="btn btn--link btn--link-2 btn--inline btn--block" disabled="true">
                             <span>Full Changelog</span>
                             <span class="mdi material-icons-outlined">open_in_new</span>
@@ -55,16 +45,6 @@
                                 stable and secure system for your daily use.
                             </p>
                         </div>
-                        <router-link class="btn btn--link btn--link-2 btn--inline" :to="{
-                            name: 'article',
-                            params: {
-                                date: '2022-12-29',
-                                slug: 'vanilla-os-2210-kinetic-is-out',
-                            },
-                        }">
-                            <span>Release Post</span>
-                            <span class="mdi material-icons-outlined">open_in_new</span>
-                        </router-link>
                         <a href="https://github.com/Vanilla-OS/os/releases/latest"
                             class="btn btn--link btn--link-2 btn--inline" target="_blank">
                             <span>Changelog</span>

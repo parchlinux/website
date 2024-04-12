@@ -93,16 +93,6 @@ export default defineComponent({
                     flexible and customizable for everyone.',
                 },
                 {
-                    icon: 'memory',
-                    title: 'LVM Thin Provisioning',
-                    description: 'Vanilla OS uses a slightly different approach to manage the system storage, by leveraging\
-                    LVM (Logical Volume Manager) thin provisioning. This technique allows for dynamic allocation of storage\
-                    space, ensuring optimal resource utilization and flexibility in allocating disk space between the\
-                    two root partitions, preserving essential disk space.',
-                    to: { name: 'article', params: { date: '2023-11-22', slug: 'vanilla-os-orchid---devlog-22-nov' } },
-                    type: 'clickable',
-                },
-                {
                     icon: 'android',
                     title: 'Android Compatibility',
                     description: 'Vanilla OS is compatible with Android applications thanks to VSO, Waydroid, and F-Droid.\
