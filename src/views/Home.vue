@@ -1,18 +1,10 @@
 <template>
   <section class="hero hero--big hero--no-margin">
     <div class="hero-wrapper container">
-      <img
-        class="hero-image onFocus no-dark"
-        data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/parch-desktop-hero.png"
-        alt="Parch Linux"
-      />
-      <img
-        class="hero-image onFocus on-dark"
-        data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/parch-desktop-hero.png"
-        alt="Parch Linux"
-      />
+      <img class="hero-image onFocus no-dark" data-focus-class="fadeInLeft"
+        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
+      <img class="hero-image onFocus on-dark" data-focus-class="fadeInLeft"
+        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
       <article class="hero-content">
         <header class="hero-heading">
           <h2>Parch Linux <span>is your next Operating System.</span></h2>
@@ -20,11 +12,7 @@
         <div class="hero-footer">
           <div class="flexList">
             <div class="flex flex-row">
-              <router-link
-                :to="{ name: 'download' }"
-                class="btn btn--primary"
-                style="margin-right: 12px"
-              >
+              <router-link :to="{ name: 'download' }" class="btn btn--primary" style="margin-right: 12px">
                 <span class="mdi material-icons-outlined">file_download</span>
                 <span>Download Now</span>
               </router-link>
@@ -35,12 +23,8 @@
               </a>
             </div>
             <div class="text text--dimmed">
-              <small
-                >Parch Linux works out of the box on a large set of devices,
-                <a
-                  href="https://docs.vanillaos.org/handbook/en/installation"
-                  target="_blank"
-                >
+              <small>Parch Linux works out of the box on a large set of devices,
+                <a href="https://docs.vanillaos.org/handbook/en/installation" target="_blank">
                   learn how to install it.
                 </a>
               </small>
@@ -62,29 +46,13 @@
       <li :class="{ active: activeSection === 'play' }">
         <button @click="scrollTo('#play')">Play</button>
       </li>
-      <li :class="{ active: activeSection === 'develop' }">
-        <button @click="scrollTo('#develop')">Develop</button>
-      </li>
-      <li :class="{ active: activeSection === 'access' }">
-        <button @click="scrollTo('#access')">Access</button>
-      </li>
-      <li :class="{ active: activeSection === 'solid' }">
-        <button @click="scrollTo('#solid')">Solid</button>
-      </li>
-      <li :class="{ active: activeSection === 'versatile' }">
-        <button @click="scrollTo('#versatile')">Versatile</button>
-      </li>
     </ul>
   </nav>
 
   <section class="hero hero--inverted hero--big" id="about">
     <div class="hero-wrapper container">
-      <img
-        class="hero-image onFocus"
-        data-focus-class="fadeInRight"
-        src="/assets/images/backgrounds/parch-neofetch.png"
-        alt="Why Parch..."
-      />
+      <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/parch-neofetch.png"
+        alt="Why Parch..." />
       <article class="hero-content">
         <header class="hero-heading">
           <h2 class="color--work-1">About</h2>
@@ -108,12 +76,8 @@
 
   <section class="hero hero--inverted hero--big" id="security">
     <div class="hero-wrapper hero-wrapper-rtl container">
-      <img
-        class="hero-image onFocus"
-        data-focus-class="fadeInRight"
-        src="/assets/images/icons/security.png"
-        alt="Why Parch..."
-      />
+      <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/icons/security.png"
+        alt="Why Parch..." />
       <article class="hero-content">
         <header class="hero-heading">
           <h2 class="color--work-1">Security</h2>
@@ -142,19 +106,12 @@
   <section class="hero hero--big hero--gn-purple hero--clipped" id="play">
     <div class="hero-back">
       <video autoplay muted loop playsinline>
-        <source
-          src="/assets/videos/ron-lach-friends-playing-on-computer.mp4"
-          type="video/mp4"
-        />
+        <source src="/assets/videos/ron-lach-friends-playing-on-computer.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="hero-wrapper container">
-      <img
-        class="hero-image onFocus"
-        data-focus-class="fadeInZoom"
-        src="/assets/images/backgrounds/popular-games.svg"
-        alt="Play your favorite video games."
-      />
+      <img class="hero-image onFocus" data-focus-class="fadeInZoom" src="/assets/images/backgrounds/popular-games.svg"
+        alt="Play your favorite video games." />
       <article class="hero-content">
         <header class="hero-heading">
           <h2 class="color--play-1">Play</h2>
