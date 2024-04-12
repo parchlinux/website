@@ -14,10 +14,6 @@
                                 installing applications, and new solutions for developers.
                             </p>
                         </div>
-                        <router-link class="btn btn--link btn--link-2 btn--inline" :to="{ name: 'roadmap' }">
-                            <span>Roadmap</span>
-                            <span class="mdi material-icons-outlined">open_in_new</span>
-                        </router-link>
                         <router-link :to="{
                             name: 'article',
                             params: {

@@ -1,11 +1,10 @@
 <template>
-    <!-- class="siteFooter--has-floatNotice" -->
     <footer class="siteFooter ">
         <section class="siteFooter-wrapper container">
             <article class="siteFooter-header">
                 <div class="siteFooter-logo">
                     <router-link :to="{ name: 'home' }">
-                        <img src="/assets/images/brand/vanillaos-logo-icon.svg" alt="Vanilla OS" />
+                        <img src="/assets/images/brand/parch-full-text.png" alt="Vanilla OS" />
                     </router-link>
                 </div>
                 <nav class="siteFooter-navigation">
@@ -40,7 +39,6 @@
                     <li><router-link :to="{ name: 'developers-program' }">Join the Developers Program</router-link></li>
                     <li><a href="https://github.com/parchlinux" target="_blank">Source Code</a></li>
                     <li><router-link :to="{ name: 'technologies-and-credits' }">Technologies and Credits</router-link></li>
-                    <li><router-link :to="{ name: 'roadmap' }">Roadmap</router-link></li>
                     <li><router-link :to="{ name: 'nerd-info' }">Information for Nerds</router-link></li>
                     <li class="spacer"></li>
                     <li><b>Get Parch OS</b></li>
@@ -51,8 +49,6 @@
             </nav>
         </section>
     </footer>
-
-    <!-- <float-notice v-if="showFloatNotice" /> -->
 </template>
 
 <script lang="ts">
