@@ -63,8 +63,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { useRoute } from "vue-router";
-import { searchArticle } from '@/articlesLoader';
-import type { Article } from '@/articlesLoader';
 import TopbarNavigationLinks from "./TopbarNavigationLinks.vue";
 
 export default defineComponent({

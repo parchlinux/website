@@ -85,8 +85,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { useRoute } from 'vue-router';
-import { loadArticle } from '@/articlesLoader';
-import type { Article } from '@/articlesLoader';
 import { useHead } from 'unhead'
 
 export default defineComponent({

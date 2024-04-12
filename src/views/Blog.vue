@@ -1,5 +1,6 @@
 <template>
-    <div class="flexGrid anim--fadeIn">
+    <h1>Blog is not implemented yet!</h1>
+    <!-- <div class="flexGrid anim--fadeIn">
         <div v-for="(article, index) in articles.slice(0, 4)" :key="article.title"
             :class="['card', 'article', 'flexGrid-item', { 'article--big': index === 0, 'flexGrid-item--2': index === 0 }]">
             <div class="card-header">
@@ -26,7 +27,6 @@
             </div>
         </div>
 
-        <!-- Newsletter -->
         <div class="card card--type-adv card--type-funnyletter">
             <div class="card-header">
                 <h4>Don't miss the news</h4>
@@ -67,24 +67,21 @@
             </div>
         </div>
         <notmail-not-chimp :is-open="isNotMailNotChimpOpen" @close="closeNotMailNotChimp" />
-    </div>
+    </div> -->
 </template>
   
 <script lang="ts">
-import { loadArticles } from '@/articlesLoader';
-import type { Article } from '@/articlesLoader';
-
 export default {
     name: 'blog',
     data() {
         return {
-            articles: [] as Article[],
+            articles: [],
             isNotMailNotChimpOpen: false,
         };
     },
     methods: {
         async loadArticlesData() {
-            this.articles = await loadArticles();
+            // FIXME - is not implemented yet!
         },
         formatDate(dateString: string): string {
             const date = new Date(dateString);
