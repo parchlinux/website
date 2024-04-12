@@ -39,8 +39,8 @@
                         </a>
                     </div>
                     <div class="splitter-item card-image">
-                        <img src="/assets/images/backgrounds/parch-plasma-desktop.png" alt="Parch Linux Plasma" class="no-dark" />
-                        <img src="/assets/images/backgrounds/parch-plasma-desktop.png" alt="Parch Linux Plasma" class="on-dark" />
+                        <img src="/assets/images/backgrounds/parch-plasma-desktop.png" alt="Parch Linux Plasma"
+                            class="on-dark" />
                     </div>
                 </div>
             </div>
@@ -82,10 +82,8 @@
                         </a>
                     </div>
                     <div class="card-image card-image--right">
-                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png"
-                            alt="Vanilla OS 22.10 Kinetic" class="no-dark" />
-                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png"
-                            alt="Vanilla OS 22.10 Kinetic" class="on-dark" />
+                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png" alt="Vanilla OS 22.10 Kinetic"
+                            class="on-dark" />
                     </div>
                 </div>
             </div>

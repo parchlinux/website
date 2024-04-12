@@ -1,13 +1,11 @@
 <template>
     <div class="hero hero--big hero--no-margin">
         <div class="hero-wrapper container">
-            <img class="hero-image no-dark" src="/assets/images/backgrounds/vos-laptop-frame.svg"
-                alt="Vanilla OS 2 Orchid" />
             <img class="hero-image on-dark" src="/assets/images/backgrounds/vos-laptop-frame-dark.svg"
-                alt="Vanilla OS 2 Orchid" />
+                alt="Parch Linux" />
             <div class="hero-content">
                 <div class="hero-imageText">
-                    <img src="/assets/images/components/alpha-headline.svg" alt="Vanilla OS 2 Orchid" />
+                    <img src="/assets/images/components/alpha-headline.svg" alt="Parch Linux" />
                 </div>
             </div>
         </div>

@@ -78,11 +78,6 @@
         color: var(--text-color);
     }
 
-    /* Rules */
-    .no-dark {
-        display: none;
-    }
-
     .on-dark {
         display: initial;
     }

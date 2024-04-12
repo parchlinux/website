@@ -1,8 +1,6 @@
 <template>
     <div class="hero hero--big hero--no-margin anim--fadeIn">
         <div class="hero-wrapper container">
-            <img class="hero-image no-dark" src="/assets/images/backgrounds/vos-orchid-laptop-frame.svg"
-                alt="Vanilla OS 2 Orchid" />
             <img class="hero-image on-dark" src="/assets/images/backgrounds/vos-orchid-laptop-frame-dark.svg"
                 alt="Vanilla OS 2 Orchid" />
             <div class="hero-content">

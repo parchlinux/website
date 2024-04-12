@@ -1,8 +1,6 @@
 <template>
   <section class="hero hero--big hero--no-margin">
     <div class="hero-wrapper container">
-      <img class="hero-image onFocus no-dark" data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
       <img class="hero-image onFocus on-dark" data-focus-class="fadeInLeft"
         src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
       <article class="hero-content">
