@@ -26,17 +26,6 @@ export default function createRouterInstance(clientType: string) {
               description: "Vanilla OS is an operating system built with simplicity in mind. It's fast, lightweight, beautiful and ready for all your daily tasks.",
             },
           },
-          {
-            path: "/blog/article/:date/:slug",
-            name: "article",
-            component: () =>
-              import(/* webpackChunkName: "Article" */ "@/views/Article.vue"),
-            meta: {
-              title: "", // The title and description will be set dynamically in the component
-              description: "",
-              parent: "blog",
-            },
-          },
         ]
       },
       {
@@ -44,16 +33,6 @@ export default function createRouterInstance(clientType: string) {
         component: () =>// @ts-ignore
           import(/* webpackChunkName: "Pages" */ "@/layouts/Page.vue"),
         children: [
-          {
-            path: "/blog",
-            name: "blog",
-            component: () =>// @ts-ignore
-              import(/* webpackChunkName: "Blog" */ "@/views/Blog.vue"),
-            meta: {
-              title: "Blog",
-              description: "Check out what's happening in Vanilla OS world.",
-            },
-          },
           {
             path: "/privacy-policy",
             name: "privacy-policy",
