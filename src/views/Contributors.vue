@@ -1,20 +1,28 @@
 <template>
-    <div class="flexList anim--fadeIn">
-      <div class="text text--rich">
-        <p>Thanks ❤️ to the {{ contributors.length }} people who have contributed. </p>
-      </div>
+  <div class="flexList anim--fadeIn">
+    <div class="text text--rich">
+      <p>
+        We appreciate your interest in contributing to Parch Linux! Your efforts help us create a powerful and
+        user-friendly operating system for everyone. 💪🏿🖥
+
+        <br/>
+        <br/>
+
+        Thanks ❤️ to the {{ contributors.length }} people who have contributed.
+      </p>
     </div>
-    <div class="contributors anim--fadeIn">
+  </div>
+  <div class="contributors anim--fadeIn">
     <a v-for="contributor in contributors" :key="contributor.id" :href="contributor.profile_url">
       <div class="contributors-card">
-        <img :src="contributor.avatar_url" :alt="contributor.login" class="contributors-card-image"/>
+        <img :src="contributor.avatar_url" :alt="contributor.login" class="contributors-card-image" />
         <div class="contributors-card-info">
           <h1 ref="nameElement" class="contributors-card-name">{{ contributor.login }}</h1>
         </div>
       </div>
     </a>
   </div>
-  </template>
+</template>
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
