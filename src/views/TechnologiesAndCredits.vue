@@ -1,7 +1,7 @@
 <template>
     <div class="flexList anim--fadeIn">
         <div class="text text--rich">
-            <p>Vanilla OS is made possible by a number of open source projects and organizations. We would like to thank the
+            <p>Parch Linux is made possible by a number of open source projects and organizations. We would like to thank the
                 developers of these projects for their hard work and dedication.</p>
         </div>
         <div class="flexGrid flexGrid--2">
