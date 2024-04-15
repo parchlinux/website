@@ -5,5 +5,8 @@
     <li><router-link to="/contribution">Contribution</router-link></li>
     <li><router-link to="/wiki">Wiki</router-link></li>
     <li><router-link to="/forum">Forum</router-link></li>
-    <router-link class="btn btn--primary" to="/download">Download</router-link>
+    <router-link class="btn btn--primary" to="/download">
+        <span class="mdi material-icons-outlined">save_alt</span>
+        Download Now
+    </router-link>
 </template>
