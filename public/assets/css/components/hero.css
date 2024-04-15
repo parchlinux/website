@@ -21,6 +21,24 @@
     -webkit-text-fill-color: transparent;
 }
 
+.hero-block {
+    display: block;
+}
+
+.hero-block .text {
+    margin-top: 35px;
+}
+
+.hero-block .hero-image {
+    width: 100%;
+}
+
+.hero-block .hero-content {
+    font-size: 30px;
+    max-width: unset;
+    gap: 0;
+}
+
 .hero-wrapper {
     display: inline-flex;
     align-items: center;

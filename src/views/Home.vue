@@ -41,8 +41,8 @@
       <li :class="{ active: activeSection === 'security' }">
         <button @click="scrollTo('#security')">Security</button>
       </li>
-      <li :class="{ active: activeSection === 'play' }">
-        <button @click="scrollTo('#play')">Play</button>
+      <li :class="{ active: activeSection === 'rolling_release' }">
+        <button @click="scrollTo('#rolling_release')">Rolling Release</button>
       </li>
     </ul>
   </nav>
@@ -101,7 +101,29 @@
     </div>
   </section>
 
-  <section class="hero hero--big hero--gn-purple hero--clipped" id="play">
+  <section class="hero-block" id="rolling_release">
+    <div class="container">
+      <img class="hero-image onFocus" data-focus-class="fadeInZoom"
+        src="/assets/images/backgrounds/parch-rolling-release.png" alt="Parch Rolling Release Image" />
+      <article class="hero-content">
+        <div class="text text--spaced">
+          <p>
+            ParchLinux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
+            traditional fixed release cycles, ParchLinux delivers continuous updates, ensuring you always have access to
+            the latest software versions.
+            <br />
+            <br />
+            The rolling release model might sound daunting, but fear not! Parch Linux, built on the robust Arch Linux
+            foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community is
+            always available to assist you with any update-related questions or concerns. With Parch Linux, you can enjoy
+            the benefits of cutting-edge software without compromising on system stability.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- <section class="hero hero--big hero--gn-purple hero--clipped" id="play">
     <div class="hero-back">
       <video autoplay muted loop playsinline>
         <source src="/assets/videos/ron-lach-friends-playing-on-computer.mp4" type="video/mp4" />
@@ -132,7 +154,7 @@
         </div>
       </article>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script lang="ts">
