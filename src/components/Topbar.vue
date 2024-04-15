@@ -34,9 +34,6 @@ export default defineComponent({
     components: {TopbarNavigationLinks},
     data() {
         return {
-            isSearchActive: false,
-            searchQuery: "",
-            results: [],
             isMenuToggled: false,
         };
     },
