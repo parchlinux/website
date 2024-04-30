@@ -1,10 +1,5 @@
 <template>
-    <div class="flexList anim--fadeIn">
-        <div class="text text--rich">
-            <!-- <p> -->
-                <!-- TODO -->
-            <!-- </p> -->
-        </div>
+    <div v-if="teamItems" class="flexList anim--fadeIn">
         <div class="flexGrid">
             <card v-for="(item, index) in teamItems" :key="index" :item="item" />
         </div>
@@ -15,27 +10,34 @@
             </p>
         </div>
     </div>
+    <div v-else>
+        Loading...
+    </div>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: 'team',
-    computed: {
-        teamItems() {
-            const team = [
-                {
-                    name: 'Taha Dostifam',
-                    description: 'Front-End Developer | Content Creator.',
-                    image: 'https://avatars.githubusercontent.com/u/72092675?v=4',
-                    links: {
-                        githubUsername: 'tahadostifam',
-                        twitterUsername: 'taha__dev',
-                        website: 'https://github.com/tahadostifam',
-                    },
-                },
-            ];
+    data() {
+        return {
+            teamItems: undefined as (undefined | any)
+        }
+    },
+    mounted() {
+        this.fetchTeamItems().then((_teamItems) => {
+            this.$data.teamItems = _teamItems;
+        })
+    },
+    methods: {
+        async fetchTeamItems() {
+            const url = "https://raw.githubusercontent.com/parchlinux/GetContributors/main/json/core_members.json";
+            const teamRequest = await fetch(url)
+            const team = await teamRequest.json();
+
+            console.log(team);
+            
             const teamItems = [];
             for (const member of team) {
                 const item = {
@@ -46,62 +48,63 @@ export default defineComponent({
                     footerActions: [] as { title: string; icon: string; iconPack: string; onClick: () => void }[],
                     badges: [] as { text: string, color?: string }[],
                 };
-                if (member.links.githubUsername) {
+
+                if (member.socials.github) {
                     item.footerActions.push({
                         title: '',
                         icon: 'fa-brands fa-github',
                         iconPack: 'fa',
                         onClick: () => {
-                            window.open(`https://github.com/${member.links.githubUsername}`, '_blank');
+                            window.open(member.socials.github, '_blank');
                         },
                     });
                 }
-                if (member.links.twitterUsername) {
+                if (member.socials.twitter) {
                     item.footerActions.push({
                         title: '',
                         icon: 'fa-brands fa-twitter',
                         iconPack: 'fa',
                         onClick: () => {
-                            window.open(`https://twitter.com/${member.links.twitterUsername}`, '_blank');
+                            window.open(member.socials.twitter, '_blank');
                         },
                     });
                 }
-                if (member.links.mastodonLink) {
+                if (member.socials.donate) {
+                    item.footerActions.push({
+                        title: '',
+                        icon: 'fa-solid fa-mug-saucer',
+                        iconPack: 'fa',
+                        onClick: () => {
+                            window.open(member.socials.donate, '_blank');
+                        },
+                    });
+                }
+                if (member.socials.mastodon) {
                     item.footerActions.push({
                         title: '',
                         icon: 'fa-brands fa-mastodon',
                         iconPack: 'fa',
                         onClick: () => {
-                            window.open(member.links.mastodonLink, '_blank');
+                            window.open(member.socials.mastodon, '_blank');
                         },
                     });
                 }
-                if (member.links.website) {
+                if (member.socials.website) {
                     item.footerActions.push({
                         title: '',
                         icon: 'fa-solid fa-link',
                         iconPack: 'fa',
                         onClick: () => {
-                            window.open(member.links.website, '_blank');
+                            window.open(member.socials.website, '_blank');
                         },
                     });
                 }
-                if (member.fabricators) {
-                    item.badges.push({
-                        text: 'works @ fabricators.ltd',
-                        color: 'brown'
-                    });
-                }
-                if (member.lit) {
-                    item.badges.push({
-                        text: 'Lit Contributor',
-                    });
-                }
+
                 teamItems.push(item);
             }
+
             return teamItems;
         },
     },
 });
 </script>
-  
