@@ -74,7 +74,7 @@
 
   <section class="hero hero--inverted hero--big" id="security">
     <div class="hero-wrapper hero-wrapper-rtl container">
-      <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/icons/security.png"
+      <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/icons/security.png"
         alt="Why Parch..." />
       <article class="hero-content">
         <header class="hero-heading">

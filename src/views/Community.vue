@@ -2,7 +2,7 @@
     <div class="flexList anim--fadeIn">
         <div class="flexGrid flexGrid--2">
             <div class="flexGrid-item card card--plain card--no-padding">
-                <iframe src="https://discord.com/widget?id=1023243680829681704&theme=dark" style="width=100%" height="525"
+                <iframe src="https://discord.com/widget?id=1023243680829681704&theme=dark" style="width: 100%" height="525"
                     allowtransparency="true" frameborder="0"
                     sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>

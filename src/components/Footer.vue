@@ -20,8 +20,6 @@
                     <li><router-link :to="{ name: 'os-privacy-policy' }">OS Privacy Policy</router-link></li>
                     <li><router-link :to="{ name: 'cookies-policy' }">Use of Cookies</router-link></li>
                     <li><router-link :to="{ name: 'licenses' }">Licenses</router-link></li>
-                    <li><a href="//fabricators.ltd/en/contact.html">File a Complaint</a></li>
-                    <li><a href="//status.vanillaos.org/">System Status</a></li>
                 </ul>
                 <ul>
                     <li><b>Community</b></li>

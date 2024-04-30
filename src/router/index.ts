@@ -23,7 +23,7 @@ export default function createRouterInstance(clientType: string) {
             component: () =>// @ts-ignore
               import(/* webpackChunkName: "Home" */ "@/views/Home.vue"),
             meta: {
-              description: "Vanilla OS is an operating system built with simplicity in mind. It's fast, lightweight, beautiful and ready for all your daily tasks.",
+              description: "Parch Linux is an operating system built with simplicity in mind. It's fast, lightweight, beautiful and ready for all your daily tasks.",
             },
           },
         ]
@@ -50,7 +50,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "PrivacyPolicy" */ "@/views/OSPrivacyPolicy.vue"),
             meta: {
               title: "OS Privacy Policy",
-              description: "Check out the Privacy Policy of Vanilla OS (the operating system).",
+              description: "Check out the Privacy Policy of Parch Linux (the operating system).",
             },
           },
           {
@@ -70,7 +70,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "Licenses" */ "@/views/Licenses.vue"),
             meta: {
               title: "Licenses",
-              description: "Vanilla OS is built on top of many technologies. Check out the licenses.",
+              description: "Parch Linux is built on top of many technologies. Check out the licenses.",
             },
           },
           {
@@ -111,7 +111,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "CodeOfConduct" */ "@/views/CodeOfConduct.vue"),
             meta: {
               title: "Code of Conduct",
-              description: "Everyone must follow our Code of Conduct to be part of Vanilla OS.",
+              description: "Everyone must follow our Code of Conduct to be part of Parch Linux.",
             },
           },
           {
@@ -214,11 +214,11 @@ export default function createRouterInstance(clientType: string) {
         },
         {
           name: "og:image",
-          content: "https://parchlinux.com/img/favicon-32x32.png",
+          content: "/img/favicon-32x32.png",
         },
         {
           name: "og:url",
-          content: "https://vanillaos.org" + to.path,
+          content: "https://parchlinux.com" + to.path,
         },
         {
           name: 'twitter:card',
@@ -238,7 +238,7 @@ export default function createRouterInstance(clientType: string) {
         },
         {
           name: 'twitter:url',
-          content: 'https://vanillaos.org' + to.path,
+          content: 'https://parchlinux.com' + to.path,
         },
       ],
     });

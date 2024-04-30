@@ -2,7 +2,7 @@
     <div class="flexList anim--fadeIn">
         <div class="text text--rich">
             <p>Our developers program provides a way for developers to get access to exclusive features and support
-                while supporting the development of Vanilla OS.</p>
+                while supporting the development of Parch Linux.</p>
             <h3>What's included</h3>
         </div>
         <div class="flexGrid flexGrid--2">
@@ -47,12 +47,12 @@ export default defineComponent({
                 {
                     icon: 'build',
                     title: 'Pre-release builds',
-                    description: 'Get access to pre-release builds of Vanilla OS before they are released to the public.',
+                    description: 'Get access to pre-release builds of Parch Linux before they are released to the public.',
                 },
                 {
                     icon: 'email',
                     title: 'Weekly funnyletter',
-                    description: 'Get a weekly funnyletter with updates about the development of Vanilla OS.',
+                    description: 'Get a weekly funnyletter with updates about the development of Parch Linux .',
                 },
                 {
                     icon: 'bug_report',
@@ -72,7 +72,7 @@ export default defineComponent({
                 {
                     icon: 'verified',
                     title: 'Dedicated badge',
-                    description: 'Show your support with a dedicated badge in the Vanilla OS community.',
+                    description: 'Show your support with a dedicated badge in the Parch Linux community.',
                 },
             ],
         };
