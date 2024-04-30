@@ -121,7 +121,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "TechnologiesAndCredits" */ "@/views/TechnologiesAndCredits.vue"),
             meta: {
               title: "Technologies and Credits",
-              description: "Vanilla OS is built on top of many technologies.",
+              description: "Parch Linux is built on top of many technologies.",
             },
           },
           {
@@ -161,7 +161,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "Download" */ "@/views/NerdInfo.vue"),
             meta: {
               title: "Information for Nerds",
-              description: "What is Vanilla OS from a technical point of view.",
+              description: "What is Parch Linux from a technical point of view.",
             },
           },
         ]
