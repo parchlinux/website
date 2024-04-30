@@ -1,6 +1,6 @@
 @media (prefers-color-scheme:dark) {
     :root {
-        /* ParchLinux Colors */
+        /* Parch Linux Colors */
         --parch-color: linear-gradient(90deg, #3b82f6 0%, #382dbd 100%);
         --parch-hover-color: linear-gradient(90deg, #4075c9 0%, #291db4 100%);
         --parch-text-color: #f0f3f7;

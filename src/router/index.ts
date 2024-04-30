@@ -101,7 +101,7 @@ export default function createRouterInstance(clientType: string) {
               import(/* webpackChunkName: "Contributors" */ "@/views/Contribution.vue"),
             meta: {
               title: "Contribution",
-              description: "How to contribute in ParchLinux.",
+              description: "How to contribute in Parch Linux.",
             },
           },
           {

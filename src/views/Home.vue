@@ -84,14 +84,14 @@
         <div class="flexList">
           <div class="text text--spaced">
             <p>
-              ParchLinux inherits the renowned stability and security of Arch
+              Parch Linux inherits the renowned stability and security of Arch
               Linux. This foundation ensures your system remains protected from
               potential threats. Regular updates keep your software patched and
               secure, while the inherent nature of Arch Linux promotes a
               minimalist approach, reducing the attack surface for
-              vulnerabilities. Additionally, the supportive ParchLinux community
+              vulnerabilities. Additionally, the supportive Parch Linux community
               is always vigilant, offering assistance and keeping you informed
-              about security best practices. With ParchLinux, you can enjoy the
+              about security best practices. With Parch Linux, you can enjoy the
               freedom and power of Linux with the peace of mind that comes with
               a secure and trustworthy operating system.
             </p>
@@ -108,8 +108,8 @@
       <article class="hero-content">
         <div class="text text--spaced">
           <p>
-            ParchLinux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
-            traditional fixed release cycles, ParchLinux delivers continuous updates, ensuring you always have access to
+            Parch Linux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
+            traditional fixed release cycles, Parch Linux delivers continuous updates, ensuring you always have access to
             the latest software versions.
             <br />
             <br />
