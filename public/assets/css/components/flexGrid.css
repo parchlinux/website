@@ -5,6 +5,11 @@
     width: 100%;
 }
 
+.flexGrid.flexGrid--full {
+    gap: 0;
+    grid-template-columns: unset;
+}
+
 .flexGrid.flexGrid--2 {
     display: grid;
     gap: 20px;

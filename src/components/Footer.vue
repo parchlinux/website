@@ -38,11 +38,11 @@
                     <li><a href="https://github.com/parchlinux" target="_blank">Source Code</a></li>
                     <li><router-link :to="{ name: 'technologies-and-credits' }">Technologies and Credits</router-link></li>
                     <li><router-link :to="{ name: 'nerd-info' }">Information for Nerds</router-link></li>
+
                     <li class="spacer"></li>
+                    
                     <li><b>Get Parch OS</b></li>
                     <li><router-link :to="{ name: 'download' }">Download</router-link></li>
-                    <li><router-link :to="{ name: 'download' }">System Requirements</router-link></li>
-                    <!--<li><router-link :to="{ name: 'download' }">Release Notes</router-link></li>-->
                 </ul>
             </nav>
         </section>

@@ -101,7 +101,7 @@
     </div>
   </section>
 
-  <section class="hero-block" id="rolling_release">
+  <section class="hero hero-block" id="rolling_release">
     <div class="container">
       <img class="hero-image onFocus" data-focus-class="fadeInZoom"
         src="/assets/images/backgrounds/parch-rolling-release.png" alt="Parch Rolling Release Image" />
@@ -109,13 +109,15 @@
         <div class="text text--spaced">
           <p>
             Parch Linux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
-            traditional fixed release cycles, Parch Linux delivers continuous updates, ensuring you always have access to
+            traditional fixed release cycles, Parch Linux delivers continuous updates, ensuring you always have access
+            to
             the latest software versions.
             <br />
             <br />
             The rolling release model might sound daunting, but fear not! Parch Linux, built on the robust Arch Linux
             foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community is
-            always available to assist you with any update-related questions or concerns. With Parch Linux, you can enjoy
+            always available to assist you with any update-related questions or concerns. With Parch Linux, you can
+            enjoy
             the benefits of cutting-edge software without compromising on system stability.
           </p>
         </div>
