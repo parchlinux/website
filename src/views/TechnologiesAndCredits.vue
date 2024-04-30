@@ -22,7 +22,7 @@ export default defineComponent({
                 {
                     icon: '/assets/images/orgs/linux.svg',
                     imageAsIcon: true,
-                    to: 'https://kernel.org/',
+                    to: 'https://kernel.org',
                     extLink: true,
                     type: "clickable",
                     title: 'Linux',
@@ -58,7 +58,7 @@ export default defineComponent({
                 {
                     icon: '/assets/images/orgs/vuejs.svg',
                     imageAsIcon: true,
-                    to: 'https://vuejs.org/',
+                    to: 'https://vuejs.org',
                     extLink: true,
                     type: "clickable",
                     title: 'Vue.js',
@@ -67,7 +67,7 @@ export default defineComponent({
                 {
                     icon: '/assets/images/orgs/rust.png',
                     imageAsIcon: true,
-                    to: 'https://rust-lang.org/',
+                    to: 'https://rust-lang.org',
                     extLink: true,
                     type: "clickable",
                     title: 'Rust Lang',
@@ -76,10 +76,19 @@ export default defineComponent({
                 {
                     icon: '/assets/images/orgs/ruby.png',
                     imageAsIcon: true,
-                    to: 'https://ruby-lang.org/',
+                    to: 'https://ruby-lang.org',
                     extLink: true,
                     type: "clickable",
                     title: 'Ruby Lang',
+                    description: 'Programming language.',
+                },
+                {
+                    icon: '/assets/images/orgs/typescript.png',
+                    imageAsIcon: true,
+                    to: 'https://www.typescriptlang.org',
+                    extLink: true,
+                    type: "clickable",
+                    title: 'Typescript',
                     description: 'Programming language.',
                 },
             ],
