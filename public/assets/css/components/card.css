@@ -36,6 +36,10 @@
     --card-clickable-red-hover-bg-color: var(--accent-red-bg-color-deep);
 }
 
+.card.card--full {
+    width: 100%;
+}
+
 .card {
     box-shadow: var(--base-shadow);
     border-radius: 12px;
@@ -133,9 +137,9 @@
     font-size: 30px;
 }
 
-.card-content>.splitter,
-.card-content>.splitter>.flexList,
-.card-content>.flexList,
+.card-content > .splitter,
+.card-content > .splitter > .flexList,
+.card-content > .flexList,
 .card-content {
     height: 100%;
 }

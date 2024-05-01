@@ -37,3 +37,5 @@
 @import url('colors/dark.css');
 @import url('colors/classes.css');
 @import url('print.css');
+
+@import url('components/community-page.css');
