@@ -8,30 +8,6 @@
         <div class="flexGrid flexGrid--2">
             <card v-for="(item, index) in helpItems" :key="index" :item="item" />
         </div>
-        <div class="spacer"></div>
-        <div class="text text--rich">
-            <h3>Join the program</h3>
-            <p>The developers program will be available soon. If you are interested in joining the program, please
-                subscribe to our funnyletter to be notified when the program is available.</p>
-            <div class="card card--hz card--type-adv card--type-adv--hz card--type-funnyletter">
-                <div class="card-header">
-                    <h4>Don't miss the news</h4>
-                    <h2>Subscribe to the Newsletter</h2>
-                    <div class="btn btn--primary" @click="isNotMailNotChimpOpen = true">
-                        <span class="mdi material-icons">email</span>
-                        <span>Subscribe Now</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <div class="flexList">
-                        <div class="card-image">
-                            <img src="/assets/images/components/funnyletter.svg" alt="Subscribe to the Newsletter" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <notmail-not-chimp :is-open="isNotMailNotChimpOpen" @close="closeNotMailNotChimp" tagsId="12812945" />
-        </div>
     </div>
 </template>
   
@@ -42,7 +18,6 @@ export default defineComponent({
     name: 'developers-program',
     data() {
         return {
-            isNotMailNotChimpOpen: false,
             helpItems: [
                 {
                     icon: 'build',
@@ -76,11 +51,6 @@ export default defineComponent({
                 },
             ],
         };
-    },
-    methods: {
-        closeNotMailNotChimp() {
-            this.isNotMailNotChimpOpen = false;
-        },
-    },
+    }
 });
 </script>

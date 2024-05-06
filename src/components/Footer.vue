@@ -4,7 +4,7 @@
             <article class="siteFooter-header">
                 <div class="siteFooter-logo">
                     <router-link :to="{ name: 'home' }">
-                        <img src="/assets/images/brand/parch-full-text.png" alt="Vanilla OS" />
+                        <img src="/assets/images/brand/parch-full-text.png" alt="Parch Linux" />
                     </router-link>
                 </div>
                 <nav class="siteFooter-navigation">
@@ -28,8 +28,8 @@
                     <li><router-link to="/code-of-conduct">Code of Conduct</router-link></li>
                     <li class="spacer"></li>
                     <li><b>Support</b></li>
-                    <li><a href="//documentation.vanillaos.org/">Documentation</a></li>
-                    <li><a href="//handbook.vanillaos.org/">Handbook</a></li>
+                    <li><a href="https://parchlinux.github.io/docs">Documentation</a></li>
+                    <li><a href="https://parchlinux.github.io/handbook">Handbook</a></li>
                     <li><router-link :to="{ name: 'community' }">Community Support</router-link></li>
                 </ul>
                 <ul>

@@ -1,30 +1,23 @@
 <template>
     <div class="flexList anim--fadeIn">
         <div class="text text--rich">
-            <p>Vanilla OS is not your regular Linux distribution, we define it as a Linux based operating system
-                due to the new paradigms it introduces and the different standards it follows. This page explains
-                what Vanilla OS is and how it is different from other Linux distributions.</p>
+            <p>The Ultimate Arch Linux Spin for Tinkerers
+                If you're a Linux nerd who craves bleeding-edge software, extreme customizability, and an
+                uncompromisingly minimal design philosophy, then ParchLinux is the Arch-based distro for you. Building
+                upon the rock-solid foundations of Arch Linux, ParchLinux introduces several compelling enhancements.
+            </p>
         </div>
+
         <card v-for="(item, index) in info" :key="index" :item="item" />
-    </div>
-    <div class="hero hero--vertical hero--allow-scroll">
+
         <div class="text text--rich">
-            <h2>Still not enough?</h2>
-            <p>Well, we have more to show you.</p>
-        </div>
-        <div class="flexGrid flexGrid--fluid flexGrid--2">
-            <a href="https://docs.vanillaos.org/" class="btn btn--link btn--link-2 btn--inline">
-                <span>Read the Docs</span>
-                <span class=" mdi material-icons-outlined">open_in_new</span>
-            </a>
-            <router-link to="/community" class="btn btn--primary">
-                <span>Reach our Community</span>
-                <span class="mdi material-icons-outlined">record_voice_over</span>
-            </router-link>
+            <p>For Linux purists seeking an untamed Arch distro with thoughtful refinements tailored for power users,
+                ParchLinux strips away all distractions to put you in total control of your system. It's the perfect
+                realm for nerds who want to build their Linux experience from the ground up.</p>
         </div>
     </div>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from 'vue';
 
@@ -35,97 +28,24 @@ export default defineComponent({
             info: [
                 {
                     icon: 'extension',
-                    title: 'Modules Oriented',
-                    description: 'Vanilla OS is built on top of Debian, using a modules oriented approach to build the system.\
-                    While a common Linux distribution is built using packages, Vanilla OS is built using modules, which are\
-                    a set of different instructions such as a package, build script, or configuration file.\
-                    This approach allows us to build a system that is more flexible and easier to maintain, while\
-                    keeping it Debian compatible. In Vanilla OS we don\'t care about dependencies like other\
-                    distributions do, since the system is immutable and updates are served as a complete image.',
-                    to: 'https://images.vanillaos.org/#/',
-                    extLink: true,
-                    type: 'clickable',
+                    title: 'Arch at Its Purest',
+                    description: "ParchLinux stays true to Arch's rolling release model to provide the latest stable software the moment it's available. You get the rock-solid Pacman package manager, AUR access, and a minimal base installation that adheres strictly to the KISS philosophy. It's pure, undiluted Arch.",
                 },
                 {
-                    icon: 'lock',
-                    title: 'Immutable',
-                    description: 'Vanilla OS is an immutable operating system, which means that the main system components are\
-                    read-only and cannot be modified. This allows us to keep the system reliable and always in a\
-                    working state.',
-                    to: 'https://github.com/Vanilla-OS/ABRoot?tab=readme-ov-file',
-                    extLink: true,
-                    type: 'clickable',
+                    icon: 'extension',
+                    title: 'Vazir Matn Font Rendering',
+                    description: "ParchLinux integrates the Vazir Matn font with specialized rendering tweaks, ensuring reading text is a beautifully anti-aliased experience on modern displays.",
                 },
                 {
-                    icon: 'update',
-                    title: 'PackageKit-Less',
-                    description: 'Vanilla OS handles updates in a different way than other Linux distributions.\
-                    While common distributions use a package manager to handle updates, Vanilla OS uses an\
-                    OCI-image based approach, which means that the system is updated by downloading a new\
-                    image, using deduplication, and then applying it to the system, ensuring the user\
-                    always has the latest version of the system as a whole, and in the exact same state\
-                    as we tested it.',
+                    icon: 'extension',
+                    title: 'User-Friendly Sans Hand-Holding',
+                    description: "The notorious lack of hand-holding in Arch is maintained, but ParchLinux provides a graphical installer and basic configurations to smooth entry for new users.",
                 },
                 {
-                    icon: 'lightbulb',
-                    title: 'Smart Updates',
-                    description: 'Vanilla OS performs smart background updates, which means that the system is updated\
-                    only when it is not under heavy load. This allows us to keep the system up to date,\
-                    without affecting the user experience. To achieve so, we check for multiple\
-                    conditions, such as the system load, battery level, and network connection.',
+                    icon: 'extension',
+                    title: 'Planned FreeBSD-Style Ports ',
+                    description: "While not yet implemented, ParchLinux plans to simplify building packages from source with custom options inspired by FreeBSD's powerful ports system.",
                 },
-                {
-                    icon: 'storage',
-                    title: 'Different File System Hierarchy',
-                    description: 'Vanilla OS features a particular File System Hierarchy, while remaining compatible with\
-                    the FHS standard. The main difference is that Vanilla OS stores the system files in a different\
-                    directory, which is /.system. This is due to how ABRoot, the technology we use to provide immutability\
-                    and atomic updates, works.',
-                },
-                {
-                    icon: 'layers',
-                    title: 'Container-Based Architecture',
-                    description: 'Containers play a big role in Vanilla OS. We developed many tools and technologies to\
-                    make the system container-based, such as ABRoot, which uses OCI images to provide updates,\
-                    VSO, which is the user container-based default shell, Apx, a power utility for developers\
-                    to create system-integrated containers based on any Linux distribution, and more.\
-                    We use containers to provide a more secure and reliable system, and to make the system more\
-                    flexible and customizable for everyone.',
-                },
-                {
-                    icon: 'android',
-                    title: 'Android Compatibility',
-                    description: 'Vanilla OS is compatible with Android applications thanks to VSO, Waydroid, and F-Droid.\
-                    VSO is the Vanilla System Operator, the point of contact between the system and the user.\
-                    It allows the user to manage the system in many ways, such as installing Android applications\
-                    through our container-based Waydroid integration, and F-Droid, a free and open-source Android\
-                    application store.',
-                },
-                {
-                    icon: 'key',
-                    title: 'Sudon\'t',
-                    description: 'Vanilla OS diverges from the conventional use of sudo, it employs Polkit for\
-                    enhanced security and flexibility in permission management instead. Polkit enables a more granular approach\
-                    to permissions, ensuring a secure system environment. The decision to move away from sudo is rooted\
-                    in preventing users from executing arbitrary commands as root, a practice that poses potential security\
-                    risks. Although users retain some level of control through Polkit, the immutability of the system acts\
-                    as a safeguard, limiting potential damage by preserving the integrity of core components.',
-                },
-                {
-                    icon: 'verified',
-                    title: 'Verified Startup',
-                    description: 'Vanilla OS, together with the LIT (Linux Immutability Tools) project, has developed a tool\
-                    called FsGuard, which verifies system integrity at boot, verifying that the hashes of crucial system files\
-                    match the hashes provided with the update image. If one of these is missing, FsNotice will come into play, showing\
-                    a warning on the screen advising against proceeding, inviting the user to select the previous state.',
-                },
-                {
-                    icon: 'share',
-                    title: 'Distro-Agnostic First',
-                    description: 'Everything we do is distro-agnostic first, which means that we always try to make our\
-                    technologies and tools compatible with any Linux distribution to bring our paradigms to everyone,\
-                    they are not Vanilla OS exclusive.',
-                }
             ],
         };
     },

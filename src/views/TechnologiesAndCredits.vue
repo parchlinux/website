@@ -17,7 +17,6 @@ export default defineComponent({
     name: 'technologies-and-credits',
     data() {
         return {
-            isNotMailNotChimpOpen: false,
             credits: [
                 {
                     icon: '/assets/images/orgs/linux.svg',
@@ -93,11 +92,6 @@ export default defineComponent({
                 },
             ],
         };
-    },
-    methods: {
-        closeNotMailNotChimp() {
-            this.isNotMailNotChimpOpen = false;
-        },
     },
 });
 </script>

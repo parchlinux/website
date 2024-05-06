@@ -15,7 +15,7 @@
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="#" class="btn btn--primary">
+                        <a href="https://github.com/parchlinux/parch-iso-plasma/releases/tag/2024-04-26" class="btn btn--primary">
                             <span class="mdi material-icons-outlined">save_alt</span>
                             <span>Download Now</span>
                         </a>
@@ -36,20 +36,20 @@
                     <div class="flexList">
                         <div class="text text--rich">
                             <p>
-                                Vanilla OS 22.10 Kinetic is the current stable version of
-                                Vanilla OS. It is recommended for all users. It provides a
+                                Parch Linux 24.04 is the current stable version of
+                                Parch Linux. It is recommended for all users. It provides a
                                 stable and secure system for your daily use.
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="https://github.com/Vanilla-OS/os/releases/latest" target="_blank"
+                        <a href="https://github.com/parchlinux/parch-iso-gnome/releases/tag/2024-04-26" target="_blank"
                             class="btn btn--primary">
                             <span class="mdi material-icons">save_alt</span>
                             <span>Download Now</span>
                         </a>
                     </div>
                     <div class="card-image card-image--right">
-                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png" alt="Vanilla OS 22.10 Kinetic"
+                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png" alt="Parch Linux 24.04"
                             class="on-dark" />
                     </div>
                 </div>
@@ -85,15 +85,5 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
     name: "download",
-    data() {
-        return {
-            isNotMailNotChimpOpen: false,
-        };
-    },
-    methods: {
-        closeNotMailNotChimp() {
-            this.isNotMailNotChimpOpen = false;
-        },
-    },
 });
 </script>
