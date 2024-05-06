@@ -22,7 +22,7 @@
             </div>
             <div class="text text--dimmed">
               <small>Parch Linux works out of the box on a large set of devices,
-                <a href="https://docs.vanillaos.org/handbook/en/installation" target="_blank">
+                <a href="/">
                   learn how to install it.
                 </a>
               </small>
@@ -124,39 +124,6 @@
       </article>
     </div>
   </section>
-
-  <!-- <section class="hero hero--big hero--gn-purple hero--clipped" id="play">
-    <div class="hero-back">
-      <video autoplay muted loop playsinline>
-        <source src="/assets/videos/ron-lach-friends-playing-on-computer.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <div class="hero-wrapper container">
-      <img class="hero-image onFocus" data-focus-class="fadeInZoom" src="/assets/images/backgrounds/popular-games.svg"
-        alt="Play your favorite video games." />
-      <article class="hero-content">
-        <header class="hero-heading">
-          <h2 class="color--play-1">Play</h2>
-          <b class="color--play-2">your favorite video games.</b>
-        </header>
-        <div class="flexList">
-          <div class="text text--spaced">
-            <p>
-              We all need some fun time after a long week. From the most niche
-              of indie titles to the largest e-sports games in the market,
-              Vanilla OS is your gaming partner with support for the industry's
-              most popular game launchers and peripherals.
-            </p>
-            <p>
-              Embark on new adventures, discover new worlds, or simply relax in
-              your favorite games with zero effort. Just install your favorite
-              games, and we handle the rest.
-            </p>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section> -->
 </template>
 
 <script lang="ts">

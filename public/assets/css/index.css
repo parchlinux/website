@@ -38,4 +38,5 @@
 @import url('colors/classes.css');
 @import url('print.css');
 
-@import url('components/community-page.css');
+@import url('pages/home.css');
+@import url('pages/community.css');

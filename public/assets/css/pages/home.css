@@ -1,0 +1,5 @@
+@media screen and (max-width: 745px) {
+    .hero#security .hero-image{ 
+        width: 30px;
+    }
+}

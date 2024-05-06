@@ -14,10 +14,6 @@
                                 installing applications, and new solutions for developers.
                             </p>
                         </div>
-                        <a href="#" class="btn btn--link btn--link-2 btn--inline btn--block" disabled="true">
-                            <span>Full Changelog</span>
-                            <span class="mdi material-icons-outlined">open_in_new</span>
-                        </a>
                         <div class="spacer"></div>
                         <a href="#" class="btn btn--primary">
                             <span class="mdi material-icons-outlined">save_alt</span>
@@ -45,11 +41,6 @@
                                 stable and secure system for your daily use.
                             </p>
                         </div>
-                        <a href="https://github.com/Vanilla-OS/os/releases/latest"
-                            class="btn btn--link btn--link-2 btn--inline" target="_blank">
-                            <span>Changelog</span>
-                            <span class="mdi material-icons-outlined">open_in_new</span>
-                        </a>
                         <div class="spacer"></div>
                         <a href="https://github.com/Vanilla-OS/os/releases/latest" target="_blank"
                             class="btn btn--primary">
