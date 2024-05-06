@@ -1,5 +1,40 @@
+#context #security.hero .hero-image {
+    max-height: 80vh;
+}
+
+@media screen and (max-width: 1100px) {
+    #context .hero .hero-heading {
+        margin-top: 20px;
+    }
+
+    #context .hero .hero-content {
+        max-width: 90%;
+    }
+
+    #context .hero.hero-block .hero-content {
+        padding: 0 50px;
+    }
+
+    #context #about.hero .hero-wrapper,
+    #context #security.hero .hero-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    
+    #context #about.hero,
+    #context #security.hero {
+        max-height: auto !important;
+    }
+    
+    #context #rolling_release.hero .hero-content {
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width: 745px) {
-    .hero#security .hero-image{ 
-        width: 30px;
+    #context .hero#security .hero-image {
+        width: 300px;
     }
 }

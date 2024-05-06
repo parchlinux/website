@@ -1,5 +1,5 @@
 <template>
-  <section class="hero hero--big hero--no-margin">
+  <section class="hero hero--big hero--no-margin" id="intro">
     <div class="hero-wrapper container">
       <img class="hero-image onFocus on-dark" data-focus-class="fadeInLeft"
         src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
@@ -47,83 +47,85 @@
     </ul>
   </nav>
 
-  <section class="hero hero--inverted hero--big" id="about">
-    <div class="hero-wrapper container">
-      <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/parch-neofetch.png"
-        alt="Why Parch..." />
-      <article class="hero-content">
-        <header class="hero-heading">
-          <h2 class="color--work-1">About</h2>
-          <b class="color--work-2">Your dreaming distro.</b>
-        </header>
-        <div class="flexList">
+  <div id="context">
+    <section class="hero hero--inverted hero--big" id="about">
+      <div class="hero-wrapper container">
+        <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/parch-neofetch.png"
+          alt="Why Parch..." />
+        <article class="hero-content">
+          <header class="hero-heading">
+            <h2 class="color--work-1">About</h2>
+            <b class="color--work-2">Your dreaming distro.</b>
+          </header>
+          <div class="flexList">
+            <div class="text text--spaced">
+              <p>
+                Unleash the potential of Linux with ease. This user-friendly
+                distro built on Arch Linux offers a beautiful and intuitive
+                experience, perfect for beginners and veterans alike. Dive into
+                the world of Linux with a smooth installation process, stunning
+                visuals, and a lightweight design that keeps your system running
+                like a dream.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  
+    <section class="hero hero--inverted hero--big" id="security">
+      <div class="hero-wrapper hero-wrapper-rtl container">
+        <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/icons/security.png"
+          alt="Why Parch..." />
+        <article class="hero-content">
+          <header class="hero-heading">
+            <h2 class="color--work-1">Security</h2>
+            <b class="color--work-2">Build on trust.</b>
+          </header>
+          <div class="flexList">
+            <div class="text text--spaced">
+              <p>
+                Parch Linux inherits the renowned stability and security of Arch
+                Linux. This foundation ensures your system remains protected from
+                potential threats. Regular updates keep your software patched and
+                secure, while the inherent nature of Arch Linux promotes a
+                minimalist approach, reducing the attack surface for
+                vulnerabilities. Additionally, the supportive Parch Linux community
+                is always vigilant, offering assistance and keeping you informed
+                about security best practices. With Parch Linux, you can enjoy the
+                freedom and power of Linux with the peace of mind that comes with
+                a secure and trustworthy operating system.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  
+    <section class="hero hero-block" id="rolling_release">
+      <div class="container">
+        <img class="hero-image onFocus" data-focus-class="fadeInZoom"
+          src="/assets/images/backgrounds/parch-rolling-release.png" alt="Parch Rolling Release Image" />
+        <article class="hero-content">
           <div class="text text--spaced">
             <p>
-              Unleash the potential of Linux with ease. This user-friendly
-              distro built on Arch Linux offers a beautiful and intuitive
-              experience, perfect for beginners and veterans alike. Dive into
-              the world of Linux with a smooth installation process, stunning
-              visuals, and a lightweight design that keeps your system running
-              like a dream.
+              Parch Linux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
+              traditional fixed release cycles, Parch Linux delivers continuous updates, ensuring you always have access
+              to
+              the latest software versions.
+              <br />
+              <br />
+              The rolling release model might sound daunting, but fear not! Parch Linux, built on the robust Arch Linux
+              foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community is
+              always available to assist you with any update-related questions or concerns. With Parch Linux, you can
+              enjoy
+              the benefits of cutting-edge software without compromising on system stability.
             </p>
           </div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="hero hero--inverted hero--big" id="security">
-    <div class="hero-wrapper hero-wrapper-rtl container">
-      <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/icons/security.png"
-        alt="Why Parch..." />
-      <article class="hero-content">
-        <header class="hero-heading">
-          <h2 class="color--work-1">Security</h2>
-          <b class="color--work-2">Build on trust.</b>
-        </header>
-        <div class="flexList">
-          <div class="text text--spaced">
-            <p>
-              Parch Linux inherits the renowned stability and security of Arch
-              Linux. This foundation ensures your system remains protected from
-              potential threats. Regular updates keep your software patched and
-              secure, while the inherent nature of Arch Linux promotes a
-              minimalist approach, reducing the attack surface for
-              vulnerabilities. Additionally, the supportive Parch Linux community
-              is always vigilant, offering assistance and keeping you informed
-              about security best practices. With Parch Linux, you can enjoy the
-              freedom and power of Linux with the peace of mind that comes with
-              a secure and trustworthy operating system.
-            </p>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="hero hero-block" id="rolling_release">
-    <div class="container">
-      <img class="hero-image onFocus" data-focus-class="fadeInZoom"
-        src="/assets/images/backgrounds/parch-rolling-release.png" alt="Parch Rolling Release Image" />
-      <article class="hero-content">
-        <div class="text text--spaced">
-          <p>
-            Parch Linux embraces the rolling release model, keeping you on the cutting edge of technology. Unlike
-            traditional fixed release cycles, Parch Linux delivers continuous updates, ensuring you always have access
-            to
-            the latest software versions.
-            <br />
-            <br />
-            The rolling release model might sound daunting, but fear not! Parch Linux, built on the robust Arch Linux
-            foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community is
-            always available to assist you with any update-related questions or concerns. With Parch Linux, you can
-            enjoy
-            the benefits of cutting-edge software without compromising on system stability.
-          </p>
-        </div>
-      </article>
-    </div>
-  </section>
+        </article>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script lang="ts">

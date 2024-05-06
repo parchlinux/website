@@ -1,8 +1,3 @@
-/* Custom styles for a special hero */
-#security.hero .hero-image {
-    max-height: 80vh;
-}
-
 /* Public styles for hero component */
 
 .hero {
@@ -111,10 +106,6 @@
     font-weight: 400;
     font-size: 43px;
     color: var(--hero-heading-sub-color);
-}
-
-.hero--big {
-    height: calc(100vh - 81px);
 }
 
 .hero--inverted .hero-content {

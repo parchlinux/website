@@ -157,7 +157,7 @@
     transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 1100px) {
     .topBar-wrapper {
         gap: 10px;
     }
