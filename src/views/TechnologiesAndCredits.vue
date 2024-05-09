@@ -37,7 +37,7 @@ export default defineComponent({
                     description: 'A simple, lightweight linux distribution',
                 },
                 {
-                    icon: '/assets/images/orgs/gnome.svg',
+                    icon: '/assets/images/orgs/gnome.png',
                     imageAsIcon: true,
                     to: 'https://gnome.org',
                     extLink: true,

@@ -1,7 +1,7 @@
 <template>
     <div id="community" class="flexList anim--fadeIn">
         <div class="card card--full youtube">
-            <div class="card-video-grid">
+            <!-- <div class="card-video-grid"> -->
                 <div>
                     <div class="card-header">
                         <h3>
@@ -19,20 +19,20 @@
                                 Don't forget to leave us a comment and let us know what you think of our videos!
                             </p>
                         </div>
-                        <a class="btn btn--primary" href="https://google.com" target="_blank">
+                        <a class="btn btn--primary" href="https://www.youtube.com/@bssfoundation" target="_blank">
                             <span>Subscribe on youtube!</span>
                             <span class="mdi material-icons">arrow_forward</span>
                         </a>
                     </div>
                 </div>
-                <div class="card-video">
-                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
-                </div>
-            </div>
+                <!-- <div class="card-video">
+                    <iframe src=""></iframe>
+                </div> -->
+            <!-- </div> -->
         </div>
 
         <div class="flexGrid flexGrid--3">
-            <a href="https://google.com" class="card discord">
+            <a href="https://discord.gg/9RW5cRByAM" class="card discord">
                 <div class="card-header">
                     <h3>
                         <span class="fa fa-brands fa-discord"></span>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://google.com" class="card mostodon">
+            <a href="https://floss.social/@bssfoss" class="card mostodon">
                 <div class="card-header">
                     <h3>
                         <span class="fa fa-brands fa-mastodon"></span>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://google.com" class="card telegram">
+            <a href="https://t.me/parchlinux" class="card telegram">
                 <div class="card-header">
                     <h3>
                         <span class="fa fa-brands fa-telegram"></span>

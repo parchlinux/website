@@ -41,7 +41,7 @@
 
                     <li class="spacer"></li>
                     
-                    <li><b>Get Parch OS</b></li>
+                    <li><b>Get Parch Linux</b></li>
                     <li><router-link :to="{ name: 'download' }">Download</router-link></li>
                 </ul>
             </nav>
