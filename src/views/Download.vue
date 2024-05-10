@@ -9,13 +9,11 @@
                     <div class="splitter-item flexList">
                         <div class="text text--rich">
                             <p>
-                                Be ready for the next version of Parch Linux. You will find
-                                greater stability, a secure system, a simplified method for
-                                installing applications, and new solutions for developers.
+                                Parch Linux Plasma is the <strong>FlagShip</strong> Version of Parch Linux featuring KDE plasma Desktop.
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="https://github.com/parchlinux/parch-iso-plasma/releases/tag/2024-04-26" class="btn btn--primary">
+                        <a href="https://github.com/parchlinux/parch-iso-plasma/releases/latest" class="btn btn--primary">
                             <span class="mdi material-icons-outlined">save_alt</span>
                             <span>Download Now</span>
                         </a>
@@ -36,20 +34,19 @@
                     <div class="flexList">
                         <div class="text text--rich">
                             <p>
-                                Parch Linux 24.04 is the current stable version of
-                                Parch Linux. It is recommended for all users. It provides a
-                                stable and secure system for your daily use.
+                                Parch Linux Gnome is a version of ParchLinux featuring Gnome Desktop environment
+                                instead of kde plasma.
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="https://github.com/parchlinux/parch-iso-gnome/releases/tag/2024-04-26" target="_blank"
+                        <a href="https://github.com/parchlinux/Parch-iso-gnome/releases/latest" target="_blank"
                             class="btn btn--primary">
                             <span class="mdi material-icons">save_alt</span>
                             <span>Download Now</span>
                         </a>
                     </div>
                     <div class="card-image card-image--right">
-                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png" alt="Parch Linux 24.04"
+                        <img src="/assets/images/backgrounds/parch-gnome-desktop.png" alt="Parch Linux Gnome"
                             class="on-dark" />
                     </div>
                 </div>
