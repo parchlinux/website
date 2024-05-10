@@ -14,6 +14,7 @@
     background: var(--hero-heading-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 5px;
 }
 
 .hero-block {
