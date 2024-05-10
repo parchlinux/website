@@ -18,7 +18,6 @@
                     <li><b>Legal and More</b></li>
                     <li><router-link :to="{ name: 'privacy-policy' }">Privacy Policy</router-link></li>
                     <li><router-link :to="{ name: 'os-privacy-policy' }">OS Privacy Policy</router-link></li>
-                    <li><router-link :to="{ name: 'cookies-policy' }">Use of Cookies</router-link></li>
                     <li><router-link :to="{ name: 'licenses' }">Licenses</router-link></li>
                 </ul>
                 <ul>
