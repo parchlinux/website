@@ -35,8 +35,6 @@ export default defineComponent({
             const url = "https://raw.githubusercontent.com/parchlinux/GetContributors/main/json/core_members.json";
             const teamRequest = await fetch(url)
             const team = await teamRequest.json();
-
-            console.log(team);
             
             const teamItems = [];
             for (const member of team) {
