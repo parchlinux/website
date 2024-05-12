@@ -1,8 +1,8 @@
 <template>
   <section class="hero hero--big hero--no-margin" id="intro">
     <div class="hero-wrapper container">
-      <img class="hero-image onFocus on-dark" data-focus-class="fadeInLeft"
-        src="/assets/images/backgrounds/parch-desktop-hero.png" alt="Parch Linux" />
+      <img class="hero-image on-dark" src="/assets/images/backgrounds/parch-desktop-hero.png"
+        alt="Parch Linux" />
       <article class="hero-content">
         <header class="hero-heading">
           <h2>Parch Linux <span>is your next Operating System.</span></h2>
@@ -50,8 +50,8 @@
   <div id="context">
     <section class="hero hero--inverted hero--big" id="about">
       <div class="hero-wrapper container">
-        <img class="hero-image onFocus" data-focus-class="fadeInRight" src="/assets/images/backgrounds/parch-neofetch.png"
-          alt="Why Parch..." />
+        <img class="hero-image onFocus" data-focus-class="fadeInRight"
+          src="/assets/images/backgrounds/parch-neofetch.png" alt="Why Parch..." />
         <article class="hero-content">
           <header class="hero-heading">
             <h2 class="color--work-1">About</h2>
@@ -72,7 +72,7 @@
         </article>
       </div>
     </section>
-  
+
     <section class="hero hero--inverted hero--big" id="security">
       <div class="hero-wrapper hero-wrapper-rtl container">
         <img class="hero-image onFocus" data-focus-class="fadeInLeft" src="/assets/images/icons/security.png"
@@ -101,7 +101,7 @@
         </article>
       </div>
     </section>
-  
+
     <section class="hero hero-block" id="rolling_release">
       <div class="container">
         <img class="hero-image onFocus" data-focus-class="fadeInZoom"
@@ -116,7 +116,8 @@
               <br />
               <br />
               The rolling release model might sound daunting, but fear not! Parch Linux, built on the robust Arch Linux
-              foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community is
+              foundation, is meticulously maintained to ensure update stability. Additionally, our supportive community
+              is
               always available to assist you with any update-related questions or concerns. With Parch Linux, you can
               enjoy
               the benefits of cutting-edge software without compromising on system stability.

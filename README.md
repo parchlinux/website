@@ -4,4 +4,9 @@
 Forked From [Vanilla OS website](https://github.com/vanilla-os).
 
 
-No details for now.
+## Setup Development
+```bash 
+npm install
+npm run dev
+
+```

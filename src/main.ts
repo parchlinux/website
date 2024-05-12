@@ -6,7 +6,6 @@ import createRouterInstance from './router'
 import ComponentLoader from "@/components/loader";
 
 export function createApp(clientType: string) {
-    console.log('creating new app instance')
     const app = createSSRApp(App)
     const head = createHead()
     const router = createRouterInstance(clientType)
