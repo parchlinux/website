@@ -13,7 +13,7 @@
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="http://mirror.parchlinux.com/plasma/Parchlinux-Plasma-latest.iso" class="btn btn--primary">
+                        <a href="http://mirror.parchlinux.com/plasma/" class="btn btn--primary">
                             <span class="mdi material-icons-outlined">save_alt</span>
                             <span>Download Now</span>
                         </a>
@@ -39,7 +39,7 @@
                             </p>
                         </div>
                         <div class="spacer"></div>
-                        <a href="http://mirror.parchlinux.com/gnome/Parchlinux-Gnome-latest.iso" target="_blank"
+                        <a href="http://mirror.parchlinux.com/gnome/" target="_blank"
                             class="btn btn--primary">
                             <span class="mdi material-icons">save_alt</span>
                             <span>Download Now</span>
