@@ -19,6 +19,7 @@
                     <li><router-link :to="{ name: 'privacy-policy' }">Privacy Policy</router-link></li>
                     <li><router-link :to="{ name: 'os-privacy-policy' }">OS Privacy Policy</router-link></li>
                     <li><router-link :to="{ name: 'licenses' }">Licenses</router-link></li>
+                    <li><router-link :to="{ name: 'whitepaper' }">White Paper</router-link></li>
                 </ul>
                 <ul>
                     <li><b>Community</b></li>
