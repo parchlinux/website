@@ -32,6 +32,16 @@ export default function createRouterInstance(clientType: string) {
           import(/* webpackChunkName: "Pages" */ "@/layouts/Page.vue"),
         children: [
           {
+            path: "/whitepaper",
+            name: "whitepaper",
+            component: () =>// @ts-ignore
+              import(/* webpackChunkName: "PrivacyPolicy" */ "@/views/Whitepaper.vue"),
+            meta: {
+              title: "Whitepaper",
+              description: "Everything about Parch Linux.",
+            },
+          },
+          {
             path: "/privacy-policy",
             name: "privacy-policy",
             component: () =>// @ts-ignore
