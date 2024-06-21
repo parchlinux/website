@@ -15,6 +15,10 @@
             </article>
             <nav class="siteFooter-sitemap" aria-label="sitemap">
                 <ul>
+                    <li><b>Get Parch Linux</b></li>
+                    <li><router-link :to="{ name: 'download' }">Download</router-link></li>
+                    <li class="spacer"></li>
+                
                     <li><b>Legal and More</b></li>
                     <li><router-link :to="{ name: 'privacy-policy' }">Privacy Policy</router-link></li>
                     <li><router-link :to="{ name: 'os-privacy-policy' }">OS Privacy Policy</router-link></li>
@@ -39,10 +43,9 @@
                     <li><router-link :to="{ name: 'technologies-and-credits' }">Technologies and Credits</router-link></li>
                     <li><router-link :to="{ name: 'nerd-info' }">Information for Nerds</router-link></li>
 
-                    <li class="spacer"></li>
                     
-                    <li><b>Get Parch Linux</b></li>
-                    <li><router-link :to="{ name: 'download' }">Download</router-link></li>
+                    
+                    
                 </ul>
             </nav>
         </section>
