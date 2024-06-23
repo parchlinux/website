@@ -1,5 +1,5 @@
 <template>
-    <footer class="siteFooter ">
+    <footer class="siteFooter">
         <section class="siteFooter-wrapper container">
             <article class="siteFooter-header">
                 <div class="siteFooter-logo">

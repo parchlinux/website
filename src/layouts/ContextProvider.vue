@@ -1,6 +1,6 @@
 <template>
     <div>
-        <topbar />
+        <Topbar />
         <main class="page">
             <div class="page-wrapper container">
                 <section class="page-header">
@@ -18,15 +18,22 @@
                 </section>
             </div>
         </main>
-        <site-footer />
+        <Footer />
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
+import Footer from '@/components/Footer.vue';
+import Topbar from '@/components/Topbar.vue';
+
 export default defineComponent({
-    name: "layout-page",
+    name: "context-provider",
+    components: {
+        Topbar,
+        Footer
+    },
     computed: {
         parentRoute() {
             if (!this.$route.meta.parent) return null;
