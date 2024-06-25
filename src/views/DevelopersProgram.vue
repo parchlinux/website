@@ -13,9 +13,11 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import card from "@/components/Card.vue"
 
 export default defineComponent({
     name: 'developers-program',
+    components: {card},
     data() {
         return {
             helpItems: [

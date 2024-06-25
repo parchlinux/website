@@ -20,9 +20,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import card from "@/components/Card.vue"
+
 
 export default defineComponent({
     name: 'technologies-and-credits',
+    components: {card},
     data() {
         return {
             info: [
