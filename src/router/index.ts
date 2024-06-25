@@ -13,26 +13,26 @@ const router = createRouter({
     {
       path: '/',
       component: () =>// @ts-ignore
-        import("../layouts/Default.vue"),
+        import("@/layouts/Default.vue"),
       children: defaultPages
     },
     {
       path: '/',
       component: () =>// @ts-ignore
-        import("../layouts/ContextProvider.vue"),
+        import("@/layouts/ContextProvider.vue"),
       children: contextPages
     },
     {
       path: '/:notFound',
       name: 'not-found',
       component: () =>// @ts-ignore
-        import("../layouts/ContextProvider.vue"),
+        import("@/layouts/ContextProvider.vue"),
       children: [
         {
           path: "",
           name: "404",
           component: () =>// @ts-ignore
-            import("../views/404.vue"),
+            import("@/views/404.vue"),
           meta: {
             title: "404 - Page not found",
             description: "The page you are looking for does not exist.",
