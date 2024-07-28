@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://floss.social/@bssfoss" class="card mostodon">
+            <a href="https://ieji.de/@parchlinux" class="card mostodon">
                 <div class="card-header">
                     <h3>
                         <span class="fa fa-brands fa-mastodon"></span>
