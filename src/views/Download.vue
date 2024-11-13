@@ -9,7 +9,7 @@
                     <div class="splitter-item flexList">
                         <div class="text text--rich">
                             <p>
-                                Parch Linux Plasma is the <strong>FlagShip</strong> Version of Parch Linux featuring KDE plasma Desktop.
+                                Parch Linux Plasma is the <strong>Flagship</strong> Version of Parch Linux featuring KDE Plasma Desktop.
                             </p>
                         </div>
                         <div class="spacer"></div>
@@ -35,7 +35,7 @@
                         <div class="text text--rich">
                             <p>
                                 Parch Linux Gnome is a version of ParchLinux featuring Gnome Desktop environment
-                                instead of kde plasma.
+                                instead of KDE Plasma.
                             </p>
                         </div>
                         <div class="spacer"></div>
