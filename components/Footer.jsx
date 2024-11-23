@@ -23,7 +23,7 @@ export function Footer() {
             <Link href="https://bsky.app/profile/parchlinux.com">
               <SiBluesky className="w-4 h-4" />
             </Link>
-            <Link href="https://ieji.de/@parchlinux">
+            <Link href="https://ieji.de/@parchlinux" rel="me">
               <SiMastodon className="w-4 h-4" />
             </Link>
             <Link href="https://x.com/parchgnulinux">
