@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 yarn.lock
+bun.lockb
 node_modules
 .DS_Store
 dist/
@@ -17,6 +18,8 @@ coverage
 
 /cypress/videos/
 /cypress/screenshots/
+
+.next
 
 # Editor directories and files
 .vscode/*

@@ -19,7 +19,7 @@ export function Footer() {
             <Link href="/whitepaper">{t('footer.whitepaper')}</Link>
             <Link href="/tos">{t('footer.termsOfService')}</Link>
           </nav>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap justify-center items-center gap-4">
             <Link href="https://bsky.app/profile/parchlinux.com">
               <SiBluesky className="w-4 h-4" />
             </Link>
