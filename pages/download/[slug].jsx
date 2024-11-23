@@ -31,8 +31,8 @@ export default function DownloadPage({ item }) {
 
   return (
     <main className="px-4 py-12 md:py-24 lg:py-32">
-      <div className="container mx-auto px-4 md:px-6 space-y-8 text-center">
-        <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">{item.text[lang]}</h2>
+      <div className="container mx-auto px-4 md:px-6 space-y-8">
+        <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl text-center">{item.text[lang]}</h2>
         <Image src={item.img} width={800} height={450} className="mx-auto rounded-xl border shadow" />
         <Card className="max-w-[50rem] mx-auto p-8 bg-muted text-lg">
           <Details
@@ -42,20 +42,22 @@ export default function DownloadPage({ item }) {
             hash={item.hash}
             maintainer={item.maintainer} />
         </Card>
-        {item.changelog && (
-          <Button asChild variant="outline" size="lg" className="rounded-full text-lg py-6 inline-flex me-4">
-            <Link href={item.changelog} download>
-              <SiGitlab className="h-4 w-4" />
-              {t('details.changelog')}
+        <div className="flex justify-center">
+          {item.changelog && (
+            <Button asChild variant="outline" size="lg" className="rounded-full text-lg py-6 flex me-4">
+              <Link href={item.changelog} download>
+                <SiGitlab className="h-4 w-4" />
+                {t('details.changelog')}
+              </Link>
+            </Button>
+          )}
+          <Button asChild size="lg" className="rounded-full text-lg py-6 flex">
+            <Link href={item.href} download>
+              <Download className="h-4 w-4" />
+              {t('details.download', item.text[lang])}
             </Link>
           </Button>
-        )}
-        <Button asChild size="lg" className="rounded-full text-lg py-6 inline-flex">
-          <Link href={item.href} download>
-            <Download className="h-4 w-4" />
-            {t('details.download', item.text[lang])}
-          </Link>
-        </Button>
+        </div>
       </div>
     </main>
   )
