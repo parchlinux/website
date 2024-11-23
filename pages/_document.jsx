@@ -8,6 +8,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="/parch.svg" type="image/svg+xml" />
       </Head>
       <body>
         <Main />
