@@ -25,6 +25,14 @@ const downloadData = [
         img: '/plasma.jpeg',
         href: '/download/plasma',
       },
+      {
+        text: {
+          en: 'COSMIC Version',
+          fa: 'نسخهٔ کازمیک',
+        },
+        img: '/cosmic.jpeg',
+        href: '/download/cosmic',
+      },
     ]
   },
   {
@@ -52,14 +60,6 @@ const downloadData = [
         },
         img: '/xfce.jpeg',
         href: '/download/xfce',
-      },
-      {
-        text: {
-          en: 'COSMIC Version',
-          fa: 'نسخهٔ کازمیک',
-        },
-        img: '/cosmic.jpeg',
-        href: '/download/cosmic',
       },
     ]
   },

@@ -62,7 +62,7 @@ const detailsData = {
     build_date: '2024-09-16',
     size: '1.9 GiB',
     hash: '5141429093026d2ca05d9ea97e32260d',
-    maintainer: 'Sohrab Behdani'
+    maintainer: null
   },
   lxqt: {
     text: {

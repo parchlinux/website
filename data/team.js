@@ -185,6 +185,20 @@ const teamData = [
       "mastodon": "https://mas.to/@meshya",
       "donate": "https://daramet.com/meshya"
     }
+  },
+  {
+    "name": {
+      en: "Mahdi Gholamhosseini",
+      fa: "مهدی غلام‌حسینی"
+    },
+    "stack": {
+      en: "Web",
+      fa: "طراح وب"
+    },
+    "image": "https://avatars.githubusercontent.com/m6hdix",
+    "socials": {
+      "github": "https://github.com/m6hdix",
+    }
   }
 ]
 

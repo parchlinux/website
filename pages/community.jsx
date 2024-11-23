@@ -35,28 +35,28 @@ export default function Community() {
           <CommunityCard
             icon={Users}
             caption={t('community.caption.forum')}
-            url="#"
+            url="https://forum.parchlinux.com"
             link={t('community.link.forum')}
             text={t('community.text.forum')}
             arrow={arrow} />
           <CommunityCard
             icon={Book}
             caption={t('community.caption.wiki')}
-            url="#"
+            url="https://wiki.parchlinux.com"
             link={t('community.link.wiki')}
             text={t('community.text.wiki')}
             arrow={arrow} />
           <CommunityCard
             icon={MessageCircle}
             caption={t('community.caption.chat')}
-            url="#"
+            url="https://matrix.to/#/%23parch:matrix.org"
             link={t('community.link.chat')}
             text={t('community.text.chat')}
             arrow={arrow} />
           <CommunityCard
             icon={Code}
             caption={t('community.caption.contrib')}
-            url="#"
+            url="https://git.parchlinux.com"
             link={t('community.link.contrib')}
             text={t('community.text.contrib')}
             arrow={arrow} />
