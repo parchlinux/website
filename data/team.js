@@ -192,12 +192,13 @@ const teamData = [
       fa: "مهدی غلام‌حسینی"
     },
     "stack": {
-      en: "Web",
-      fa: "طراح وب"
+      en: "Web Developer",
+      fa: "توسعه‌دهنده وب"
     },
     "image": "https://avatars.githubusercontent.com/m6hdix",
     "socials": {
       "github": "https://github.com/m6hdix",
+      "donate": "https://daramet.com/m6hdix"
     }
   }
 ]
