@@ -34,7 +34,7 @@ export default function DownloadPage({ item }) {
       <div className="container mx-auto px-4 md:px-6 space-y-8">
         <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl text-center">{item.text[lang]}</h2>
         <Image src={item.img} width={800} height={450} className="mx-auto rounded-xl border shadow" />
-        <Card className="max-w-[50rem] mx-auto p-8 bg-muted text-lg">
+        <Card className="max-w-[50rem] mx-auto p-8 bg-muted text-lg overflow-auto">
           <Details
             text={item.text[lang]}
             build_date={item.build_date}
