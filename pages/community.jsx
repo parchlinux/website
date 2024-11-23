@@ -49,7 +49,7 @@ export default function Community() {
           <CommunityCard
             icon={MessageCircle}
             caption={t('community.caption.chat')}
-            url="https://matrix.to/#/%23parch:matrix.org"
+            url="https://matrix.to/#/%23parch:bsd.cafe"
             link={t('community.link.chat')}
             text={t('community.text.chat')}
             arrow={arrow} />
