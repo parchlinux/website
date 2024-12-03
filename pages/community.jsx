@@ -2,16 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader } from "@/components/ui/card";
 import { SiGitlab } from "@icons-pack/react-simple-icons";
 import { useTranslation } from "@/utils/translation";
+import { useState } from "react";
 
 import communityData from "@/data/community";
-import { useCallback, useEffect, useState } from "react";
 
 export default function Community() {
   const { t, lang } = useTranslation();
   const [apps, setApps] = useState(communityData.apps);
 
   const search = q => {
-    setApps(communityData.apps.filter(app => JSON.stringify(app).toLowerCase().includes(q)))
+    setApps(communityData.apps.filter(app => (
+      app.name[lang].toLowerCase().includes(q) ||
+      app.desc[lang].toLowerCase().includes(q) ||
+      app.cat[lang].toLowerCase().includes(q)
+    )))
   }
 
   return (
@@ -22,13 +26,13 @@ export default function Community() {
         </h2>
         <div className="my-12">
           <input type="search"
-            className="bg-background rounded-full border shadow-lg p-3 block mx-auto w-[40rem] max-w-full"
+            className="bg-background rounded-full border shadow-lg px-5 py-3 block mx-auto w-[40rem] max-w-full"
             placeholder={t("community.search")}
             onInput={(e) => search(e.target.value.trim().toLowerCase())} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {apps.map(app => (
-            <Card>
+            <Card className="animate-in fade-in zoom-in duration-300">
               <CardHeader>
                 <div className="flex gap-2">
                   <div className="grow space-y-2">

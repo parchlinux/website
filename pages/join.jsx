@@ -6,7 +6,7 @@ import Link from "next/link"
 import { SiBluesky, SiDiscord, SiMastodon, SiTelegram, SiX } from "@icons-pack/react-simple-icons";
 
 const JoinCard = ({ icon: Icon, caption, link, text, url, arrow: Arrow }) => (
-  <Card>
+  <Card className="animate-in fade-in zoom-in duration-300">
     <CardHeader>
       <div className="flex gap-4 justify-between">
         <CardTitle>

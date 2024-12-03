@@ -15,7 +15,7 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {
             features.map(({ title, desc, icon: Icon }) => (
-              <Card>
+              <Card className="animate-in fade-in zoom-in duration-300">
                 <CardHeader>
                   <Icon size={72} className="mx-auto mb-4 stroke-muted-foreground" />
                   <CardTitle><h2 className="text-center text-2xl">{title[lang]}</h2></CardTitle>
