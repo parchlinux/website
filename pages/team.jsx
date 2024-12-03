@@ -17,7 +17,7 @@ export default function Team() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {team.map(member => (
-            <Card>
+            <Card className="animate-in fade-in zoom-in duration-300">
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <img

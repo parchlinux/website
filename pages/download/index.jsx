@@ -22,7 +22,7 @@ export default function DownloadPage() {
               </div>
               <div className="grow flex flex-wrap max-xl:justify-center gap-4">
                 {category.links.map(link => (
-                  <Card className="p-4 space-y-4">
+                  <Card className="p-4 space-y-4 animate-in fade-in zoom-in duration-300">
                     <Image className="rounded-md border" src={link.img} width={320} height={180} style={{ height: 180 }} />
                     <div className="flex justify-between items-center">
                       <strong>{link.text[lang]}</strong>

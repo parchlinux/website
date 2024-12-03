@@ -13,6 +13,7 @@ export function Footer() {
             <Link href="/features">{t('navigation.features')}</Link>
             <Link href="/download">{t('navigation.download')}</Link>
             <Link href="/community">{t('navigation.community')}</Link>
+            <Link href="/join">{t('navigation.join')}</Link>
             <Link href="https://blog.parchlinux.com">{t('navigation.blog')}</Link>
             <Link href="/team">{t('navigation.team')}</Link>
             <Link href="/privacy">{t('footer.privacyPolicy')}</Link>
