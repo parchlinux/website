@@ -26,7 +26,7 @@ export default function Community() {
             placeholder={t("community.search")}
             onInput={(e) => search(e.target.value.trim().toLowerCase())} />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {apps.map(app => (
             <Card>
               <CardHeader>
