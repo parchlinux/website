@@ -36,7 +36,10 @@ export default {
 
   community: {
     title: 'Parch Linux Community Software',
-    search: 'Search apps...'
+    search: 'Search apps...',
+    url: 'URL',
+    repo: 'Repository',
+    no_result: 'No result :('
   },
 
   join: {

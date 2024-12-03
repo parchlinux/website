@@ -1,5 +1,3 @@
-import { marked } from "marked"
-
 const en = `
 # OS Privacy Policy
 Check out the Privacy Policy of Parch Linux (the operating system).
@@ -37,7 +35,4 @@ const fa = `
 از آنجا که هیچ اطلاعاتی جمع‌آوری نمی‌شود، هیچ اطلاعاتی نیز محافظت نمی‌شود.
 `
 
-export default {
-  en: marked.parse(en),
-  fa: marked.parse(fa)
-}
+export default { en, fa }
