@@ -1,5 +1,3 @@
-import { marked } from "marked"
-
 const en = `
 # Terms of Service
 
@@ -64,7 +62,4 @@ const fa = `
 برای سوالات در مورد این شرایط خدمات، لطفاً با ما یا انجمن پارچ لینوکس تماس بگیرید.
 `
 
-export default {
-  en: marked.parse(en),
-  fa: marked.parse(fa)
-}
+export default { en, fa }
