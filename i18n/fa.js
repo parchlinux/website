@@ -17,6 +17,7 @@ export default {
   navigation: {
     blog: 'بلاگ',
     community: 'جامعه',
+    join: 'پیوستن',
     download: 'دانلود',
     features: 'امکانات',
     team: 'تیم',
@@ -34,6 +35,12 @@ export default {
   },
 
   community: {
+    title: 'برنامه‌های جامعه پارچ لینوکس',
+    search: 'جستجوی برنامه‌ها...'
+  },
+
+
+  join: {
     title: 'به جامعهٔ ما بپیوندید',
     caption: {
       forum: 'فروم',

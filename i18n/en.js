@@ -17,6 +17,7 @@ export default {
   navigation: {
     blog: 'Blog',
     community: 'Community',
+    join: 'Join',
     download: 'Download',
     features: 'Features',
     team: 'Team',
@@ -34,6 +35,11 @@ export default {
   },
 
   community: {
+    title: 'Parch Linux Community Software',
+    search: 'Search apps...'
+  },
+
+  join: {
     title: 'Join Our Community',
     caption: {
       forum: 'Forums',
