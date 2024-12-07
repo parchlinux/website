@@ -83,7 +83,8 @@ export default {
       )
     },
     download: text => `دانلود ${text}`,
-    changelog: 'مشاهدهٔ تغییرات'
+    changelog: 'مشاهدهٔ تغییرات',
+    balenaEtcher: 'نوشتن با Balena Etcher'
   },
 
   error_404: "ارور ۴۰۴ - برگه پیدا نشد"
