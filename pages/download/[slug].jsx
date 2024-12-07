@@ -42,7 +42,7 @@ export default function DownloadPage({ item }) {
             hash={item.hash}
             maintainer={item.maintainer} />
         </Card>
-        <div className="flex flex-wrap justify-center gap-2">
+        <div className="flex max-[520px]:flex-col flex-wrap justify-center gap-2">
           {item.changelog && (
             <Button asChild variant="outline" size="lg" className="rounded-full text-lg py-6 flex me-4">
               <Link href={item.changelog} download>
@@ -57,9 +57,11 @@ export default function DownloadPage({ item }) {
               {t('details.download', item.text[lang])}
             </Link>
           </Button>
-          <Link href={`https://efp.balena.io/open-image-url?imageUrl=${item.href}`} className="hover:brightness-110 duration-200 shrink-0">
-            <img src="http://balena.io/flash-with-etcher.png" className="h-12 drop-shadow" />
-          </Link>
+          <Button asChild variant="outline" size="lg" className="rounded-full text-lg py-6 flex">
+            <Link href={`https://efp.balena.io/open-image-url?imageUrl=${item.href}`}>
+              {t('details.balenaEtcher')}
+            </Link>
+          </Button>
         </div>
       </div>
     </main>

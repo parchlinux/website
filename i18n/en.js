@@ -82,7 +82,8 @@ export default {
       )
     },
     download: text => `Download ${text}`,
-    changelog: 'View Changelog'
+    changelog: 'View Changelog',
+    balenaEtcher: 'Flash with Balena Etcher'
   },
 
   error_404: "Error 404 - Page Not Found"
