@@ -50,22 +50,6 @@ const teamData = [
   },
   {
     "name": {
-      en: "Shahriar Ghasem Poor",
-      fa: "شهریار قاسم‌پور"
-    },
-    "stack": {
-      en: "maintainer",
-      fa: "نگهدارنده"
-    },
-    "image": "https://avatars.githubusercontent.com/shahriaarrr",
-    "socials": {
-      "twitter": "https://twitter.com/shahriaarrr",
-      "github": "https://github.com/shahriaarrr",
-      "mastodon": "https://mas.to/@shahriaarrr"
-    }
-  },
-  {
-    "name": {
       en: "AhmadReza Khatamian",
       fa: "احمدرضا خاتمیان"
     },
@@ -225,7 +209,7 @@ const teamData = [
       en: "ّFrontend Developer",
       fa: "توسعه دهنده فرانت اند"
     },
-    "image": "https://avatars.githubusercontent.com/u/Bravemobin",
+    "image": "https://avatars.githubusercontent.com/Bravemobin",
     "socials": {
       "github": "https://github.com/Bravemobin/",
       "twitter": "https://x.com/Bravemobin/",
