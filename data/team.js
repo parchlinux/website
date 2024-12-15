@@ -200,6 +200,37 @@ const teamData = [
       "github": "https://github.com/m6hdix",
       "donate": "https://daramet.com/m6hdix"
     }
+  },
+  {
+    "name": {
+      en: "Ali Lotfi",
+      fa: "علی لطفی"
+    },
+    "stack": {
+      en: "Graphic Designer",
+      fa: "گرافیست"
+    },
+    "image": "https://avatars.githubusercontent.com/AliLotfi09",
+    "socials": {
+      "github": "https://github.com/AliLotfi09",
+      "donate": "https://daramet.com/Im_Lotfi"
+    }
+  },
+  {
+    "name": {
+      en: "Mobin Firooz",
+      fa: "مبین فیروز"
+    },
+    "stack": {
+      en: "ّFrontend Developer",
+      fa: "توسعه دهنده فرانت اند"
+    },
+    "image": "https://avatars.githubusercontent.com/u/Bravemobin",
+    "socials": {
+      "github": "https://github.com/Bravemobin/",
+      "twitter": "https://x.com/Bravemobin/",
+      "donate": "https://daramet.com/bravemobin/"
+    }
   }
 ]
 
