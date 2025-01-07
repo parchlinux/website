@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useTranslation } from "@/utils/translation"
-import { SiBluesky, SiDiscord, SiMastodon, SiTelegram, SiX } from "@icons-pack/react-simple-icons";
+import { SiBluesky, SiDiscord, SiInstagram, SiLinkedin, SiMastodon, SiTelegram, SiX } from "@icons-pack/react-simple-icons";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -35,6 +35,12 @@ export function Footer() {
             </Link>
             <Link href="https://discord.gg/9RW5cRByAM">
               <SiDiscord className="w-4 h-4" />
+            </Link>
+            <Link href="https://instagram.com/parchlinux">
+              <SiInstagram className="w-4 h-4" />
+            </Link>
+            <Link href="https://www.linkedin.com/company/parch-linux">
+              <SiLinkedin className="w-4 h-4" />
             </Link>
             <div className="text-sm">
               {t('footer.copyright')}
