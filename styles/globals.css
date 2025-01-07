@@ -33,6 +33,10 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --gradient-color-1: #189974;
+    --gradient-color-2: #1B66BD;
+    --gradient-color-3: #003BAF;
+    --gradient-transparent: rgba(255, 255, 255, 0);
   }
 
   .dark {
@@ -70,5 +74,11 @@
 
   body {
     @apply bg-background text-foreground;
+    background: radial-gradient(114.13% 114.13% at 110.34% -14.13%, var(--gradient-color-1) 0%, var(--gradient-transparent) 100%),
+                radial-gradient(81.04% 81.04% at 25.97% -14.13%, var(--gradient-color-2) 0%, var(--gradient-transparent) 100%),
+                radial-gradient(80.5% 80.5% at -30.5% 32.82%, var(--gradient-color-3) 0%, var(--gradient-transparent) 100%),
+                #00000000;
+    background-blend-mode: multiply, multiply, multiply, normal;
   }
+  
 }
