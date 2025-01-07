@@ -1,6 +1,6 @@
 export default {
   footer: {
-    copyright: '© 2021-2024 Parch Linux Team',
+    copyright: '© 2021-2025 Parch Linux Team',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
     whitepaper: 'Whitepaper',
