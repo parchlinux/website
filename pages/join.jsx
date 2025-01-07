@@ -46,13 +46,13 @@ export default function Join() {
             link={t('join.link.wiki')}
             text={t('join.text.wiki')}
             arrow={arrow} />
-          <JoinCard
+          {/* <JoinCard
             icon={MessageCircle}
             caption={t('join.caption.chat')}
             url="https://matrix.to/#/%23parch:bsd.cafe"
             link={t('join.link.chat')}
             text={t('join.text.chat')}
-            arrow={arrow} />
+            arrow={arrow} /> */}
           <JoinCard
             icon={Code}
             caption={t('join.caption.contrib')}
