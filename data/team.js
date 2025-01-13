@@ -39,7 +39,7 @@ const teamData = [
       fa: "حمیدرضا"
     },
     "stack": {
-      en: "maintainer",
+      en: "Maintainer",
       fa: "نگهدارنده"
     },
     "image": "https://avatars.githubusercontent.com/HRMCA",
@@ -156,7 +156,7 @@ const teamData = [
   },
   {
     "name": {
-      en: "meshya",
+      en: "Meshya",
       fa: "مشیا"
     },
     "stack": {
