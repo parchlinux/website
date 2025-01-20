@@ -5,6 +5,7 @@ const nextConfig = {
     defaultLocale: 'fa'
   },
   reactStrictMode: true,
+  output: "standalone"
 };
 
 export default nextConfig;
