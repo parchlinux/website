@@ -15,11 +15,13 @@ export default {
   },
 
   navigation: {
-    blog: 'بلاگ',
-    community: 'جامعه',
-    join: 'پیوستن',
-    download: 'دانلود',
     features: 'امکانات',
+    download: 'دانلود',
+    forum: 'انجمن',
+    wiki: 'ویکی',
+    community: 'جامعه',
+    blog: 'بلاگ',
+    join: 'پیوستن',
     team: 'تیم',
     toggle_language: 'تغییر زبان',
     toggle_theme: 'تغییر پوسته',
