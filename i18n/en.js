@@ -15,11 +15,13 @@ export default {
   },
 
   navigation: {
-    blog: 'Blog',
-    community: 'Community',
-    join: 'Join',
-    download: 'Download',
     features: 'Features',
+    download: 'Download',
+    forum: 'Forum',
+    wiki: 'Wiki',
+    community: 'Community',
+    blog: 'Blog',
+    join: 'Join',
     team: 'Team',
     toggle_language: 'Toggle Language',
     toggle_theme: 'Toggle Theme',
