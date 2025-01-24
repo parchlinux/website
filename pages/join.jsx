@@ -1,31 +1,32 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useTranslation } from "@/utils/translation"
 import { Users, Book, MessageCircle, Code, ArrowLeftCircle, ArrowRightCircle } from 'lucide-react'
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { SiBluesky, SiDiscord, SiMastodon, SiTelegram, SiX } from "@icons-pack/react-simple-icons";
 
 const JoinCard = ({ icon: Icon, caption, link, text, url, arrow: Arrow }) => (
-  <Card className="animate-in fade-in zoom-in duration-300">
-    <CardHeader>
-      <div className="flex gap-4 justify-between">
-        <CardTitle>
-          <Icon className="h-6 w-6 inline-block align-middle me-2" />
-          {caption}
-        </CardTitle>
-        <Button asChild variant="outline" className="rounded-full">
-          <Link href={url}>{link} <Arrow size={16} /></Link>
-        </Button>
-      </div>
-    </CardHeader>
-    <CardContent>{text}</CardContent>
-  </Card>
+  <Link href={url} className="block">
+    <Card className="animate-in fade-in zoom-in duration-300 cursor-pointer">
+      <CardHeader>
+        <div className="flex gap-4 justify-between">
+          <CardTitle>
+            <Icon className="h-6 w-6 inline-block align-middle me-2" />
+            {caption}
+          </CardTitle>
+          <div className="flex items-center">
+            <span>{link}</span>
+            <Arrow size={16} className="ml-2" />
+          </div>
+        </div>
+      </CardHeader>
+      <CardContent>{text}</CardContent>
+    </Card>
+  </Link>
 )
 
 export default function Join() {
   const { t, lang } = useTranslation();
 
-  const arrow = lang == 'fa' ? ArrowLeftCircle : ArrowRightCircle
+  const arrow = lang === 'fa' ? ArrowLeftCircle : ArrowRightCircle
 
   return (
     <main className="py-12 md:py-24 lg:py-32">

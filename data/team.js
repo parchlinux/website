@@ -50,6 +50,36 @@ const teamData = [
   },
   {
     "name": {
+      en: "Erfan Arabi",
+      fa: "عرفان عربی"
+    },
+    "stack": {
+      en: "Team Leader",
+      fa: "راهبر تیم"
+    },
+    "image": "https://avatars.githubusercontent.com/ERFouX",
+    "socials": {
+      "github": "https://github.com/ERFouX",
+      "mastodon": "https://mas.to/@ERFouX",
+      "donate": "https://daramet.com/ERFouX"
+    }
+  },
+  {
+    "name": {
+      en: "Pouya Madankar",
+      fa: "پویا مدنکار"
+    },
+    "stack": {
+      en: "Frontend Developer",
+      fa: "توسعه‌دهنده فرانت‌اند"
+    },
+    "image": "https://avatars.githubusercontent.com/pouyaMK",
+    "socials": {
+      "github": "https://github.com/pouyaMK"
+    }
+  },
+  {
+    "name": {
       en: "AhmadReza Khatamian",
       fa: "احمدرضا خاتمیان"
     },
@@ -80,35 +110,6 @@ const teamData = [
   },
   {
     "name": {
-      en: "Pouya Madankar",
-      fa: "پویا مدنکار"
-    },
-    "stack": {
-      en: "Frontend Developer",
-      fa: "توسعه‌دهنده فرانت‌اند"
-    },
-    "image": "https://avatars.githubusercontent.com/pouyaMK",
-    "socials": {
-      "github": "https://github.com/pouyaMK"
-    }
-  },
-  {
-    "name": {
-      en: "Mostafa Aminzar",
-      fa: "مصطفی امین‌زار"
-    },
-    "stack": {
-      en: "UI/UX Designer",
-      fa: "طراح UI/UX"
-    },
-    "image": "https://avatars.githubusercontent.com/MosiO1998",
-    "socials": {
-      "github": "https://github.com/MosiO1998",
-      "donate": "https://daramet.com/mosio"
-    }
-  },
-  {
-    "name": {
       en: "Ali Mohammad Esmaeeli",
       fa: "علی محمد اسماعیلی"
     },
@@ -124,34 +125,17 @@ const teamData = [
   },
   {
     "name": {
-      en: "Ali Almasi",
-      fa: "علی الماسی"
+      en: "Mostafa Aminzar",
+      fa: "مصطفی امین‌زار"
     },
     "stack": {
-      en: "Web Developer",
-      fa: "توسعه‌دهنده وب"
+      en: "UI/UX Designer",
+      fa: "طراح UI/UX"
     },
-    "image": "https://avatars.githubusercontent.com/AliAlmasi",
+    "image": "https://avatars.githubusercontent.com/MosiO1998",
     "socials": {
-      "github": "https://github.com/AliAlmasi",
-      "donate": "https://daramet.com/alialmasi",
-      "mastodon": "https://ieji.de/@almasi"
-    }
-  },
-  {
-    "name": {
-      en: "Erfan Arabi",
-      fa: "عرفان عربی"
-    },
-    "stack": {
-      en: "Contributer",
-      fa: "مشارکت کننده"
-    },
-    "image": "https://avatars.githubusercontent.com/ERFouX",
-    "socials": {
-      "github": "https://github.com/ERFouX",
-      "mastodon": "https://mas.to/@ERFouX",
-      "donate": "https://daramet.com/ERFouX"
+      "github": "https://github.com/MosiO1998",
+      "donate": "https://daramet.com/mosio"
     }
   },
   {
@@ -172,17 +156,18 @@ const teamData = [
   },
   {
     "name": {
-      en: "Mahdi Gholamhosseini",
-      fa: "مهدی غلام‌حسینی"
+      en: "Ali Almasi",
+      fa: "علی الماسی"
     },
     "stack": {
       en: "Web Developer",
       fa: "توسعه‌دهنده وب"
     },
-    "image": "https://avatars.githubusercontent.com/m6hdix",
+    "image": "https://avatars.githubusercontent.com/AliAlmasi",
     "socials": {
-      "github": "https://github.com/m6hdix",
-      "donate": "https://daramet.com/m6hdix"
+      "github": "https://github.com/AliAlmasi",
+      "donate": "https://daramet.com/alialmasi",
+      "mastodon": "https://ieji.de/@almasi"
     }
   },
   {
@@ -214,6 +199,21 @@ const teamData = [
       "github": "https://github.com/Bravemobin/",
       "twitter": "https://x.com/Bravemobin/",
       "donate": "https://daramet.com/bravemobin/"
+    }
+  },
+  {
+    "name": {
+      en: "Mahdi Gholamhosseini",
+      fa: "مهدی غلام‌حسینی"
+    },
+    "stack": {
+      en: "Web Developer",
+      fa: "توسعه‌دهنده وب"
+    },
+    "image": "https://avatars.githubusercontent.com/m6hdix",
+    "socials": {
+      "github": "https://github.com/m6hdix",
+      "donate": "https://daramet.com/m6hdix"
     }
   }
 ]
