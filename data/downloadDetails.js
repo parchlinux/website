@@ -7,9 +7,9 @@ const detailsData = {
     img: '/gnome.jpeg',
     href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
     changelog: null,
-    build_date: '2024-09-19',
-    size: '2.3 GiB',
-    hash: '024820a1a39299c30ea23d3c199dad0a',
+    build_date: '2025-01-26',
+    size: '2.4 GiB',
+    hash: 'eaa711866f14615ef2d20585e60ee227',
     maintainer: null
   },
   plasma: {
@@ -20,9 +20,9 @@ const detailsData = {
     img: '/plasma.jpeg',
     href: 'https://mirror.parchlinux.com/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2024-09-19',
-    size: '2.7 GiB',
-    hash: 'df4e9102c11a88363152162b5ea60907',
+    build_date: '2025-01-26',
+    size: '2.8 GiB',
+    hash: '65fc9bc08f111eb64db7119c101b7554',
     maintainer: null
   },
   mate: {
@@ -46,9 +46,9 @@ const detailsData = {
     img: '/xfce.jpeg',
     href: 'https://mirror.parchlinux.com/XFCE/ParchLinux-XFCE-latest.iso',
     changelog: null,
-    build_date: '2024-10-29',
+    build_date: '2025-01-26',
     size: '2.2 GiB',
-    hash: '4c809266f5aa88879d856ad615e42974',
+    hash: '64526d0605f729c5a271553fb6f11123',
     maintainer: 'Sohrab Behdani'
   },
   cosmic: {
@@ -59,8 +59,8 @@ const detailsData = {
     img: '/cosmic.jpeg',
     href: 'https://mirror.parchlinux.com/cosmic/ParchLinux-cosmic-latest.iso',
     changelog: null,
-    build_date: '2024-09-16',
-    size: '1.9 GiB',
+    build_date: '2025-01-26',
+    size: '2.1 GiB',
     hash: '5141429093026d2ca05d9ea97e32260d',
     maintainer: null
   },
