@@ -25,19 +25,19 @@ const detailsData = {
     hash: '65fc9bc08f111eb64db7119c101b7554',
     maintainer: null
   },
-  mate: {
-    text: {
-      en: 'Parch Mate',
-      fa: 'پارچ ماته',
-    },
-    img: '/mate.png',
-    href: 'https://mirror.parchlinux.com/mate/ParchLinux-mate-latest.iso',
-    changelog: null,
-    build_date: '2024-10-18',
-    size: '2.1 GiB',
-    hash: '8b7a35d61a359c3f3e7c2475ef5c64fb',
-    maintainer: 'Sohrab Behdani'
-  },
+  // mate: {
+  //   text: {
+  //     en: 'Parch Mate',
+  //     fa: 'پارچ ماته',
+  //   },
+  //   img: '/mate.png',
+  //   href: 'https://mirror.parchlinux.com/mate/ParchLinux-mate-latest.iso',
+  //   changelog: null,
+  //   build_date: '2024-10-18',
+  //   size: '2.1 GiB',
+  //   hash: '8b7a35d61a359c3f3e7c2475ef5c64fb',
+  //   maintainer: 'Sohrab Behdani'
+  // },
   xfce: {
     text: {
       en: 'Parch XFCE',

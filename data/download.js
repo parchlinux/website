@@ -45,14 +45,14 @@ const downloadData = [
       fa: 'نسخه‌هایی از پارچ که توسط اعضای جامعه نگهداری می‌شوند.'
     },
     links: [
-      {
-        text: {
-          en: 'Mate Version',
-          fa: 'نسخهٔ ماته',
-        },
-        img: '/mate.png',
-        href: '/download/mate',
-      },
+      // {
+      //   text: {
+      //     en: 'Mate Version',
+      //     fa: 'نسخهٔ ماته',
+      //   },
+      //   img: '/mate.png',
+      //   href: '/download/mate',
+      // },
       {
         text: {
           en: 'XFCE Version',
