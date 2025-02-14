@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useTranslation } from "@/utils/translation"
-import { SiBluesky, SiDiscord, SiInstagram, SiLinkedin, SiMastodon, SiTelegram, SiX } from "@icons-pack/react-simple-icons";
+import { SiBluesky, SiDiscord, SiInstagram, SiLinkedin, SiMastodon, SiPeertube, SiTelegram, SiThreads, SiX, SiYoutube } from "@icons-pack/react-simple-icons";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -21,14 +21,26 @@ export function Footer() {
             <Link href="/tos">{t('footer.termsOfService')}</Link>
           </nav>
           <div className="flex flex-wrap justify-center items-center gap-4">
-            <Link href="https://bsky.app/profile/parchlinux.com">
-              <SiBluesky className="w-4 h-4" />
+            <Link href="https://youtube.com/@ParchLinux">
+              <SiYoutube className="w-4 h-4" />
+            </Link>
+            <Link href="https://tubedu.org/c/parch">
+              <SiPeertube className="w-4 h-4" />
             </Link>
             <Link href="https://ieji.de/@parchlinux" rel="me">
               <SiMastodon className="w-4 h-4" />
             </Link>
+            <Link href="https://threads.net/@parchlinux">
+              <SiThreads className="w-4 h-4" />
+            </Link>
             <Link href="https://x.com/parchgnulinux">
               <SiX className="w-4 h-4" />
+            </Link>
+            <Link href="https://www.linkedin.com/company/parch-linux">
+              <SiLinkedin className="w-4 h-4" />
+            </Link>
+            <Link href="https://instagram.com/parchlinux">
+              <SiInstagram className="w-4 h-4" />
             </Link>
             <Link href={t('footer.link_tel')}>
               <SiTelegram className="w-4 h-4" />
@@ -36,11 +48,8 @@ export function Footer() {
             <Link href="https://discord.gg/9RW5cRByAM">
               <SiDiscord className="w-4 h-4" />
             </Link>
-            <Link href="https://instagram.com/parchlinux">
-              <SiInstagram className="w-4 h-4" />
-            </Link>
-            <Link href="https://www.linkedin.com/company/parch-linux">
-              <SiLinkedin className="w-4 h-4" />
+            <Link href="https://bsky.app/profile/parchlinux.com">
+              <SiBluesky className="w-4 h-4" />
             </Link>
             <div className="text-sm">
               {t('footer.copyright')}
