@@ -6,7 +6,7 @@ const teamData = [
 		},
 		"stack": {
 			en: "Founder",
-			fa: "موسس"
+			fa: "بنیان‌گذار"
 		},
 		"image": "https://avatars.githubusercontent.com/behdanisohrab",
 		"socials": {
@@ -23,7 +23,7 @@ const teamData = [
 		},
 		"stack": {
 			en: "Founder",
-			fa: "موسس"
+			fa: "بنیان‌گذار"
 		},
 		"image": "https://avatars.githubusercontent.com/metantesan",
 		"socials": {
@@ -223,7 +223,7 @@ const teamData = [
 		},
 		"stack": {
 			en: "Graphic Designer",
-			fa: "گرافیک دیزاینر"
+			fa: "طراح گرافیک"
 		},
 		"image": "https://avatars.githubusercontent.com/iliageek",
 		"socials": {
