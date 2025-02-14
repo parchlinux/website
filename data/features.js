@@ -1,4 +1,4 @@
-import { Lock, LineChart, Layers } from "lucide-react";
+import { Lock, LineChart, Layers, CaseSensitive, PackageOpen, Users } from "lucide-react";
 
 const featuresData = [
   {
@@ -32,6 +32,39 @@ const featuresData = [
     desc: {
       en: 'Built with security in mind, featuring regular updates and a robust firewall.',
       fa: 'ساخته شده با در نظر گرفتن امنیت، دارای به‌روز‌رسانی های منظم و فایروال قوی.'
+    }
+  },
+  {
+    icon: CaseSensitive,
+    title: {
+      en: 'Optimized Fonts',
+      fa: 'فونت‌های بهینه'
+    },
+    desc: {
+      en: 'An unparalleled experience with optimized Persian fonts for enhanced readability and aesthetics.',
+      fa: 'تجربه‌ای بی‌نظیر با فونت‌های پارسی، بهینه‌شده برای خوانایی و زیبایی بیشتر.'
+    }
+  },
+  {
+    icon: PackageOpen,
+    title: {
+      en: 'Graphical Installer',
+      fa: 'نصب کننده گرافیکی'
+    },
+    desc: {
+      en: 'An unparalleled experience with optimized Persian fonts for enhanced readability and aesthetics.',
+      fa: 'تجربه‌ای بی‌نظیر با فونت‌های پارسی، بهینه‌شده برای خوانایی و زیبایی بیشتر.'
+    }
+  },
+  {
+    icon: Users,
+    title: {
+      en: 'Community Centric',
+      fa: 'جامعه محور'
+    },
+    desc: {
+      en: "Our distribution aims to create an active, collaborative community where every user can shape the project's future.",
+      fa: "توزیع ما با هدف ایجاد یک جامعه فعال و مشارکتی طراحی شده است که هر کاربر می‌تواند در شکل‌گیری آینده پروژه نقش داشته باشد."
     }
   },
 ]
