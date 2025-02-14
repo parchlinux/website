@@ -52,8 +52,8 @@ const featuresData = [
       fa: 'نصب کننده گرافیکی'
     },
     desc: {
-      en: 'An unparalleled experience with optimized Persian fonts for enhanced readability and aesthetics.',
-      fa: 'تجربه‌ای بی‌نظیر با فونت‌های پارسی، بهینه‌شده برای خوانایی و زیبایی بیشتر.'
+      en: 'Easy and quick installation with a graphical user interface that helps you set up the distribution effortlessly.',
+      fa: 'نصب آسان و سریع با رابط کاربری گرافیکی که به شما کمک می‌کند تا به راحتی توزیع را راه‌اندازی کنید.'
     }
   },
   {
