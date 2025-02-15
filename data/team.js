@@ -61,7 +61,8 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/ERFouX",
 			"mastodon": "https://mas.to/@ERFouX",
-			"donate": "https://daramet.com/ERFouX"
+			"donate": "https://daramet.com/ERFouX",
+			"twitter": "https://x.com/ERFouX"
 		}
 	},
 	{
@@ -89,9 +90,9 @@ const teamData = [
 			en: "Graphic Designer",
 			fa: "طراح گرافیک"
 		},
-		"image": "https://avatars.githubusercontent.com/ahmadreza3",
+		"image": "https://avatars.githubusercontent.com/ahmadreza00000",
 		"socials": {
-			"github": "https://github.com/ahmadreza3",
+			"github": "https://github.com/ahmadreza00000",
 			"mastodon": "https://mas.to/@ahmad00000"
 		}
 	},
