@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl/none">
             {t('home.title')}
           </h1>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+          <p className="mx-auto max-w-[770px] text-muted-foreground md:text-xl">
             {t('home.description')}
           </p>
           <div className="flex gap-4">
