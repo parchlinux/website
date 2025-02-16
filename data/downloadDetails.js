@@ -7,9 +7,9 @@ const detailsData = {
     img: '/gnome.jpeg',
     href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
     changelog: null,
-    build_date: '2025-01-26',
+    build_date: '2025-02-17',
     size: '2.4 GiB',
-    hash: 'eaa711866f14615ef2d20585e60ee227',
+    hash: '061fa01dc95f0dd21a6fd4fa47736746',
     maintainer: null
   },
   plasma: {
@@ -20,9 +20,9 @@ const detailsData = {
     img: '/plasma.jpeg',
     href: 'https://mirror.parchlinux.com/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2025-01-26',
+    build_date: '2025-02-17',
     size: '2.8 GiB',
-    hash: '65fc9bc08f111eb64db7119c101b7554',
+    hash: '438b48f38580aa048ec8dd770c18e8f8',
     maintainer: null
   },
   // mate: {
@@ -51,19 +51,19 @@ const detailsData = {
     hash: '64526d0605f729c5a271553fb6f11123',
     maintainer: 'Sohrab Behdani'
   },
-  cosmic: {
-    text: {
-      en: 'Parch COSMIC',
-      fa: 'پارچ کازمیک',
-    },
-    img: '/cosmic.jpeg',
-    href: 'https://mirror.parchlinux.com/cosmic/ParchLinux-cosmic-latest.iso',
-    changelog: null,
-    build_date: '2025-01-26',
-    size: '2.1 GiB',
-    hash: '5141429093026d2ca05d9ea97e32260d',
-    maintainer: null
-  },
+  // cosmic: {
+  //   text: {
+  //     en: 'Parch COSMIC',
+  //     fa: 'پارچ کازمیک',
+  //   },
+  //   img: '/cosmic.jpeg',
+  //   href: 'https://mirror.parchlinux.com/cosmic/ParchLinux-cosmic-latest.iso',
+  //   changelog: null,
+  //   build_date: '2025-01-26',
+  //   size: '2.1 GiB',
+  //   hash: '5141429093026d2ca05d9ea97e32260d',
+  //   maintainer: null
+  // },
   lxqt: {
     text: {
       en: 'Parch LXQt',
