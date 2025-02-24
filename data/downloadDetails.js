@@ -1,17 +1,4 @@
 const detailsData = {
-  gnome: {
-    text: {
-      en: 'Parch GNOME',
-      fa: 'پارچ گنوم',
-    },
-    img: '/gnome.jpeg',
-    href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
-    changelog: null,
-    build_date: '2025-02-17',
-    size: '2.4 GiB',
-    hash: '061fa01dc95f0dd21a6fd4fa47736746',
-    maintainer: null
-  },
   plasma: {
     text: {
       en: 'Parch Plasma',
@@ -20,9 +7,22 @@ const detailsData = {
     img: '/plasma.jpeg',
     href: 'https://mirror.parchlinux.com/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2025-02-17',
+    build_date: '2025-02-25',
     size: '2.8 GiB',
-    hash: '438b48f38580aa048ec8dd770c18e8f8',
+    hash: '8ba2ea247116c042bbb53c453e9e28ed',
+    maintainer: null
+  },
+  gnome: {
+    text: {
+      en: 'Parch GNOME',
+      fa: 'پارچ گنوم',
+    },
+    img: '/gnome.jpeg',
+    href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
+    changelog: null,
+    build_date: '2025-02-25',
+    size: '2.4 GiB',
+    hash: 'e94ab567047223146ea8ee90cea3e36f',
     maintainer: null
   },
   // mate: {
@@ -38,19 +38,19 @@ const detailsData = {
   //   hash: '8b7a35d61a359c3f3e7c2475ef5c64fb',
   //   maintainer: 'Sohrab Behdani'
   // },
-  xfce: {
-    text: {
-      en: 'Parch XFCE',
-      fa: 'پارچ XFCE',
-    },
-    img: '/xfce.jpeg',
-    href: 'https://mirror.parchlinux.com/XFCE/ParchLinux-XFCE-latest.iso',
-    changelog: null,
-    build_date: '2025-01-26',
-    size: '2.2 GiB',
-    hash: '64526d0605f729c5a271553fb6f11123',
-    maintainer: 'Sohrab Behdani'
-  },
+  // xfce: {
+  //   text: {
+  //     en: 'Parch XFCE',
+  //     fa: 'پارچ XFCE',
+  //   },
+  //   img: '/xfce.jpeg',
+  //   href: 'https://mirror.parchlinux.com/XFCE/ParchLinux-XFCE-latest.iso',
+  //   changelog: null,
+  //   build_date: '2025-01-26',
+  //   size: '2.2 GiB',
+  //   hash: '64526d0605f729c5a271553fb6f11123',
+  //   maintainer: 'Sohrab Behdani'
+  // },
   // cosmic: {
   //   text: {
   //     en: 'Parch COSMIC',
@@ -64,19 +64,19 @@ const detailsData = {
   //   hash: '5141429093026d2ca05d9ea97e32260d',
   //   maintainer: null
   // },
-  lxqt: {
-    text: {
-      en: 'Parch LXQt',
-      fa: 'پارچ LXQt',
-    },
-    img: '/lxqt.png',
-    href: '#',
-    changelog: null,
-    build_date: '2024-01-01',
-    size: '1GB',
-    hash: null,
-    maintainer: 'Sohrab Behdani'
-  },
+  // lxqt: {
+  //   text: {
+  //     en: 'Parch LXQt',
+  //     fa: 'پارچ LXQt',
+  //   },
+  //   img: '/lxqt.png',
+  //   href: '#',
+  //   changelog: null,
+  //   build_date: '2024-01-01',
+  //   size: '1GB',
+  //   hash: null,
+  //   maintainer: 'Sohrab Behdani'
+  // },
   mobile: {
     text: {
       en: 'Parch Mobile',
