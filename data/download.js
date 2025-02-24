@@ -11,14 +11,6 @@ const downloadData = [
     links: [
       {
         text: {
-          en: 'GNOME Version',
-          fa: 'نسخهٔ گنوم',
-        },
-        img: '/gnome.jpeg',
-        href: '/download/gnome',
-      },
-      {
-        text: {
           en: 'Plasma Version',
           fa: 'نسخهٔ پلاسما',
         },
@@ -27,24 +19,32 @@ const downloadData = [
       },
       {
         text: {
-          en: 'COSMIC Version',
-          fa: 'نسخهٔ کازمیک',
+          en: 'GNOME Version',
+          fa: 'نسخهٔ گنوم',
         },
-        img: '/cosmic.jpeg',
-        href: '/download/cosmic',
+        img: '/gnome.jpeg',
+        href: '/download/gnome',
       },
+      // {
+      //   text: {
+      //     en: 'COSMIC Version',
+      //     fa: 'نسخهٔ کازمیک',
+      //   },
+      //   img: '/cosmic.jpeg',
+      //   href: '/download/cosmic',
+      // },
     ]
   },
-  {
-    title: {
-      en: 'Community Versions',
-      fa: 'نسخه‌های جامعه'
-    },
-    desc: {
-      en: 'These versions of Parch are maintained by the community members.',
-      fa: 'نسخه‌هایی از پارچ که توسط اعضای جامعه نگهداری می‌شوند.'
-    },
-    links: [
+  // {
+  //   title: {
+  //     en: 'Community Versions',
+  //     fa: 'نسخه‌های جامعه'
+  //   },
+  //   desc: {
+  //     en: 'These versions of Parch are maintained by the community members.',
+  //     fa: 'نسخه‌هایی از پارچ که توسط اعضای جامعه نگهداری می‌شوند.'
+  //   },
+  //   links: [
       // {
       //   text: {
       //     en: 'Mate Version',
@@ -53,16 +53,16 @@ const downloadData = [
       //   img: '/mate.png',
       //   href: '/download/mate',
       // },
-      {
-        text: {
-          en: 'XFCE Version',
-          fa: 'نسخهٔ XFCE',
-        },
-        img: '/xfce.jpeg',
-        href: '/download/xfce',
-      },
-    ]
-  },
+      // {
+      //   text: {
+      //     en: 'XFCE Version',
+      //     fa: 'نسخهٔ XFCE',
+      //   },
+      //   img: '/xfce.jpeg',
+      //   href: '/download/xfce',
+      // },
+  //   ]
+  // },
   {
     title: {
       en: 'ARM Versions',
