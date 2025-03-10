@@ -64,7 +64,7 @@ ParchLinux comes with several preconfigured desktop environments, such as GNOME,
 Performance optimization is a core focus of ParchLinux. The distribution includes tweaks and configurations out-of-the-box that enhance system performance, making it suitable for both high-end and older hardware.
 
 #### Extensive Software Repository
-Leveraging Arch Linux’s extensive repository and the Arch User Repository (AUR), ParchLinux users have access to a vast selection of software packages. This ensures that users can find and install the tools they need for their specific requirements.
+Leveraging Arch Linux's extensive repository and the Arch User Repository (AUR), ParchLinux users have access to a vast selection of software packages. This ensures that users can find and install the tools they need for their specific requirements.
 
 #### Parch Store and Core Applications
 To enhance user experience and offer unique features, ParchLinux plans to introduce Parch Store and other Parch core applications. Parch Store will serve as a centralized platform for managing software installations and updates, providing an intuitive and user-friendly interface. Additionally, Parch core applications will include essential tools and utilities developed specifically for ParchLinux users.
@@ -138,7 +138,7 @@ The long-term vision for ParchLinux includes becoming a leading Arch-based distr
 ParchLinux combines the power and flexibility of Arch Linux with user-friendly features, making it an ideal choice for both new and experienced users. With its easy installation process, preconfigured environments, extensive software repository, and unique Parch core applications, ParchLinux stands out as a versatile and efficient Linux distribution.
 
 #### Call to Action
-Join the ParchLinux community today and experience the best of Arch Linux without the complexity. Visit our website to download the latest version, participate in community discussions, and contribute to the project. Be a part of shaping the future of ParchLinux by sharing your feedback and ideas.
+Join the ParchLinux community today and experience the best of Arch Linux without the complexity. Visit our website [parchlinux.com](https://parchlinux.com) to download the latest version, participate in community discussions, and contribute to the project. Be a part of shaping the future of ParchLinux by sharing your feedback and ideas.
 
 ---
 
@@ -285,11 +285,11 @@ Pacman یک مدیر بسته قدرتمند است که نصب، به‌روز�
 پارچ‌لینوکس قدرت و انعطاف‌پذیری آرچ لینوکس را با ویژگی‌های کاربرپسند ترکیب می‌کند و آن را به انتخاب ایده‌آلی برای کاربران جدید و با تجربه تبدیل می‌کند. با فرآیند نصب آسان، محیط‌های پیش‌پیکربندی شده، مخزن نرم‌افزاری گسترده و برنامه‌های اصلی منحصر به فرد Parch، پارچ‌لینوکس به عنوان یک توزیع لینوکس چندمنظوره و کارآمد شناخته می‌شود.
 
 #### دعوت به عمل
-امروز به جامعه پارچ‌لینوکس بپیوندید و بهترین‌های آرچ لینوکس را بدون پیچیدگی تجربه کنید. به وب‌سایت ما مراجعه کنید تا آخرین نسخه را دانلود کنید، در بحث‌های جامعه شرکت کنید و به پروژه کمک کنید. با به اشتراک‌گذاری نظرات و ایده‌های خود، بخشی از شکل‌گیری آینده پارچ‌لینوکس باشید.
+امروز به جامعه پارچ‌لینوکس بپیوندید و بهترین ویژگی‌های آرچ لینوکس را بدون پیچیدگی تجربه کنید. از وب‌سایت ما [parchlinux.com](https://parchlinux.com) بازدید کنید تا آخرین نسخه را دانلود کنید، در بحث‌های جامعه شرکت کنید و در پروژه مشارکت داشته باشید. با به اشتراک گذاشتن بازخورد و ایده‌های خود، بخشی از شکل‌دهی آینده پارچ‌لینوکس باشید.
 
 ---
 
-با ارائه ترکیبی متعادل از سهولت استفاده و قابلیت‌های پیشرفته، پارچ‌لینوکس هدف دارد که توزیع لینوکس مورد نظر برای طیف وسیعی از کاربران، از مبتدیان تا توسعه‌دهندگان، باشد. این وایت‌پیپر نقاط قوت و پتانسیل پارچ‌لینوکس را برجسته می‌کند و از کاربران و مشارکت‌کنندگان دعوت می‌کند که بخشی از سفر آن باشند.
+با ارائه ترکیبی متعادل از سهولت استفاده و قابلیت‌های پیشرفته، پارچ‌لینوکس هدفش این است که توزیع لینوکس برگزیده برای طیف وسیعی از کاربران، از مبتدیان تا توسعه‌دهندگان باشد. این وایت‌پیپر نقاط قوت و پتانسیل پارچ‌لینوکس را برجسته می‌کند و از کاربران و مشارکت‌کنندگان دعوت می‌کند تا بخشی از مسیر آن باشند.
 `
 
 export default { en, fa }
