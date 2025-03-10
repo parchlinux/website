@@ -27,7 +27,7 @@ The developers reserve the right to modify these Terms of Service at any time. C
 The developers may terminate your access to Parch Linux community at any time, without notice, for conduct that violates these Terms of Service or is harmful to other users or the community.
 
 ## 9. Contact Information
-For questions about these Terms of Service, please contact us or the Parch Linux forum.
+For questions about these Terms of Service, please contact us or the [Parch Linux forum](https://forum.parchlinux.com).
 `
 
 const fa = `
@@ -59,7 +59,7 @@ const fa = `
 توسعه‌دهندگان ممکن است دسترسی شما به جامعهٔ پارچ لینوکس را در هر زمان، بدون اطلاع قبلی، به دلیل رفتارهایی که این شرایط خدمات را نقض می‌کند یا به دیگر کاربران یا جامعه آسیب می‌زند، خاتمه دهند.
 
 ## 9. اطلاعات تماس
-برای سوالات در مورد این شرایط خدمات، لطفاً با ما یا انجمن پارچ لینوکس تماس بگیرید.
+برای سوالات در مورد این شرایط خدمات، لطفاً با ما یا [انجمن پارچ لینوکس](https://forum.parchlinux.com) تماس بگیرید.
 `
 
 export default { en, fa }
