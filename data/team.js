@@ -231,7 +231,36 @@ const teamData = [
 			"github": "https://github.com/iliageek",
 			"mastodon": "https://mastodon.social/@iliageek1",
 		}
-	}
+	},
+	{
+    	"name": {
+    		en: "Aria Moradi",
+    		fa: "آریا مرادی"
+    	},
+    	"stack": {
+			en: "Contributer",
+			fa: "مشارکت کننده"
+    	},
+   		"image": "https://avatars.githubusercontent.com/AriaMoradi",
+   		"socials": {
+      		"github": "https://github.com/AriaMoradi"
+    	}
+  	},
+	{
+		"name": {
+		  en: "Mohammad Arshiya Fardinfar",
+		  fa: "محمد عرشیا فردین فر"
+		},
+		"stack": {
+		  en: "UI/UX Designer",
+		  fa: "طراح رابط کاربری"
+		},
+		"image": "https://avatars.githubusercontent.com/arshiya-shadow",
+		"socials": {
+			"github": "https://github.com/arshiya-shadow"
+			//"linkedin": "https://www.linkedin.com/in/mohammad-arshiya-fardinfar/",
+		}
+	  }
 	]
 	
 	export default teamData;
