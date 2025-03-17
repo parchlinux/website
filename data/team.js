@@ -146,7 +146,7 @@ const teamData = [
 			fa: "مشیا"
 		},
 		"stack": {
-			en: "Contributer",
+			en: "Contributor",
 			fa: "مشارکت کننده"
 		},
 		"image": "https://avatars.githubusercontent.com/meshya",
@@ -238,7 +238,7 @@ const teamData = [
     		fa: "آریا مرادی"
     	},
     	"stack": {
-			en: "Contributer",
+			en: "Contributor",
 			fa: "مشارکت کننده"
     	},
    		"image": "https://avatars.githubusercontent.com/AriaMoradi",
