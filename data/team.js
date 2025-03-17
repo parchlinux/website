@@ -10,10 +10,10 @@ const teamData = [
 		},
 		"image": "https://avatars.githubusercontent.com/behdanisohrab",
 		"socials": {
-			"twitter": "https://twitter.com/sbehdani",
 			"github": "https://github.com/behdanisohrab",
 			"mastodon": "https://persadon.com/@sohrab",
-			"donate": "https://daramet.com/sohrabbehdani"
+			"twitter": "https://twitter.com/sbehdani",
+			//"donate": "https://daramet.com/sohrabbehdani"
 		}
 	},
 	{
@@ -29,8 +29,8 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/metantesan",
 			"mastodon": "https://mastodon.bsd.cafe/@hikari",
-			"donate": "https://daramet.com/hikari",
-			"twitter": "https://twitter.com/metantesan"
+			"twitter": "https://twitter.com/metantesan",
+			//"donate": "https://daramet.com/hikari"
 		}
 	},
 	{
@@ -61,8 +61,8 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/ERFouX",
 			"mastodon": "https://mas.to/@ERFouX",
-			"donate": "https://daramet.com/ERFouX",
-			"twitter": "https://x.com/ERFouX"
+			"twitter": "https://x.com/ERFouX",
+			//"donate": "https://daramet.com/ERFouX"
 		}
 	},
 	{
@@ -78,7 +78,7 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/Bravemobin/",
 			"twitter": "https://x.com/Bravemobin/",
-			"donate": "https://daramet.com/bravemobin/"
+			//"donate": "https://daramet.com/bravemobin/"
 		}
 	},
 	{
@@ -132,12 +132,12 @@ const teamData = [
 		},
 		"stack": {
 			en: "UI/UX Designer",
-			fa: "طراح UI/UX"
+			fa: "طراح رابط کاربری"
 		},
 		"image": "https://avatars.githubusercontent.com/MosiO1998",
 		"socials": {
 			"github": "https://github.com/MosiO1998",
-			"donate": "https://daramet.com/mosio"
+			//"donate": "https://daramet.com/mosio"
 		}
 	},
 	{
@@ -153,7 +153,7 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/meshya",
 			"mastodon": "https://mas.to/@meshya",
-			"donate": "https://daramet.com/meshya"
+			//"donate": "https://daramet.com/meshya"
 		}
 	},
 	{
@@ -168,8 +168,8 @@ const teamData = [
 		"image": "https://avatars.githubusercontent.com/AliAlmasi",
 		"socials": {
 			"github": "https://github.com/AliAlmasi",
-			"donate": "https://daramet.com/alialmasi",
-			"mastodon": "https://ieji.de/@almasi"
+			"mastodon": "https://ieji.de/@almasi",
+			//"donate": "https://daramet.com/alialmasi"
 		}
 	},
 	{
@@ -184,7 +184,7 @@ const teamData = [
 		"image": "https://avatars.githubusercontent.com/AliLotfi09",
 		"socials": {
 			"github": "https://github.com/AliLotfi09",
-			"donate": "https://daramet.com/Im_Lotfi"
+			//"donate": "https://daramet.com/Im_Lotfi"
 		}
 	},
 	{
@@ -214,7 +214,7 @@ const teamData = [
 		"image": "https://avatars.githubusercontent.com/m6hdix",
 		"socials": {
 			"github": "https://github.com/m6hdix",
-			"donate": "https://daramet.com/m6hdix"
+			//"donate": "https://daramet.com/m6hdix"
 		}
 	},
 	{
@@ -230,7 +230,6 @@ const teamData = [
 		"socials": {
 			"github": "https://github.com/iliageek",
 			"mastodon": "https://mastodon.social/@iliageek1",
-			"donate": ""
 		}
 	}
 	]
