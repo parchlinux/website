@@ -113,16 +113,18 @@ const teamData = [
 	},
 	{
 		"name": {
-			en: "Pouya Madankar",
-			fa: "پویا مدنکار"
+			en: "Ali Almasi",
+			fa: "علی الماسی"
 		},
 		"stack": {
-			en: "Frontend Developer",
-			fa: "توسعه‌دهنده فرانت‌اند"
+			en: "Web Developer",
+			fa: "توسعه‌دهنده وب"
 		},
-		"image": "https://avatars.githubusercontent.com/pouyaMK",
+		"image": "https://avatars.githubusercontent.com/AliAlmasi",
 		"socials": {
-			"github": "https://github.com/pouyaMK"
+			"github": "https://github.com/AliAlmasi",
+			"mastodon": "https://ieji.de/@almasi",
+			//"donate": "https://daramet.com/alialmasi"
 		}
 	},
 	{
@@ -158,18 +160,17 @@ const teamData = [
 	},
 	{
 		"name": {
-			en: "Ali Almasi",
-			fa: "علی الماسی"
+			en: "Ali Mohammad Esmaeeli",
+			fa: "علی محمد اسماعیلی"
 		},
 		"stack": {
-			en: "Web Developer",
-			fa: "توسعه‌دهنده وب"
+			en: "Frontend Developer",
+			fa: "توسعه‌دهنده فرانت‌اند"
 		},
-		"image": "https://avatars.githubusercontent.com/AliAlmasi",
+		"image": "https://avatars.githubusercontent.com/AliMohammad-Esmaeeli",
 		"socials": {
-			"github": "https://github.com/AliAlmasi",
-			"mastodon": "https://ieji.de/@almasi",
-			//"donate": "https://daramet.com/alialmasi"
+			"github": "https://github.com/AliMohammad-Esmaeeli",
+			"twitter": "https://twitter.com/AliMoha03254987"
 		}
 	},
 	{
@@ -188,20 +189,19 @@ const teamData = [
 		}
 	},
 	{
-		"name": {
-			en: "Ali Mohammad Esmaeeli",
-			fa: "علی محمد اسماعیلی"
-		},
-		"stack": {
-			en: "Frontend Developer",
-			fa: "توسعه‌دهنده فرانت‌اند"
-		},
-		"image": "https://avatars.githubusercontent.com/AliMohammad-Esmaeeli",
-		"socials": {
-			"github": "https://github.com/AliMohammad-Esmaeeli",
-			"twitter": "https://twitter.com/AliMoha03254987"
-		}
-	},
+    	"name": {
+    		en: "Aria Moradi",
+    		fa: "آریا مرادی"
+    	},
+    	"stack": {
+			en: "Contributor",
+			fa: "مشارکت کننده"
+    	},
+   		"image": "https://avatars.githubusercontent.com/AriaMoradi",
+   		"socials": {
+      		"github": "https://github.com/AriaMoradi"
+    	}
+  	},
 	{
 		"name": {
 			en: "Mahdi Gholamhosseini",
@@ -232,20 +232,6 @@ const teamData = [
 			"mastodon": "https://mastodon.social/@iliageek1",
 		}
 	},
-	{
-    	"name": {
-    		en: "Aria Moradi",
-    		fa: "آریا مرادی"
-    	},
-    	"stack": {
-			en: "Contributor",
-			fa: "مشارکت کننده"
-    	},
-   		"image": "https://avatars.githubusercontent.com/AriaMoradi",
-   		"socials": {
-      		"github": "https://github.com/AriaMoradi"
-    	}
-  	},
 	{
 		"name": {
 		  en: "Mohammad Arshiya Fardinfar",
