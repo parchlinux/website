@@ -42,33 +42,33 @@ export default function Team() {
                 </div>
                 <div className="grid grid-cols-3 gap-1.5 flex-shrink-0">
                   {member.socials.twitter && (
-                    <Button variant="outline" size="icon" className="h-8 w-8" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
                       <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer">
-                        <SiX className="h-3.5 w-3.5" />
+                        <SiX className="h-5 w-5" />
                         <span className="sr-only">X</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.github && (
-                    <Button variant="outline" size="icon" className="h-8 w-8" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
                       <a href={member.socials.github} target="_blank" rel="noopener noreferrer">
-                        <SiGithub className="h-3.5 w-3.5" />
+                        <SiGithub className="h-5 w-5" />
                         <span className="sr-only">GitHub</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.mastodon && (
-                    <Button variant="outline" size="icon" className="h-8 w-8" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
                       <a href={member.socials.mastodon} target="_blank" rel="noopener noreferrer">
-                        <SiMastodon className="h-3.5 w-3.5" />
+                        <SiMastodon className="h-5 w-5" />
                         <span className="sr-only">Mastodon</span>
                       </a>
                     </Button>
                   )}
                   {/* {member.socials.donate && (
-                    <Button variant="outline" size="icon" className="h-8 w-8" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
                       <a href={member.socials.donate} target="_blank" rel="noopener noreferrer">
-                        <Coffee className="h-3.5 w-3.5" />
+                        <Coffee className="h-5 w-5" />
                         <span className="sr-only">{t("team.donate")}</span>
                       </a>
                     </Button>
