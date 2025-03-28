@@ -35,40 +35,40 @@ export default function Team() {
                   className="rounded-full"
                 />
                 <div className="grow min-w-0">
-                  <CardTitle className={`${getNameFontSize(member.name[lang])} truncate`}>
+                  <CardTitle className={`${getNameFontSize(member.name[lang])} md:truncate`}>
                     {member.name[lang]}
                   </CardTitle>
-                  <p className="text-sm text-muted-foreground mt-1 truncate">{member.stack[lang]}</p>
+                  <p className="text-sm text-muted-foreground mt-1 md:truncate">{member.stack[lang]}</p>
                 </div>
-                <div className="grid grid-cols-3 gap-1.5 flex-shrink-0">
+                <div className="flex flex-row-reverse gap-1 md:gap-1.5 flex-shrink-0">
                   {member.socials.twitter && (
-                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
                       <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer">
-                        <SiX className="h-5 w-5" />
+                        <SiX className="h-4 w-4 md:h-5 md:w-5" />
                         <span className="sr-only">X</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.github && (
-                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
                       <a href={member.socials.github} target="_blank" rel="noopener noreferrer">
-                        <SiGithub className="h-5 w-5" />
+                        <SiGithub className="h-4 w-4 md:h-5 md:w-5" />
                         <span className="sr-only">GitHub</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.mastodon && (
-                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
                       <a href={member.socials.mastodon} target="_blank" rel="noopener noreferrer">
-                        <SiMastodon className="h-5 w-5" />
+                        <SiMastodon className="h-4 w-4 md:h-5 md:w-5" />
                         <span className="sr-only">Mastodon</span>
                       </a>
                     </Button>
                   )}
                   {/* {member.socials.donate && (
-                    <Button variant="outline" size="icon" className="h-9 w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
                       <a href={member.socials.donate} target="_blank" rel="noopener noreferrer">
-                        <Coffee className="h-5 w-5" />
+                        <Coffee className="h-4 w-4 md:h-5 md:w-5" />
                         <span className="sr-only">{t("team.donate")}</span>
                       </a>
                     </Button>
@@ -90,12 +90,12 @@ export default function Team() {
         </h2>
         <div className="flex flex-col md:flex-row gap-8">
           <TeamSection 
-            title={teams.design}
-            members={teams.design.members} 
-          />
-          <TeamSection 
             title={teams.technical}
             members={teams.technical.members} 
+          />
+          <TeamSection 
+            title={teams.design}
+            members={teams.design.members} 
           />
           <TeamSection 
             title={teams.web}
