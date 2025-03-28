@@ -1,85 +1,4 @@
 const teams = {
-	design: {
-		en: "Design Team",
-		fa: "تیم طراحی",
-		members: [
-			{
-				name: {
-					en: "AhmadReza Khatamian",
-					fa: "احمدرضا خاتمیان"
-				},
-				stack: {
-					en: "Graphic Designer",
-					fa: "طراح گرافیک"
-				},
-				image: "https://avatars.githubusercontent.com/ahmadreza00000",
-				socials: {
-					github: "https://github.com/ahmadreza00000",
-					mastodon: "https://mas.to/@ahmad00000"
-				}
-			},
-			{
-				name: {
-					en: "Mostafa Aminzar",
-					fa: "مصطفی امین‌زار"
-				},
-				stack: {
-					en: "UI/UX Designer",
-					fa: "طراح رابط کاربری"
-				},
-				image: "https://avatars.githubusercontent.com/MosiO1998",
-				socials: {
-					github: "https://github.com/MosiO1998",
-					//"donate": "https://daramet.com/mosio"
-				}
-			},
-			{
-				name: {
-					en: "Ali Lotfi",
-					fa: "علی لطفی"
-				},
-				stack: {
-					en: "Graphic Designer",
-					fa: "طراح گرافیک"
-				},
-				image: "https://avatars.githubusercontent.com/AliLotfi09",
-				socials: {
-					github: "https://github.com/AliLotfi09",
-					//"donate": "https://daramet.com/Im_Lotfi"
-				}
-			},
-			{
-				name: {
-					en: "Ilia Asadi",
-					fa: "ایلیا اسدی"
-				},
-				stack: {
-					en: "Graphic Designer",
-					fa: "طراح گرافیک"
-				},
-				image: "https://avatars.githubusercontent.com/iliageek",
-				socials: {
-					github: "https://github.com/iliageek",
-					mastodon: "https://mastodon.social/@iliageek1",
-				}
-			},
-			{
-				name: {
-					en: "Mohammad Arshiya Fardinfar",
-					fa: "محمد عرشیا فردین فر"
-				},
-				stack: {
-					en: "UI/UX Designer",
-					fa: "طراح رابط کاربری"
-				},
-				image: "https://avatars.githubusercontent.com/arshiya-shadow",
-				socials: {
-					github: "https://github.com/arshiya-shadow"
-					//"linkedin": "https://www.linkedin.com/in/mohammad-arshiya-fardinfar/",
-				}
-			}
-		]
-	},
 	technical: {
 		en: "Technical Team",
 		fa: "تیم فنی",
@@ -164,21 +83,86 @@ const teams = {
 					github: "https://github.com/gnkalk",
 					mastodon: "https://toot.community/@gnkalk",
 				}
+			}
+		]
+	},
+	design: {
+		en: "Design Team",
+		fa: "تیم طراحی",
+		members: [
+			{
+				name: {
+					en: "AhmadReza Khatamian",
+					fa: "احمدرضا خاتمیان"
+				},
+				stack: {
+					en: "Graphic Designer",
+					fa: "طراح گرافیک"
+				},
+				image: "https://avatars.githubusercontent.com/ahmadreza00000",
+				socials: {
+					github: "https://github.com/ahmadreza00000",
+					mastodon: "https://mas.to/@ahmad00000"
+				}
 			},
 			{
 				name: {
-					en: "Meshya",
-					fa: "مشیا"
+					en: "Mostafa Aminzar",
+					fa: "مصطفی امین‌زار"
 				},
 				stack: {
-					en: "Contributor",
-					fa: "مشارکت کننده"
+					en: "UI/UX Designer",
+					fa: "طراح رابط کاربری"
 				},
-				image: "https://avatars.githubusercontent.com/meshya",
+				image: "https://avatars.githubusercontent.com/MosiO1998",
 				socials: {
-					github: "https://github.com/meshya",
-					mastodon: "https://mas.to/@meshya",
-					//"donate": "https://daramet.com/meshya"
+					github: "https://github.com/MosiO1998",
+					//"donate": "https://daramet.com/mosio"
+				}
+			},
+			{
+				name: {
+					en: "Ali Lotfi",
+					fa: "علی لطفی"
+				},
+				stack: {
+					en: "Graphic Designer",
+					fa: "طراح گرافیک"
+				},
+				image: "https://avatars.githubusercontent.com/AliLotfi09",
+				socials: {
+					github: "https://github.com/AliLotfi09",
+					//"donate": "https://daramet.com/Im_Lotfi"
+				}
+			},
+			{
+				name: {
+					en: "Ilia Asadi",
+					fa: "ایلیا اسدی"
+				},
+				stack: {
+					en: "Graphic Designer",
+					fa: "طراح گرافیک"
+				},
+				image: "https://avatars.githubusercontent.com/iliageek",
+				socials: {
+					github: "https://github.com/iliageek",
+					mastodon: "https://mastodon.social/@iliageek1",
+				}
+			},
+			{
+				name: {
+					en: "Mohammad Arshiya Fardinfar",
+					fa: "محمد عرشیا فردین فر"
+				},
+				stack: {
+					en: "UI/UX Designer",
+					fa: "طراح رابط کاربری"
+				},
+				image: "https://avatars.githubusercontent.com/arshiya-shadow",
+				socials: {
+					github: "https://github.com/arshiya-shadow"
+					//"linkedin": "https://www.linkedin.com/in/mohammad-arshiya-fardinfar/",
 				}
 			}
 		]
@@ -221,21 +205,6 @@ const teams = {
 			},
 			{
 				name: {
-					en: "Ali Mohammad Esmaeeli",
-					fa: "علی محمد اسماعیلی"
-				},
-				stack: {
-					en: "Frontend Developer",
-					fa: "توسعه‌دهنده فرانت‌اند"
-				},
-				image: "https://avatars.githubusercontent.com/AliMohammad-Esmaeeli",
-				socials: {
-					github: "https://github.com/AliMohammad-Esmaeeli",
-					twitter: "https://twitter.com/AliMoha03254987"
-				}
-			},
-			{
-				name: {
 					en: "Mahdi Gholamhosseini",
 					fa: "مهدی غلام‌حسینی"
 				},
@@ -247,6 +216,22 @@ const teams = {
 				socials: {
 					github: "https://github.com/m6hdix",
 					//"donate": "https://daramet.com/m6hdix"
+				}
+			},
+			{
+				name: {
+					en: "Meshya",
+					fa: "مشیا"
+				},
+				stack: {
+					en: "Contributor",
+					fa: "مشارکت کننده"
+				},
+				image: "https://avatars.githubusercontent.com/meshya",
+				socials: {
+					github: "https://github.com/meshya",
+					mastodon: "https://mas.to/@meshya",
+					//"donate": "https://daramet.com/meshya"
 				}
 			},
 			{
