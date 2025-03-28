@@ -42,33 +42,33 @@ export default function Team() {
                 </div>
                 <div className="flex flex-row-reverse gap-1 md:gap-1.5 flex-shrink-0">
                   {member.socials.twitter && (
-                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9 md:h-10 md:w-10 p-1 md:p-1" asChild>
                       <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer">
-                        <SiX className="h-4 w-4 md:h-5 md:w-5" />
+                        <SiX className="h-7 w-7 md:h-8 md:w-8" />
                         <span className="sr-only">X</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.github && (
-                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9 md:h-10 md:w-10 p-1 md:p-1" asChild>
                       <a href={member.socials.github} target="_blank" rel="noopener noreferrer">
-                        <SiGithub className="h-4 w-4 md:h-5 md:w-5" />
+                        <SiGithub className="h-7 w-7 md:h-8 md:w-8" />
                         <span className="sr-only">GitHub</span>
                       </a>
                     </Button>
                   )}
                   {member.socials.mastodon && (
-                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9 md:h-10 md:w-10 p-1 md:p-1" asChild>
                       <a href={member.socials.mastodon} target="_blank" rel="noopener noreferrer">
-                        <SiMastodon className="h-4 w-4 md:h-5 md:w-5" />
+                        <SiMastodon className="h-7 w-7 md:h-8 md:w-8" />
                         <span className="sr-only">Mastodon</span>
                       </a>
                     </Button>
                   )}
                   {/* {member.socials.donate && (
-                    <Button variant="outline" size="icon" className="h-8 w-8 md:h-9 md:w-9" asChild>
+                    <Button variant="outline" size="icon" className="h-9 w-9 md:h-10 md:w-10 p-1 md:p-1" asChild>
                       <a href={member.socials.donate} target="_blank" rel="noopener noreferrer">
-                        <Coffee className="h-4 w-4 md:h-5 md:w-5" />
+                        <Coffee className="h-7 w-7 md:h-8 md:w-8" />
                         <span className="sr-only">{t("team.donate")}</span>
                       </a>
                     </Button>
