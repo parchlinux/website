@@ -7,9 +7,9 @@ const detailsData = {
     img: '/plasma.jpeg',
     href: 'https://mirror.parchlinux.com/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2025-02-25',
+    build_date: '2025-04-02',
     size: '2.8 GiB',
-    hash: '8ba2ea247116c042bbb53c453e9e28ed',
+    hash: 'f6a4ac20858b0e77219b0560deaa4d8f',
     maintainer: null
   },
   gnome: {
@@ -20,9 +20,9 @@ const detailsData = {
     img: '/gnome.jpeg',
     href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
     changelog: null,
-    build_date: '2025-02-25',
+    build_date: '2025-04-02',
     size: '2.4 GiB',
-    hash: 'e94ab567047223146ea8ee90cea3e36f',
+    hash: 'b90d064e9ec0603a83b402cbe9550ff4',
     maintainer: null
   },
   // mate: {
