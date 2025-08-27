@@ -18,7 +18,7 @@ export function Footer() {
             <Link href="/team">{t('navigation.team')}</Link>
             <Link href="/privacy">{t('footer.privacyPolicy')}</Link>
             <Link href="/whitepaper">{t('footer.whitepaper')}</Link>
-            <Link href="/tos">{t('footer.termsOfService')}</Link>
+            {/* <Link href="/tos">{t('footer.termsOfService')}</Link> */}
           </nav>
           <div className="flex flex-wrap justify-center items-center gap-4">
             <Link href="https://youtube.com/@ParchLinux">
