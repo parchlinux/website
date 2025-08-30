@@ -12,10 +12,12 @@ export function Footer() {
           <nav className="flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/features">{t('navigation.features')}</Link>
             <Link href="/download">{t('navigation.download')}</Link>
+            <Link href="https://forum.parchlinux.com">{t('navigation.forum')}</Link>
+            <Link href="https://wiki.parchlinux.com">{t('navigation.wiki')}</Link>
             <Link href="/community">{t('navigation.community')}</Link>
-            <Link href="/join">{t('navigation.join')}</Link>
             <Link href="https://blog.parchlinux.com">{t('navigation.blog')}</Link>
             <Link href="/team">{t('navigation.team')}</Link>
+            <Link href="/join">{t('navigation.join')}</Link>
             <Link href="/privacy">{t('footer.privacyPolicy')}</Link>
             <Link href="/whitepaper">{t('footer.whitepaper')}</Link>
             {/* <Link href="/tos">{t('footer.termsOfService')}</Link> */}
