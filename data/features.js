@@ -1,72 +1,103 @@
-import { Lock, LineChart, Layers, CaseSensitive, PackageOpen, Users } from "lucide-react";
+import { 
+  Layers, 
+  Zap, 
+  Type, 
+  Package, 
+  Shield, 
+  Users, 
+  Wrench,
+  Smartphone
+} from "lucide-react";
 
 const featuresData = [
   {
     icon: Layers,
     title: {
-      en: 'Modern Interface',
-      fa: 'ظاهر مدرن'
+      en: "Multiple Desktop Environments",
+      fa: "محیط‌های دسکتاپ متنوع"
     },
     desc: {
-      en: 'Choose between GNOME and KDE for a sleek, modern desktop experience.',
-      fa: 'برای تجربه دسکتاپ مدرن و شیک، بین GNOME و KDE انتخاب کنید.'
+      en: "Official editions with KDE Plasma (flagship), GNOME, XFCE and more  ready to use out of the box.",
+      fa: "نسخه‌های رسمی با KDE Plasma (پرچم‌دار)، GNOME، XFCE و محیط‌های دیگر  آماده استفاده بلافاصله پس از نصب."
     }
   },
   {
-    icon: LineChart,
+    icon: Zap,
     title: {
-      en: 'Performance',
-      fa: 'عملکرد'
+      en: "Rolling Release Model",
+      fa: "مدل رولینگ ریلیز"
     },
     desc: {
-      en: 'Optimized for speed and efficiency, Parch runs smoothly on a wide range of hardware.',
-      fa: 'پارچ برای سرعت و کارایی بهینه شده است، و روی بسیاری از سخت‌افزار‌ها تجربهٔ روان و نرمی ارائه می‌دهد.'
+      en: "Always up-to-date with the latest software, kernels and security patches  just like Arch Linux.",
+      fa: "همیشه به‌روز با جدیدترین نرم‌افزارها، کرنل‌ها و پچ‌های امنیتی  دقیقاً مانند آرچ لینوکس."
     }
   },
   {
-    icon: Lock,
+    icon: Type,
     title: {
-      en: 'Security',
-      fa: 'امنیت'
+      en: "Perfect Persian Support",
+      fa: "پشتیبانی کامل پارسی"
     },
     desc: {
-      en: 'Built with security in mind, featuring regular updates and a robust firewall.',
-      fa: 'ساخته شده با در نظر گرفتن امنیت، دارای به‌روز‌رسانی های منظم و فایروال قوی.'
+      en: "Beautiful optimized Persian fonts, full RTL layout, Jalali calendar, Persian keyboard and Firefox fixes from the first boot.",
+      fa: "فونت‌های پارسی زیبا و بهینه‌شده، پشتیبانی کامل راست‌به‌چپ، تقویم جلالی، کیبورد پارسی و رفع مشکلات فایرفاکس از همان لحظه اول."
     }
   },
   {
-    icon: CaseSensitive,
+    icon: Package,
     title: {
-      en: 'Optimized Fonts',
-      fa: 'فونت‌های بهینه'
+      en: "Calamares Graphical Installer",
+      fa: "نصب‌گر گرافیکی Calamares"
     },
     desc: {
-      en: 'An unparalleled experience with optimized Persian fonts for enhanced readability and aesthetics.',
-      fa: 'تجربه‌ای بی‌نظیر با فونت‌های پارسی، بهینه‌شده برای خوانایی و زیبایی بیشتر.'
+      en: "Fast, simple and reliable installation in minutes with the user-friendly Calamares installer.",
+      fa: "نصب سریع، ساده و قابل اعتماد در چند دقیقه با نصب‌گر محبوب و کاربرپسند Calamares."
     }
   },
   {
-    icon: PackageOpen,
+    icon: Shield,
     title: {
-      en: 'Graphical Installer',
-      fa: 'نصب کننده گرافیکی'
+      en: "Security & Privacy Focused",
+      fa: "تمرکز بر امنیت و حریم خصوصی"
     },
     desc: {
-      en: 'Easy and quick installation with a graphical user interface that helps you set up the distribution effortlessly.',
-      fa: 'نصب آسان و سریع با رابط کاربری گرافیکی که به شما کمک می‌کند تا به راحتی توزیع را راه‌اندازی کنید.'
+      en: "No telemetry, automatic security updates, hardened configurations and privacy-respecting defaults.",
+      fa: "بدون جمع‌آوری داده، به‌روزرسانی‌های امنیتی خودکار، تنظیمات سخت‌شده و پیش‌فرض‌های احترام‌گذار به حریم خصوصی."
+    }
+  },
+  {
+    icon: Wrench,
+    title: {
+      en: "Powerful Tools & Helpers",
+      fa: "ابزارهای اختصاصی پارچ"
+    },
+    desc: {
+      en: "Parch-specific scripts like waydroid-helper, gaming setups, Dorood welcome app and more.",
+      fa: "اسکریپت‌های اختصاصی پارچ مانند waydroid-helper، تنظیمات گیمینگ، برنامه خوش‌آمدگویی درود و ابزارهای بیشتر."
+    }
+  },
+  {
+    icon: Smartphone,
+    title: {
+      en: "Waydroid & Android Apps",
+      fa: "اجرای برنامه‌های اندروید"
+    },
+    desc: {
+      en: "Run Android applications seamlessly with Waydroid easy setup with our helper script.",
+      fa: "اجرای روان برنامه‌های اندروید با وی‌دروید نصب آسان با اسکریپت اختصاصی ما."
     }
   },
   {
     icon: Users,
     title: {
-      en: 'Community Centric',
-      fa: 'جامعه محور'
+      en: "Active Persian Community",
+      fa: "جامعه پارسی‌زبان فعال"
     },
     desc: {
-      en: "Our distribution aims to create an active, collaborative community where every user can shape the project's future.",
-      fa: "توزیع ما با هدف ایجاد یک جامعه فعال و مشارکتی طراحی شده است که هر کاربر می‌تواند در شکل‌گیری آینده پروژه نقش داشته باشد."
+      en: "One of the most vibrant Persian Linux communities with forum, Matrix rooms, wiki and constant contributions.",
+      fa: "یکی از فعال‌ترین جوامع لینوکس پارسی‌زبان با انجمن، اتاق‌های ماتریکس، ویکی و مشارکت مداوم کاربران."
     }
   },
-]
+];
 
 export default featuresData;

@@ -11,7 +11,7 @@ export default {
     description: 'ParchLinux, which stands for Persian Arch, is a Linux distribution based on the popular and versatile Arch Linux. It aims to provide a streamlined, user-friendly experience while maintaining the customizability and performance that Arch Linux is known for.',
     downloadButton: 'Download',
     learnMoreButton: 'Learn More',
-    title: 'Parch GNU/Linux',
+    title: 'Parch GNU/Linux'
   },
 
   navigation: {
@@ -24,7 +24,7 @@ export default {
     join: 'Join',
     team: 'Team',
     toggle_language: 'Toggle Language',
-    toggle_theme: 'Toggle Theme',
+    toggle_theme: 'Toggle Theme'
   },
 
   team: {
@@ -50,19 +50,19 @@ export default {
       forum: 'Forums',
       wiki: 'Wiki',
       chat: 'Chat',
-      contrib: 'Contribute',
+      contrib: 'Contribute'
     },
     text: {
       forum: 'Connect with other Parch users and get help.',
       wiki: 'Explore our comprehensive documentation.',
       chat: 'Join our IRC or Matrix channels for real-time discussions.',
-      contrib: 'Help improve Parch by contributing code or translations.',
+      contrib: 'Help improve Parch by contributing code or translations.'
     },
     link: {
       forum: 'Open Parch Forum',
       wiki: 'Open Parch Wiki',
       chat: 'Go to Parch Matrix',
-      contrib: 'Parch Repositories',
+      contrib: 'Parch Repositories'
     }
   },
 
@@ -72,21 +72,32 @@ export default {
   },
 
   details: {
-    comp() {
-      return ({ text, build_date, size, hash, maintainer }) => (
-        <>
-          <p><strong>Name</strong>: {text}</p>
-          <p><strong>Build Date</strong>: {Intl.DateTimeFormat('en-US').format(new Date(build_date))}</p>
-          <p><strong>Size</strong>: {size}</p>
-          {hash && <p><strong>Hash</strong>: {hash}</p>}
-          {maintainer && <p><strong>Maintainer</strong>: {maintainer}</p>}
-        </>
-      )
+    comp: () => {
+      return (props = {}) => {
+        const {
+          text = 'N/A',
+          build_date = null,
+          size = 'N/A',
+          hash = null,
+          maintainer = null
+        } = props
+
+        return (
+          <>
+            <p><strong>Name</strong>: {text}</p>
+            <p><strong>Build Date</strong>: {build_date ? Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(build_date)) : 'N/A'}</p>
+            <p><strong>Size</strong>: {size}</p>
+            {hash && <p><strong>SHA256 Hash</strong>: <code className="break-all text-sm">{hash}</code></p>}
+            {maintainer && <p><strong>Maintainer</strong>: {maintainer}</p>}
+          </>
+        )
+      }
     },
-    download: text => `Download ${text}`,
+    download: (text = 'ISO') => `Download ${text}`,
     changelog: 'View Changelog',
-    balenaEtcher: 'Flash with Balena Etcher'
+    balenaEtcher: 'Flash with Balena Etcher',
+    title: 'Image Details'
   },
 
-  error_404: "Error 404 - Page Not Found"
+  error_404: 'Error 404 - Page Not Found'
 }

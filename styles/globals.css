@@ -2,83 +2,133 @@
 @tailwind components;
 @tailwind utilities;
 
-:root:lang('fa') {
+:root:lang(fa) {
   direction: rtl;
 }
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --foreground: 210 25% 10%;
+    --card: 0 0% 99.5%;
+    --card-foreground: 210 25% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
-    --gradient-color-1: #189974;
-    --gradient-color-2: #1B66BD;
-    --gradient-color-3: #003BAF;
-    --gradient-transparent: rgba(255, 255, 255, 0);
+    --popover-foreground: 210 25% 10%;
+    --primary: 165 85% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 195 90% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 180 20% 96%;
+    --muted-foreground: 180 12% 42%;
+    --accent: 165 70% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 62%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 180 18% 90%;
+    --input: 180 18% 90%;
+    --ring: 165 85% 48%;
+    --radius: 1rem;
+    --gradient-1: #00e6b8;
+    --gradient-2: #00c4ff;
+    --gradient-3: #0099ff;
+    --gradient-4: #00b894;
+    --gradient-glass: rgba(255, 255, 255, 0.08);
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --background: 210 40% 6%;
+    --foreground: 180 15% 95%;
+    --card: 210 40% 9%;
+    --card-foreground: 180 15% 95%;
+    --primary: 165 90% 58%;
+    --primary-foreground: 210 30% 8%;
+    --secondary: 195 95% 60%;
+    --secondary-foreground: 210 30% 8%;
+    --muted: 200 25% 18%;
+    --muted-foreground: 180 12% 70%;
+    --accent: 165 80% 62%;
+    --accent-foreground: 210 30% 8%;
+    --border: 200 25% 16%;
+    --input: 200 25% 16%;
+    --ring: 165 90% 58%;
+    --gradient-1: #00ffbc;
+    --gradient-2: #00d4ff;
+    --gradient-3: #0088ff;
+    --gradient-4: #00ffa1;
+    --gradient-glass: rgba(0, 230, 184, 0.12);
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground;
-    background: radial-gradient(114.13% 114.13% at 110.34% -14.13%, var(--gradient-color-1) 0%, var(--gradient-transparent) 100%),
-                radial-gradient(81.04% 81.04% at 25.97% -14.13%, var(--gradient-color-2) 0%, var(--gradient-transparent) 100%),
-                radial-gradient(80.5% 80.5% at -30.5% 32.82%, var(--gradient-color-3) 0%, var(--gradient-transparent) 100%),
-                #00000000;
-    background-blend-mode: multiply, multiply, multiply, normal;
+    @apply bg-background text-foreground min-h-screen overflow-x-hidden;
+    background:
+      radial-gradient(140% 140% at 75% -25%, var(--gradient-1) 0%, transparent 45%),
+      radial-gradient(120% 120% at 25% 10%, var(--gradient-2) 0%, transparent 50%),
+      radial-gradient(100% 160% at 50% 100%, var(--gradient-4) 10%, transparent 65%),
+      radial-gradient(90% 130% at -10% 70%, var(--gradient-3) 0%, transparent 60%),
+      hsl(var(--background));
+    background-attachment: fixed;
+    background-blend-mode: screen, screen, screen, screen, normal;
   }
-  
+
+  .dark body {
+    background:
+      radial-gradient(150% 150% at 80% -30%, var(--gradient-1) 0%, transparent 50%),
+      radial-gradient(130% 130% at 20% -10%, var(--gradient-2) 0%, transparent 50%),
+      radial-gradient(110% 170% at 50% 100%, var(--gradient-4) 20%, transparent 70%),
+      hsl(var(--background));
+    background-attachment: fixed;
+    background-blend-mode: overlay, overlay, overlay, normal;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply relative overflow-hidden font-semibold tracking-wide transition-all duration-500;
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    box-shadow: 0 8px 32px rgba(0, 230, 184, 0.25);
+  }
+
+  .btn-primary::before {
+    content: "";
+    @apply absolute inset-0 opacity-0 transition-opacity duration-500;
+    background: linear-gradient(135deg, transparent, rgba(255,255,255,0.25));
+    transform: translateX(-100%);
+  }
+
+  .btn-primary:hover::before {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 230, 184, 0.4);
+  }
+
+  .glass-card {
+    @apply relative overflow-hidden backdrop-blur-xl border border-white/20;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .dark .glass-card {
+    background: var(--gradient-glass);
+    backdrop-filter: blur(16px);
+    border-color: rgba(0, 230, 184, 0.2);
+  }
+
+  .glass-card::before {
+    content: "";
+    @apply absolute inset-0 opacity-30;
+    background: linear-gradient(135deg, var(--gradient-1), transparent 70%);
+    pointer-events: none;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 ease-out hover:shadow-2xl hover:-translate-y-3;
+  }
 }
