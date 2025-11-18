@@ -1,37 +1,32 @@
-FROM node:20.10.0-alpine AS base
-
-FROM base AS deps
-RUN apk add --no-cache libc6-compat
+# Stage 1: Install dependencies
+FROM oven/bun:1.3-alpine AS deps
 WORKDIR /app
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile
 
-COPY package.json package-lock.json* ./
-RUN npm ci --legacy-peer-deps
-
-FROM base AS builder
+# Stage 2: Build the application
+FROM oven/bun:1.3-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN bun run build
 
-RUN npm run build
-
-FROM base AS runner
-WORKDIR /app
-
+# Stage 3: Production image
+FROM oven/bun:1.3-alpine AS runner
+WORKDIR /home/bun/app
 ENV NODE_ENV=production
 
-RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 nextjs
+# Copy built assets, setting ownership to the 'bun' user
+COPY --from=builder --chown=bun:bun /app/public ./public
+COPY --from=builder --chown=bun:bun /app/.next/standalone ./
+COPY --from=builder --chown=bun:bun /app/.next/static ./.next/static
 
-COPY --from=builder /app/public ./public
-
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER nextjs
+# Use the non-root 'bun' user
+USER bun
 
 EXPOSE 3000
-
 ENV PORT=3000
-
 ENV HOSTNAME="0.0.0.0"
-CMD ["node", "server.js"]
+
+# Run the app with bun
+CMD ["bun", "server.js"]
