@@ -1,3 +1,4 @@
+"use client"
 import { useRouter } from "next/router";
 import rosetta from "rosetta"
 
@@ -11,7 +12,8 @@ const i18n = rosetta({
 
 export const useTranslation = () => {
   const router = useRouter();
-  i18n.locale(router.locale || 'fa')
+  const lang = navigator.language;
+  i18n.locale(router.locale || lang || 'en')
   return {
     t: i18n.t.bind(i18n),
     lang: i18n.locale()
