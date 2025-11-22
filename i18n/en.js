@@ -99,5 +99,10 @@ export default {
     title: 'Image Details'
   },
 
+  nobar: {
+    title: "Sponsored by NobarCloud",
+    description: "Nobar 🌱☁️ – Your platform for cloud servers & Kubernetes"
+  },
+
   error_404: 'Error 404 - Page Not Found'
 }
