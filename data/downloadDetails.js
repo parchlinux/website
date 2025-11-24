@@ -5,11 +5,11 @@ const detailsData = {
       fa: 'پارچ پلاسما',
     },
     img: '/plasma.jpeg',
-    href: 'https://mirror.parchlinux.com/plasma/ParchLinux-plasma-latest.iso',
+    href: 'https://mirror.parchlinux.ir/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2025-08-18',
-    size: '3.0 GiB',
-    hash: 'bca818c7dda9ea91954455c2130bd0ad',
+    build_date: '2025-11-24',
+    size: '3.1 GiB',
+    hash: '7c6ba815c70e9b7a75bc63de51fd4dc1',
     maintainer: null
   },
   gnome: {
@@ -18,11 +18,11 @@ const detailsData = {
       fa: 'پارچ گنوم',
     },
     img: '/gnome.jpeg',
-    href: 'https://mirror.parchlinux.com/gnome/ParchLinux-gnome-latest.iso',
+    href: 'https://mirror.parchlinux.ir/gnome/ParchLinux-gnome-latest.iso',
     changelog: null,
-    build_date: '2025-08-18',
-    size: '2.6 GiB',
-    hash: '3d61eec231337c7e21f18fc4d0c438a1',
+    build_date: '2025-11-24',
+    size: '2.7 GiB',
+    hash: '2694de409170da339eb10339d7efc70d',
     maintainer: null
   },
   // mate: {
