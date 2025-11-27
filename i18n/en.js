@@ -87,7 +87,7 @@ export default {
             <p><strong>Name</strong>: {text}</p>
             <p><strong>Build Date</strong>: {build_date ? Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(build_date)) : 'N/A'}</p>
             <p><strong>Size</strong>: {size}</p>
-            {hash && <p><strong>SHA256 Hash</strong>: <code className="break-all text-sm">{hash}</code></p>}
+            {hash && <p><strong>MD5 Hash</strong>: <code className="break-all text-sm">{hash}</code></p>}
             {maintainer && <p><strong>Maintainer</strong>: {maintainer}</p>}
           </>
         )
