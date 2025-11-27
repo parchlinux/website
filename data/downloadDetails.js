@@ -7,9 +7,9 @@ const detailsData = {
     img: '/plasma.jpeg',
     href: 'https://mirror.parchlinux.ir/plasma/ParchLinux-plasma-latest.iso',
     changelog: null,
-    build_date: '2025-11-24',
+    build_date: '2025-11-26',
     size: '3.1 GiB',
-    hash: '7c6ba815c70e9b7a75bc63de51fd4dc1',
+    hash: 'c29c85f0ac20e8ac78b19959a639b4f9',
     maintainer: null
   },
   gnome: {
@@ -20,9 +20,9 @@ const detailsData = {
     img: '/gnome.jpeg',
     href: 'https://mirror.parchlinux.ir/gnome/ParchLinux-gnome-latest.iso',
     changelog: null,
-    build_date: '2025-11-24',
+    build_date: '2025-11-26',
     size: '2.7 GiB',
-    hash: '2694de409170da339eb10339d7efc70d',
+    hash: 'c3e86e45f19dc276a0d858bd7a64e5c5',
     maintainer: null
   },
   // mate: {
@@ -38,19 +38,19 @@ const detailsData = {
   //   hash: '8b7a35d61a359c3f3e7c2475ef5c64fb',
   //   maintainer: 'Sohrab Behdani'
   // },
-  // xfce: {
-  //   text: {
-  //     en: 'Parch XFCE',
-  //     fa: 'پارچ XFCE',
-  //   },
-  //   img: '/xfce.jpeg',
-  //   href: 'https://mirror.parchlinux.com/XFCE/ParchLinux-XFCE-latest.iso',
-  //   changelog: null,
-  //   build_date: '2025-01-26',
-  //   size: '2.2 GiB',
-  //   hash: '64526d0605f729c5a271553fb6f11123',
-  //   maintainer: 'Sohrab Behdani'
-  // },
+  xfce: {
+    text: {
+      en: 'Parch XFCE',
+      fa: 'پارچ XFCE',
+    },
+    img: '/xfce.png',
+    href: 'https://mirror.parchlinux.ir/XFCE/ParchLinux-XFCE-latest.iso',
+    changelog: null,
+    build_date: '2025-11-27',
+    size: '2.5 GiB',
+    hash: '027758f7c7b1e2bee532fd8bbd6ff771',
+    maintainer: 'Amir Husayn Panahifar'
+  },
   // cosmic: {
   //   text: {
   //     en: 'Parch COSMIC',
@@ -77,32 +77,32 @@ const detailsData = {
   //   hash: null,
   //   maintainer: 'Sohrab Behdani'
   // },
-  mobile: {
-    text: {
-      en: 'Parch Mobile',
-      fa: 'پارچ موبایل',
-    },
-    img: '/mobile.jpeg',
-    href: '#',
-    changelog: null,
-    build_date: '2024-01-01',
-    size: '1GB',
-    hash: null,
-    maintainer: 'Sohrab Behdani'
-  },
-  arm: {
-    text: {
-      en: 'Parch ARM Generic',
-      fa: 'پارچ جنریک آرم',
-    },
-    img: '/arm.png',
-    href: '#',
-    changelog: null,
-    build_date: '2024-01-01',
-    size: '1GB',
-    hash: null,
-    maintainer: 'Sohrab Behdani'
-  },
+  // mobile: {
+  //   text: {
+  //     en: 'Parch Mobile',
+  //     fa: 'پارچ موبایل',
+  //   },
+  //   img: '/mobile.jpeg',
+  //   href: '#',
+  //   changelog: null,
+  //   build_date: '2024-01-01',
+  //   size: '1GB',
+  //   hash: null,
+  //   maintainer: 'Sohrab Behdani'
+  // },
+  // arm: {
+  //   text: {
+  //     en: 'Parch ARM Generic',
+  //     fa: 'پارچ جنریک آرم',
+  //   },
+  //   img: '/arm.png',
+  //   href: '#',
+  //   changelog: null,
+  //   build_date: '2024-01-01',
+  //   size: '1GB',
+  //   hash: null,
+  //   maintainer: 'Sohrab Behdani'
+  // },
 }
 
 export default detailsData;
