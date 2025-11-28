@@ -46,9 +46,9 @@ const detailsData = {
     img: '/xfce.png',
     href: 'https://mirror.parchlinux.ir/XFCE/ParchLinux-XFCE-latest.iso',
     changelog: null,
-    build_date: '2025-11-27',
+    build_date: '2025-11-28',
     size: '2.5 GiB',
-    hash: '027758f7c7b1e2bee532fd8bbd6ff771',
+    hash: 'd5fe615168e4bb2b059633504d21e3da',
     maintainer: 'Amir Husayn Panahifar'
   },
   // cosmic: {
